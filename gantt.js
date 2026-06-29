@@ -27,6 +27,10 @@
     <div class="gantt-header">
       <h2>Activity Timeline</h2>
       <div class="gantt-controls">
+        <button class="gantt-src-btn active" data-src="all">All</button>
+        <button class="gantt-src-btn" data-src="portfolio"><span style="color:#f472b6">&#9679;</span> Portfolio</button>
+        <button class="gantt-src-btn" data-src="claude"><span style="color:#60a5fa">&#9679;</span> Claude</button>
+        <span style="width:1px;height:18px;background:#1e1e2e;margin:0 6px"></span>
         <button class="gantt-zoom-btn" data-zoom="month">Month</button>
         <button class="gantt-zoom-btn active" data-zoom="week">Week</button>
         <button class="gantt-zoom-btn" data-zoom="day">Day</button>
@@ -60,7 +64,10 @@
     } catch {
       ganttData = generateFallbackData();
     }
-    renderChart('week');
+    let currentZoom = 'week';
+    let currentSrc = 'all';
+
+    renderChart(currentZoom, currentSrc);
     renderSummary();
 
     // Zoom controls
@@ -68,7 +75,18 @@
       b.addEventListener('click', () => {
         document.querySelectorAll('.gantt-zoom-btn').forEach(x => x.classList.remove('active'));
         b.classList.add('active');
-        renderChart(b.dataset.zoom);
+        currentZoom = b.dataset.zoom;
+        renderChart(currentZoom, currentSrc);
+      });
+    });
+
+    // Source filter
+    document.querySelectorAll('.gantt-src-btn').forEach(b => {
+      b.addEventListener('click', () => {
+        document.querySelectorAll('.gantt-src-btn').forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        currentSrc = b.dataset.src;
+        renderChart(currentZoom, currentSrc);
       });
     });
   }
@@ -103,16 +121,20 @@
   }
 
   // ===== Render Gantt Chart =====
-  function renderChart(zoomLevel) {
+  function renderChart(zoomLevel, srcFilter) {
+    srcFilter = srcFilter || 'all';
     const svg = d3.select('#gantt-chart');
     svg.selectAll('*').remove();
 
     if (!ganttData.projects || ganttData.projects.length === 0) return;
 
-    const projects = ganttData.projects.filter(p => p.totalPrompts >= 3);
+    let projects = ganttData.projects.filter(p => p.totalPrompts >= 2 || p.source === 'portfolio');
+    if (srcFilter !== 'all') {
+      projects = projects.filter(p => p.source === srcFilter);
+    }
     projects.sort((a, b) => a.startDate.localeCompare(b.startDate));
 
-    const margin = { top: 40, right: 20, bottom: 30, left: 160 };
+    const margin = { top: 40, right: 20, bottom: 30, left: 220 };
     const rowHeight = 28;
     const width = Math.max(800, container.clientWidth - 40);
     const height = margin.top + margin.bottom + projects.length * rowHeight;
@@ -196,6 +218,17 @@
       .attr('fill', 'transparent')
       .attr('class', 'gantt-row-bg');
 
+    // Source indicator (portfolio vs claude)
+    rows.append('circle')
+      .attr('cx', 10)
+      .attr('y', d => y(d.name))
+      .attr('cy', d => y(d.name) + y.bandwidth() / 2)
+      .attr('r', 3)
+      .attr('fill', d => d.source === 'portfolio' ? '#f472b6' : '#60a5fa')
+      .attr('opacity', 0.6)
+      .append('title')
+      .text(d => d.source === 'portfolio' ? 'Portfolio (실무)' : 'Claude (개발)');
+
     // Project labels
     rows.append('text')
       .attr('x', margin.left - 8)
@@ -204,8 +237,9 @@
       .attr('dominant-baseline', 'central')
       .attr('fill', d => groupColor(d.group))
       .attr('font-size', '11px')
-      .attr('font-weight', '600')
-      .text(d => d.name.length > 20 ? d.name.slice(0, 18) + '..' : d.name);
+      .attr('font-weight', d => d.source === 'portfolio' ? '700' : '500')
+      .attr('opacity', d => d.source === 'portfolio' ? 1 : 0.85)
+      .text(d => d.name.length > 28 ? d.name.slice(0, 26) + '..' : d.name);
 
     // ===== Activity bars =====
     // Each project has daily activity data → draw bars
@@ -227,21 +261,34 @@
       // Individual day dots/bars
       proj.activity.forEach(day => {
         const date = new Date(day.date);
-        const intensity = Math.min(1, day.count / 30); // normalize
+        const intensity = Math.min(1, day.count / 30);
         const barWidth = zoomLevel === 'day' ? Math.max(2, (width - margin.left - margin.right) / 150) :
                          zoomLevel === 'week' ? Math.max(3, (width - margin.left - margin.right) / 150 * 1.5) :
                          Math.max(4, (width - margin.left - margin.right) / 150 * 3);
 
-        row.append('rect')
-          .attr('x', x(date) - barWidth / 2)
-          .attr('y', barY + barH * 0.1)
-          .attr('width', barWidth)
-          .attr('height', barH * 0.8)
-          .attr('rx', 2)
-          .attr('fill', groupColor(proj.group))
-          .attr('opacity', 0.2 + intensity * 0.7)
-          .append('title')
-          .text(`${day.date}: ${day.count} prompts`);
+        // Milestone diamond (portfolio projects with labels)
+        if (day.label) {
+          const cx = x(date), cy = barY + barH / 2;
+          row.append('path')
+            .attr('d', `M${cx},${cy - 6} L${cx + 5},${cy} L${cx},${cy + 6} L${cx - 5},${cy} Z`)
+            .attr('fill', groupColor(proj.group))
+            .attr('stroke', '#0a0a0f')
+            .attr('stroke-width', 1)
+            .attr('opacity', 0.9)
+            .append('title')
+            .text(`${day.date}: ${day.label}`);
+        } else {
+          row.append('rect')
+            .attr('x', x(date) - barWidth / 2)
+            .attr('y', barY + barH * 0.1)
+            .attr('width', barWidth)
+            .attr('height', barH * 0.8)
+            .attr('rx', 2)
+            .attr('fill', groupColor(proj.group))
+            .attr('opacity', 0.2 + intensity * 0.7)
+            .append('title')
+            .text(`${day.date}: ${day.count} prompts`);
+        }
       });
     });
 

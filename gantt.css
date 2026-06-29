@@ -44,6 +44,15 @@
 .gantt-zoom-btn:hover { border-color: #60a5fa; color: #e0e0e8; }
 .gantt-zoom-btn.active { border-color: #60a5fa; color: #60a5fa; background: rgba(96,165,250,0.08); }
 
+.gantt-src-btn {
+  padding: 4px 10px; border-radius: 6px;
+  border: 1px solid #1e1e2e; background: transparent;
+  color: #6b6b85; font-size: 11px; font-weight: 600;
+  cursor: pointer; transition: all 0.15s;
+}
+.gantt-src-btn:hover { border-color: #f472b6; color: #e0e0e8; }
+.gantt-src-btn.active { border-color: #f472b6; color: #f472b6; background: rgba(244,114,182,0.08); }
+
 .gantt-close {
   margin-left: 12px; background: none; border: none;
   color: #6b6b85; font-size: 20px; cursor: pointer;

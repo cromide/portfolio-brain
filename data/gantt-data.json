@@ -1,12 +1,444 @@
 {
-  "generated": "2026-06-29 16:29",
+  "generated": "2026-06-29 16:35",
   "dateRange": {
-    "start": "2026-02-09",
+    "start": "2019-06-01",
     "end": "2026-06-29"
   },
-  "totalProjects": 26,
-  "totalPrompts": 2190,
+  "totalProjects": 43,
+  "totalPrompts": 2368,
   "projects": [
+    {
+      "name": "사이니지·현판 (아이디허브/카이코리아)",
+      "group": "design",
+      "startDate": "2019-06-01",
+      "endDate": "2021-12-31",
+      "activeDays": 3,
+      "totalPrompts": 15,
+      "activity": [
+        {
+          "date": "2019-06-01",
+          "count": 5,
+          "label": "아이디허브 현판 시작"
+        },
+        {
+          "date": "2020-03-01",
+          "count": 5,
+          "label": "카이코리아 CI"
+        },
+        {
+          "date": "2021-06-01",
+          "count": 5,
+          "label": "하하마스크 명함"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "회사 외관 현판(3500mm), CI, 명함 — mm 단위 실측 시공",
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "name": "Dexense 입사 (브랜딩/기획)",
+      "group": "core",
+      "startDate": "2021-01-01",
+      "endDate": "2023-03-31",
+      "activeDays": 2,
+      "totalPrompts": 10,
+      "activity": [
+        {
+          "date": "2021-01-01",
+          "count": 5,
+          "label": "입사"
+        },
+        {
+          "date": "2023-03-31",
+          "count": 5,
+          "label": "퇴사"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "블록체인 스타트업 — 브랜드 디자인 + 서비스 기획 담당",
+      "domains": []
+    },
+    {
+      "name": "갓맥 브루어리 (풀 브랜딩)",
+      "group": "design",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "activeDays": 4,
+      "totalPrompts": 20,
+      "activity": [
+        {
+          "date": "2022-01-01",
+          "count": 5,
+          "label": "BI 가이드 시작"
+        },
+        {
+          "date": "2022-04-01",
+          "count": 5,
+          "label": "메뉴판·현수막"
+        },
+        {
+          "date": "2022-08-01",
+          "count": 5,
+          "label": "캔라벨·굿즈"
+        },
+        {
+          "date": "2022-11-01",
+          "count": 5,
+          "label": "시흥점 오픈"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "로고/BI, 메뉴판, 현수막, 코스터, 캔라벨, 굿즈, 시흥점 이벤트물",
+      "domains": [
+        "design",
+        "planning"
+      ]
+    },
+    {
+      "name": "부동산 북커버 3종 (편집 디자인)",
+      "group": "design",
+      "startDate": "2022-01-01",
+      "endDate": "2022-09-30",
+      "activeDays": 2,
+      "totalPrompts": 10,
+      "activity": [
+        {
+          "date": "2022-03-01",
+          "count": 5,
+          "label": "초안"
+        },
+        {
+          "date": "2022-07-01",
+          "count": 5,
+          "label": "개정본 2종"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "교양서 '부동산 지식 더하기' 표지 3종, InDesign 편집",
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "name": "민트케이크 (NFT 브랜딩+UX)",
+      "group": "design",
+      "startDate": "2022-03-01",
+      "endDate": "2022-06-30",
+      "activeDays": 2,
+      "totalPrompts": 10,
+      "activity": [
+        {
+          "date": "2022-04-08",
+          "count": 5,
+          "label": "UX/UI 전략서"
+        },
+        {
+          "date": "2022-04-10",
+          "count": 5,
+          "label": "브랜드 가이드"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "NFT 플랫폼 로고, 브랜드 가이드, UX/UI 설계 전략서",
+      "domains": [
+        "design",
+        "planning"
+      ]
+    },
+    {
+      "name": "P2E·힐링아트테크·파라파라 기획",
+      "group": "planning",
+      "startDate": "2022-04-01",
+      "endDate": "2023-02-28",
+      "activeDays": 2,
+      "totalPrompts": 10,
+      "activity": [
+        {
+          "date": "2022-04-05",
+          "count": 5,
+          "label": "힐링아트테크 비즈니스"
+        },
+        {
+          "date": "2022-06-01",
+          "count": 5,
+          "label": "P2E 기획"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "P2E 게임 비즈니스 모델, 힐링아트테크 구조, 파라파라·셀러버 서비스 기획",
+      "domains": [
+        "planning"
+      ]
+    },
+    {
+      "name": "xotown 로고",
+      "group": "design",
+      "startDate": "2022-06-01",
+      "endDate": "2022-07-31",
+      "activeDays": 2,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2022-06-01",
+          "count": 3
+        },
+        {
+          "date": "2022-07-31",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "개인 브랜드 로고 2종 (Aseprite 픽셀아트)",
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "name": "웨딩 배경 템플릿",
+      "group": "design",
+      "startDate": "2022-08-01",
+      "endDate": "2022-09-30",
+      "activeDays": 2,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2022-08-01",
+          "count": 3
+        },
+        {
+          "date": "2022-09-30",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "그리너리 테마 PPT/카드용 배경 12장",
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "name": "Deckila (블록체인 플랫폼)",
+      "group": "dev",
+      "startDate": "2022-10-01",
+      "endDate": "2023-03-31",
+      "activeDays": 4,
+      "totalPrompts": 20,
+      "activity": [
+        {
+          "date": "2022-10-01",
+          "count": 5,
+          "label": "서비스 소개서"
+        },
+        {
+          "date": "2022-12-01",
+          "count": 5,
+          "label": "브랜드 CI"
+        },
+        {
+          "date": "2023-01-15",
+          "count": 5,
+          "label": "랜딩 마크업"
+        },
+        {
+          "date": "2023-03-01",
+          "count": 5,
+          "label": "ERC721 컨트랙트"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "서비스 기획→CI→랜딩마크업→ERC721 스마트컨트랙트(1,700+줄)",
+      "domains": [
+        "dev",
+        "design",
+        "publishing",
+        "planning"
+      ]
+    },
+    {
+      "name": "아이디사자 마켓 (퍼블리싱)",
+      "group": "publishing",
+      "startDate": "2024-01-01",
+      "endDate": "2024-06-30",
+      "activeDays": 2,
+      "totalPrompts": 10,
+      "activity": [
+        {
+          "date": "2024-03-01",
+          "count": 5,
+          "label": "index·teams 마크업"
+        },
+        {
+          "date": "2024-05-01",
+          "count": 5,
+          "label": "chat·profile·faq"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "마켓/커뮤니티 사이트 13개 HTML 페이지 마크업",
+      "domains": [
+        "publishing"
+      ]
+    },
+    {
+      "name": "메디녹스 헬스케어앱 기획",
+      "group": "planning",
+      "startDate": "2025-07-01",
+      "endDate": "2025-12-31",
+      "activeDays": 3,
+      "totalPrompts": 15,
+      "activity": [
+        {
+          "date": "2025-07-01",
+          "count": 5,
+          "label": "요구사항 정의"
+        },
+        {
+          "date": "2025-09-01",
+          "count": 5,
+          "label": "화면기획서"
+        },
+        {
+          "date": "2025-11-01",
+          "count": 5,
+          "label": "최종 협의안"
+        }
+      ],
+      "source": "portfolio",
+      "desc": "Admin Page 화면기획서, 사전 예진 기능(다중 버전), 협의안/회의록",
+      "domains": [
+        "planning"
+      ]
+    },
+    {
+      "name": "비즈폼 AI마법사 기획",
+      "group": "planning",
+      "startDate": "2025-08-01",
+      "endDate": "2025-12-31",
+      "activeDays": 5,
+      "totalPrompts": 15,
+      "activity": [
+        {
+          "date": "2025-08-01",
+          "count": 3
+        },
+        {
+          "date": "2025-09-08",
+          "count": 3
+        },
+        {
+          "date": "2025-10-16",
+          "count": 3
+        },
+        {
+          "date": "2025-11-23",
+          "count": 3
+        },
+        {
+          "date": "2025-12-31",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "스토리보드, MVP 개선, 퍼블리싱 컴포넌트 가이드",
+      "domains": [
+        "planning"
+      ]
+    },
+    {
+      "name": "지원협회 사이트 (퍼블리싱)",
+      "group": "publishing",
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-31",
+      "activeDays": 2,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2026-01-01",
+          "count": 3
+        },
+        {
+          "date": "2026-01-31",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "Tailwind + 커스텀 JS, 스크롤 애니메이션, 반응형, SEO",
+      "domains": [
+        "publishing"
+      ]
+    },
+    {
+      "name": "데이터 대시보드 (step)",
+      "group": "publishing",
+      "startDate": "2026-01-15",
+      "endDate": "2026-02-15",
+      "activeDays": 2,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2026-01-15",
+          "count": 3
+        },
+        {
+          "date": "2026-02-15",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "React + Recharts + D3 + react-simple-maps",
+      "domains": [
+        "publishing",
+        "dev"
+      ]
+    },
+    {
+      "name": "지도앱 (fake town)",
+      "group": "publishing",
+      "startDate": "2026-01-15",
+      "endDate": "2026-02-15",
+      "activeDays": 2,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2026-01-15",
+          "count": 3
+        },
+        {
+          "date": "2026-02-15",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "React + TypeScript + Leaflet + Tailwind",
+      "domains": [
+        "publishing"
+      ]
+    },
+    {
+      "name": "fake reddit (애니메이션UI)",
+      "group": "publishing",
+      "startDate": "2026-01-15",
+      "endDate": "2026-02-15",
+      "activeDays": 2,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2026-01-15",
+          "count": 3
+        },
+        {
+          "date": "2026-02-15",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "React + Framer Motion + Tailwind",
+      "domains": [
+        "publishing"
+      ]
+    },
     {
       "name": "newtown Race",
       "group": "dev",
@@ -167,7 +599,8 @@
           "date": "2026-04-29",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "town-go-backend",
@@ -189,7 +622,8 @@
           "date": "2026-02-17",
           "count": 2
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "oauth_login",
@@ -203,7 +637,8 @@
           "date": "2026-02-13",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "Town-BlockChain",
@@ -225,7 +660,8 @@
           "date": "2026-02-17",
           "count": 4
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "idex_nft",
@@ -239,7 +675,8 @@
           "date": "2026-02-13",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "workspace2",
@@ -253,7 +690,8 @@
           "date": "2026-02-25",
           "count": 12
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "workspace",
@@ -271,7 +709,8 @@
           "date": "2026-03-22",
           "count": 2
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "test_UI",
@@ -285,7 +724,8 @@
           "date": "2026-03-03",
           "count": 5
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "bizform",
@@ -303,7 +743,8 @@
           "date": "2026-03-23",
           "count": 2
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "bizform_demo",
@@ -317,7 +758,8 @@
           "date": "2026-03-17",
           "count": 2
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "Nobizform",
@@ -411,6 +853,30 @@
           "date": "2026-05-27",
           "count": 9
         }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "Recorder (Go+Flutter)",
+      "group": "dev",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-28",
+      "activeDays": 2,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2026-04-01",
+          "count": 3
+        },
+        {
+          "date": "2026-05-28",
+          "count": 3
+        }
+      ],
+      "source": "portfolio",
+      "desc": "Go 백엔드(Chi/PostgreSQL/JWT/S3) + Flutter 앱(Riverpod)",
+      "domains": [
+        "dev"
       ]
     },
     {
@@ -441,7 +907,8 @@
           "date": "2026-04-14",
           "count": 3
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "town",
@@ -483,7 +950,8 @@
           "date": "2026-06-29",
           "count": 42
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "cat-mario",
@@ -497,7 +965,8 @@
           "date": "2026-04-07",
           "count": 2
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "bangtalchul",
@@ -515,7 +984,8 @@
           "date": "2026-04-08",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "vampire",
@@ -545,7 +1015,8 @@
           "date": "2026-05-15",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "Downloads",
@@ -563,7 +1034,8 @@
           "date": "2026-06-16",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "Sample_game2",
@@ -577,7 +1049,8 @@
           "date": "2026-04-20",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "Recorder_flutter",
@@ -591,7 +1064,8 @@
           "date": "2026-04-20",
           "count": 3
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "marketing_tool",
@@ -641,7 +1115,8 @@
           "date": "2026-05-15",
           "count": 4
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "email",
@@ -723,7 +1198,8 @@
           "date": "2026-06-29",
           "count": 3
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "워크스페이스_20260529",
@@ -737,7 +1213,8 @@
           "date": "2026-05-29",
           "count": 2
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "bapsajugi",
@@ -767,7 +1244,8 @@
           "date": "2026-06-18",
           "count": 1
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "junkdb",
@@ -781,7 +1259,8 @@
           "date": "2026-06-22",
           "count": 25
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "timeline",
@@ -799,7 +1278,8 @@
           "date": "2026-06-25",
           "count": 11
         }
-      ]
+      ],
+      "source": "claude"
     },
     {
       "name": "portfolio_visual",
@@ -807,13 +1287,14 @@
       "startDate": "2026-06-29",
       "endDate": "2026-06-29",
       "activeDays": 1,
-      "totalPrompts": 23,
+      "totalPrompts": 24,
       "activity": [
         {
           "date": "2026-06-29",
-          "count": 23
+          "count": 24
         }
-      ]
+      ],
+      "source": "claude"
     }
   ]
 }
