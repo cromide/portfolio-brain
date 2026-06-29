@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "version": 1,
+    "levels": {
+      "1": {"name": "개념", "label": "Concept", "xp": 10, "desc": "이게 뭔지 알아?"},
+      "2": {"name": "사용법", "label": "Usage", "xp": 20, "desc": "기본 사용법을 알아?"},
+      "3": {"name": "적용", "label": "Apply", "xp": 35, "desc": "프로젝트에 적용할 수 있어?"},
+      "4": {"name": "디버깅", "label": "Debug", "xp": 50, "desc": "문제를 해결할 수 있어?"},
+      "5": {"name": "설계", "label": "Architect", "xp": 75, "desc": "아키텍처를 설계할 수 있어?"}
+    },
+    "level_thresholds": [0, 30, 80, 160, 300, 500]
+  },
+  "quizzes": {
+    "skill_react": [
+      {"lv":1, "q":"React에서 컴포넌트가 리렌더링되는 조건 3가지는?", "a":"state 변경, props 변경, 부모 리렌더링", "hint":"상태, 속성, 부모"},
+      {"lv":1, "q":"JSX에서 JavaScript 표현식을 삽입할 때 사용하는 문법은?", "a":"중괄호 {}", "hint":"괄호 종류"},
+      {"lv":2, "q":"useState와 useReducer의 차이는? 각각 언제 써야 하나?", "a":"useState는 단순 상태, useReducer는 복잡한 상태 로직(여러 하위값, 이전 상태 의존)", "hint":"복잡도 기준"},
+      {"lv":2, "q":"useEffect의 cleanup 함수는 언제 실행되나?", "a":"컴포넌트 언마운트 시, 또는 의존성 배열 값이 바뀌어 재실행되기 직전", "hint":"언마운트 + 재실행 전"},
+      {"lv":3, "q":"React에서 전역 상태 관리를 위해 Context API 대신 Zustand를 쓰는 이유는?", "a":"Context는 값이 바뀌면 모든 소비자가 리렌더링. Zustand는 selector로 구독 범위를 제한하여 불필요한 리렌더링 방지", "hint":"리렌더링 범위"},
+      {"lv":3, "q":"React.memo, useMemo, useCallback의 차이를 설명하라", "a":"React.memo: 컴포넌트 메모이제이션(props 비교), useMemo: 값 메모이제이션, useCallback: 함수 메모이제이션", "hint":"컴포넌트/값/함수"},
+      {"lv":4, "q":"무한 리렌더링이 발생하는 코드: useEffect 안에서 setState를 하면서 의존성 배열을 빠뜨린 경우, 어떻게 디버깅하나?", "a":"React DevTools Profiler로 렌더링 횟수 확인, useEffect 의존성 배열 점검, ESLint exhaustive-deps 규칙 활성화", "hint":"DevTools + ESLint"},
+      {"lv":5, "q":"대규모 React 앱에서 코드 스플리팅 전략을 설계하라 (라우트 기반 vs 컴포넌트 기반)", "a":"라우트 기반: React.lazy + Suspense로 페이지 단위 분리. 컴포넌트 기반: 무거운 라이브러리(차트, 에디터)를 동적 import. Webpack Bundle Analyzer로 사이즈 확인 후 결정", "hint":"lazy + 동적 import + 분석"}
+    ],
+    "skill_nextjs": [
+      {"lv":1, "q":"Next.js에서 SSR, SSG, ISR의 차이는?", "a":"SSR: 매 요청마다 서버 렌더링, SSG: 빌드 시 정적 생성, ISR: 빌드 후에도 주기적으로 재생성", "hint":"요청/빌드/주기"},
+      {"lv":2, "q":"App Router에서 layout.tsx와 page.tsx의 차이는?", "a":"layout: 하위 라우트에 공유되는 레이아웃(리렌더링 없이 유지), page: 해당 라우트의 고유 콘텐츠", "hint":"공유 vs 고유"},
+      {"lv":3, "q":"Server Component에서 DB를 직접 쿼리하는 것과 API Route를 통해 쿼리하는 것의 장단점은?", "a":"Server Component 직접 쿼리: 지연 없음, 보안 좋음, 하지만 클라이언트에서 재호출 불가. API Route: 클라이언트에서도 호출 가능, 캐싱 세밀 제어, 별도 엔드포인트 관리 필요", "hint":"지연/재호출/캐싱"},
+      {"lv":4, "q":"Next.js에서 hydration mismatch 에러가 날 때 원인과 해결책은?", "a":"서버 렌더링 결과와 클라이언트 렌더링 결과가 다를 때 발생. 원인: Date, Math.random, window 사용, 브라우저 확장. 해결: suppressHydrationWarning, useEffect로 클라이언트 전용 분기, dynamic import with ssr:false", "hint":"서버≠클라이언트"},
+      {"lv":5, "q":"Next.js 대규모 프로젝트에서 빌드 시간을 50% 줄이는 전략을 설계하라", "a":"1.Turborepo 모노레포 캐싱 2.ISR로 SSG 페이지 축소 3.동적 라우트 generateStaticParams 제한 4.이미지 최적화(next/image + CDN) 5.의존성 트리쉐이킹 6.CI에서 빌드 캐시 활용", "hint":"캐싱+ISR+트리쉐이킹"}
+    ],
+    "skill_typescript": [
+      {"lv":1, "q":"TypeScript에서 interface와 type의 차이는?", "a":"interface: 선언 병합 가능, 객체 타입에 특화. type: 유니온/인터섹션/매핑 등 유연한 타입 조합 가능", "hint":"병합 vs 유연"},
+      {"lv":2, "q":"Generic을 사용하는 이유와 기본 문법을 설명하라", "a":"타입을 매개변수화하여 재사용 가능한 코드 작성. function identity<T>(arg: T): T { return arg; }", "hint":"타입 매개변수"},
+      {"lv":3, "q":"Utility Type 중 Partial, Pick, Omit, Record의 사용 예시를 각각 들어라", "a":"Partial<User>: 모든 필드 optional, Pick<User,'name'|'email'>: 일부만, Omit<User,'password'>: 제외, Record<string,number>: 키-값 매핑", "hint":"optional/선택/제외/매핑"},
+      {"lv":4, "q":"타입 추론이 any로 빠지는 상황을 3가지 들고 해결법을 말하라", "a":"1.JSON.parse → as 또는 zod 검증 2.외부 라이브러리 미타입 → @types 설치 또는 declare module 3.reduce 초기값 미지정 → 제네릭 명시 reduce<Acc>()", "hint":"JSON/외부/reduce"},
+      {"lv":5, "q":"조건부 타입(Conditional Types)과 infer 키워드를 활용한 실전 유틸리티 타입을 설계하라", "a":"type ReturnType<T> = T extends (...args: any[]) => infer R ? R : never; 함수의 리턴 타입을 추출. Unwrap<T> = T extends Promise<infer U> ? U : T 로 Promise 언래핑", "hint":"infer로 추출"}
+    ],
+    "skill_testing": [
+      {"lv":1, "q":"단위 테스트, 통합 테스트, E2E 테스트의 차이는?", "a":"단위: 함수/컴포넌트 단독, 통합: 여러 모듈 조합, E2E: 사용자 시나리오 전체", "hint":"범위 확장"},
+      {"lv":2, "q":"Vitest에서 describe, it, expect의 역할은?", "a":"describe: 테스트 그룹, it: 개별 테스트 케이스, expect: 단언(assertion)", "hint":"그룹/케이스/단언"},
+      {"lv":3, "q":"React 컴포넌트 테스트에서 render, screen, fireEvent/userEvent의 차이는?", "a":"render: 컴포넌트를 가상 DOM에 마운트, screen: 렌더된 요소 쿼리, fireEvent: 이벤트 직접 발생(동기), userEvent: 사용자 행동 시뮬레이션(비동기, 더 현실적)", "hint":"마운트/쿼리/이벤트"},
+      {"lv":4, "q":"테스트에서 외부 API 호출을 mock하는 방법과 msw(Mock Service Worker)의 장점은?", "a":"vi.mock으로 모듈 대체, msw는 네트워크 레벨에서 가로채서 실제 fetch 코드 변경 없이 mock. 장점: 구현 독립적, 통합 테스트에도 사용 가능", "hint":"모듈 vs 네트워크 레벨"},
+      {"lv":5, "q":"테스트 커버리지 80%를 달성하기 위한 전략을 설계하라 (어디를 우선 테스트하나?)", "a":"1.비즈니스 로직(유틸/훅) 우선 2.사용자 인터랙션 핵심 경로 3.에러 핸들링 분기 4.복잡한 조건부 렌더링. 커버리지 리포트에서 uncovered lines 확인 후 집중", "hint":"비즈니스→인터랙션→에러→조건"}
+    ],
+    "skill_cicd": [
+      {"lv":1, "q":"CI와 CD의 차이는?", "a":"CI: 코드 통합 시 자동 빌드+테스트. CD: 통과하면 자동 배포(Continuous Delivery/Deployment)", "hint":"통합+테스트 vs 배포"},
+      {"lv":2, "q":"GitHub Actions workflow YAML에서 on, jobs, steps의 역할은?", "a":"on: 트리거 조건(push, PR 등), jobs: 병렬 실행 단위, steps: 순차 실행 명령", "hint":"트리거/병렬/순차"},
+      {"lv":3, "q":"GitHub Actions에서 캐싱(actions/cache)을 사용하여 빌드 시간을 줄이는 방법은?", "a":"node_modules를 package-lock.json의 해시로 캐시 키 설정. 히트 시 install 스킵. 예: hashFiles('**/package-lock.json')", "hint":"해시 키 + 스킵"},
+      {"lv":4, "q":"배포 후 롤백이 필요한 상황에서 어떻게 처리하나?", "a":"1.Vercel: 이전 deployment으로 promote 2.Git revert + push 3.환경변수 기반 feature flag로 기능 끄기 4.Blue-Green 배포면 트래픽 전환", "hint":"promote/revert/flag"},
+      {"lv":5, "q":"멀티 환경(dev/staging/prod) CI/CD 파이프라인을 설계하라", "a":"main→prod, develop→staging, feature/*→preview. 환경별 env 분리, staging에서 E2E 테스트 통과 필수, prod에 manual approve 게이트, Slack 알림 연동", "hint":"브랜치→환경 매핑+게이트"}
+    ],
+    "skill_figma": [
+      {"lv":1, "q":"Figma에서 Frame과 Group의 차이는?", "a":"Frame: 독립적 레이아웃 컨테이너(Auto Layout 가능, 클리핑, 고유 좌표계). Group: 단순 묶음(내부 요소 좌표 유지)", "hint":"레이아웃 vs 묶음"},
+      {"lv":2, "q":"Auto Layout의 핵심 속성 3가지를 설명하라", "a":"Direction(가로/세로), Gap(간격), Padding(안쪽 여백). + Hug/Fill/Fixed로 크기 동작 제어", "hint":"방향/간격/여백"},
+      {"lv":3, "q":"Figma Component의 Variants는 어떤 상황에서 쓰나?", "a":"같은 컴포넌트의 여러 상태(hover, active, disabled, size, theme)를 하나의 컴포넌트 세트로 관리. 사용처에서 속성만 변경하면 자동 전환", "hint":"상태 관리 세트"},
+      {"lv":4, "q":"디자인 토큰(Design Token)을 Figma에서 코드로 연결하는 워크플로우는?", "a":"Figma Variables/Styles → Tokens Studio 플러그인 → JSON 토큰 내보내기 → Style Dictionary로 CSS/JS 변수 변환 → 코드에서 import", "hint":"Variables→JSON→CSS변수"},
+      {"lv":5, "q":"10명 이상 팀에서 Figma 디자인 시스템 거버넌스를 설계하라", "a":"1.코어 라이브러리(변경 제한) + 프로젝트 라이브러리(확장 허용) 2.브랜칭: 제안→리뷰→머지 워크플로우 3.버전 태깅 + 체인지로그 4.Storybook 동기화로 코드 불일치 감지 5.주간 싱크 미팅", "hint":"라이브러리 분리+브랜칭+동기화"}
+    ],
+    "skill_git_workflow": [
+      {"lv":1, "q":"git add, git commit, git push의 역할은?", "a":"add: 스테이징(변경 선택), commit: 로컬 저장소에 기록, push: 원격 저장소에 전송", "hint":"선택→기록→전송"},
+      {"lv":2, "q":"Git Flow에서 main, develop, feature, release, hotfix 브랜치의 역할은?", "a":"main: 프로덕션, develop: 개발 통합, feature: 기능 개발, release: 배포 준비(QA), hotfix: 긴급 수정", "hint":"5개 브랜치 역할"},
+      {"lv":3, "q":"merge와 rebase의 차이는? 각각 언제 써야 하나?", "a":"merge: 히스토리 보존, 머지 커밋 생성. rebase: 히스토리를 선형으로 정리. 규칙: 공유 브랜치는 merge, 로컬 feature는 rebase 허용", "hint":"보존 vs 선형"},
+      {"lv":4, "q":"merge conflict 해결 프로세스를 설명하라", "a":"1.충돌 파일에서 <<<<< ===== >>>>> 마커 확인 2.양쪽 변경 의도 파악 3.수동으로 올바른 코드 선택/통합 4.마커 제거 후 git add → git commit", "hint":"마커 확인→의도 파악→통합"},
+      {"lv":5, "q":"대규모 팀(10+명)에서 Trunk-based Development를 도입할 때 필요한 조건과 전략은?", "a":"1.모든 PR은 24시간 내 머지(작은 단위) 2.Feature Flag로 미완성 기능 숨김 3.CI가 5분 이내(빠른 피드백) 4.코드 리뷰 자동 배정 5.main에서 직접 배포(CD)", "hint":"작은 PR+Flag+빠른 CI"}
+    ],
+    "skill_node": [
+      {"lv":1, "q":"Node.js에서 이벤트 루프란?", "a":"싱글 스레드에서 비동기 I/O를 처리하는 메커니즘. 콜백 큐에 쌓인 작업을 순차 실행", "hint":"싱글스레드+비동기"},
+      {"lv":2, "q":"Express에서 미들웨어의 역할과 실행 순서는?", "a":"req→res 사이에서 처리하는 함수. app.use 순서대로 실행, next()로 다음 미들웨어 전달", "hint":"순서+next()"},
+      {"lv":3, "q":"REST API에서 인증 미들웨어를 JWT로 구현하는 흐름은?", "a":"1.로그인 시 JWT 발급(secret으로 서명) 2.클라이언트가 Authorization: Bearer 토큰 전송 3.미들웨어에서 verify 후 req.user에 디코딩 결과 저장 4.보호된 라우트에서 req.user 사용", "hint":"발급→전송→검증→사용"},
+      {"lv":4, "q":"Node.js에서 메모리 누수가 발생하는 패턴 3가지와 진단 방법은?", "a":"1.이벤트 리스너 미제거 2.클로저에서 큰 객체 참조 유지 3.전역 변수에 데이터 누적. 진단: --inspect + Chrome DevTools → Heap Snapshot 비교", "hint":"리스너/클로저/전역 + Heap"},
+      {"lv":5, "q":"초당 10,000 요청을 처리하는 Node.js 서비스를 설계하라", "a":"1.Cluster 모드(PM2) CPU 코어 활용 2.Redis 캐싱(DB 부하 경감) 3.Nginx 리버스 프록시+로드밸런싱 4.Connection Pooling 5.비동기 작업 큐(Bull/BullMQ) 6.Horizontal Scaling + 상태 무상태 설계", "hint":"Cluster+캐시+큐+스케일링"}
+    ],
+    "skill_tailwind": [
+      {"lv":1, "q":"Tailwind CSS의 유틸리티 퍼스트 접근법이란?", "a":"미리 정의된 유틸리티 클래스(p-4, text-lg, flex 등)를 조합하여 스타일링. 별도 CSS 파일 작성 최소화", "hint":"클래스 조합"},
+      {"lv":2, "q":"Tailwind에서 반응형 디자인을 적용하는 방법은?", "a":"sm:, md:, lg:, xl:, 2xl: 접두사로 브레이크포인트별 스타일. 모바일 퍼스트(기본이 모바일)", "hint":"접두사 + 모바일 퍼스트"},
+      {"lv":3, "q":"tailwind.config.js에서 theme.extend를 사용하는 이유는?", "a":"기본 테마를 유지하면서 커스텀 값(색상, 폰트, 간격) 추가. theme 직접 수정은 기본값 덮어씀", "hint":"유지+추가 vs 덮어씀"},
+      {"lv":4, "q":"Tailwind에서 다크모드를 구현하는 2가지 방법과 차이는?", "a":"1.class 전략: html에 dark 클래스 토글, 사용자 선택 가능 2.media 전략: prefers-color-scheme 자동 감지. 실무에서는 class 전략 + localStorage 저장이 일반적", "hint":"class vs media"},
+      {"lv":5, "q":"대규모 프로젝트에서 Tailwind CSS 번들 사이즈를 최적화하는 전략은?", "a":"1.content 설정으로 사용된 클래스만 포함(purge) 2.@apply로 반복 패턴 추출(제한적 사용) 3.JIT 모드(기본) 4.플러그인으로 커스텀 유틸리티 생성 5.CSS 변수로 런타임 테마 전환", "hint":"purge+JIT+변수"}
+    ],
+    "skill_mongodb": [
+      {"lv":1, "q":"MongoDB에서 Document, Collection, Database의 관계는?", "a":"Database > Collection > Document. RDBMS의 Database > Table > Row에 대응", "hint":"계층 구조"},
+      {"lv":2, "q":"find, insertOne, updateOne, deleteOne의 기본 사용법은?", "a":"find({조건}), insertOne({문서}), updateOne({조건}, {$set: {필드:값}}), deleteOne({조건})", "hint":"CRUD 4개"},
+      {"lv":3, "q":"MongoDB에서 인덱스를 만드는 이유와 복합 인덱스 설계 규칙은?", "a":"쿼리 성능 향상. 복합 인덱스 규칙: ESR(Equality→Sort→Range) 순서로 필드 배치", "hint":"ESR 규칙"},
+      {"lv":4, "q":"MongoDB에서 N+1 문제가 발생하는 상황과 해결법은?", "a":"populate가 반복 쿼리 발생시킴. 해결: $lookup(aggregation), 임베딩(embedding), 또는 lean()으로 최소화", "hint":"populate→lookup/embedding"},
+      {"lv":5, "q":"MongoDB를 사용하는 서비스에서 샤딩 전략을 설계하라", "a":"1.샤드 키 선정(높은 카디널리티, 균등 분포) 2.해시 샤딩(균등) vs 범위 샤딩(지역성) 3.Config 서버 + Mongos 라우터 4.청크 마이그레이션 모니터링 5.Zone 샤딩으로 데이터 지역성", "hint":"샤드키+해시/범위+Zone"}
+    ],
+    "skill_design_system": [
+      {"lv":1, "q":"디자인 시스템이란? 스타일 가이드와의 차이는?", "a":"재사용 가능한 컴포넌트+패턴+규칙의 집합. 스타일 가이드는 시각 규칙만, 디자인 시스템은 코드+디자인+문서 통합", "hint":"코드+디자인+문서"},
+      {"lv":2, "q":"디자인 토큰의 3단계 구조는?", "a":"Global(원시값: blue-500=#3B82F6) → Alias(의미: color-primary=blue-500) → Component(컴포넌트: button-bg=color-primary)", "hint":"원시→의미→컴포넌트"},
+      {"lv":3, "q":"Storybook에서 컴포넌트 문서화를 하는 방법은?", "a":"CSF3 포맷으로 Story 작성, args로 props 제어, autodocs로 자동 문서 생성, play function으로 인터랙션 테스트", "hint":"CSF3+args+autodocs"},
+      {"lv":4, "q":"디자인 시스템에서 Breaking Change를 관리하는 방법은?", "a":"1.Semantic Versioning(major 변경 시 업) 2.deprecation 경고 + 마이그레이션 가이드 3.codemods 자동 변환 스크립트 4.Changeset으로 체인지로그 자동화", "hint":"SemVer+deprecation+codemod"},
+      {"lv":5, "q":"디자인 시스템과 Figma의 변경이 코드에 자동 반영되는 파이프라인을 설계하라", "a":"Figma Variables → Tokens Studio → GitHub PR 자동 생성 → Style Dictionary 변환 → npm 패키지 배포 → 소비 앱에서 업데이트. Chromatic으로 시각적 리그레션 테스트", "hint":"Figma→PR→패키지→Chromatic"}
+    ],
+    "skill_data_decision": [
+      {"lv":1, "q":"KPI와 Metric의 차이는?", "a":"Metric: 측정 가능한 수치(DAU, 가입 수). KPI: 핵심 목표와 직접 연결된 메트릭의 부분집합", "hint":"전체 vs 핵심"},
+      {"lv":2, "q":"AARRR(해적 지표) 프레임워크를 설명하라", "a":"Acquisition(획득) → Activation(활성화) → Retention(유지) → Revenue(수익) → Referral(추천)", "hint":"5단계 퍼널"},
+      {"lv":3, "q":"A/B 테스트의 올바른 설계 절차는?", "a":"1.가설 수립 2.지표 정의 3.표본 크기 계산 4.무작위 할당 5.충분한 기간 실행 6.통계적 유의성 확인(p<0.05) 7.결과 기반 의사결정", "hint":"가설→표본→유의성"},
+      {"lv":4, "q":"리텐션이 3주 차에 급락하는 데이터를 보고 원인 분석 방법은?", "a":"1.코호트 분석(가입 시기별) 2.이벤트 퍼널에서 이탈 구간 확인 3.세그먼트별 비교(소스, 디바이스) 4.유저 인터뷰 5.온보딩 완료율과 상관 분석", "hint":"코호트+퍼널+세그먼트"},
+      {"lv":5, "q":"데이터 기반 의사결정 문화를 조직에 도입하는 전략을 설계하라", "a":"1.지표 대시보드 전 팀원 공유 2.주간 metric review 미팅 3.실험 문화(가설→실험→결과) 4.SQL 기초 교육 5.의사결정 로그 문서화 6.데이터 팀 내재화 vs 외주 판단", "hint":"대시보드+실험문화+교육"}
+    ],
+    "skill_prd": [
+      {"lv":1, "q":"PRD(Product Requirements Document)에 반드시 포함되어야 할 항목 5가지는?", "a":"1.문제 정의(Why) 2.사용자/페르소나 3.기능 요구사항 4.성공 지표(KPI) 5.일정/우선순위", "hint":"Why+Who+What+KPI+When"},
+      {"lv":2, "q":"User Story 작성 공식은?", "a":"As a [사용자 유형], I want [기능] so that [가치/이유]. 예: '관리자로서, 사용자 목록을 검색하고 싶다. 특정 사용자를 빠르게 찾기 위해.'", "hint":"As a... I want... so that..."},
+      {"lv":3, "q":"MoSCoW 우선순위 분류법을 설명하라", "a":"Must have(필수), Should have(중요), Could have(있으면 좋음), Won't have(이번 아님). 스프린트/릴리즈 범위 결정에 사용", "hint":"M/S/C/W"}
+    ],
+    "skill_storybook": [
+      {"lv":1, "q":"Storybook이란? 왜 쓰나?", "a":"UI 컴포넌트를 격리된 환경에서 개발/테스트/문서화하는 도구. 앱 실행 없이 컴포넌트 단독 확인 가능", "hint":"격리+문서화"},
+      {"lv":2, "q":"Storybook에서 Story를 작성하는 CSF3 포맷의 기본 구조는?", "a":"export default { component, title, args }로 메타 정의. export const Primary: Story = { args: { variant: 'primary' } }로 변형 정의", "hint":"meta + named exports"},
+      {"lv":3, "q":"Storybook에서 Chromatic을 사용하는 이유는?", "a":"시각적 리그레션 테스트(Visual Regression Test). 변경 전후 스크린샷 비교로 의도치 않은 UI 변화 감지", "hint":"스크린샷 비교"}
+    ],
+    "skill_vercel": [
+      {"lv":1, "q":"Vercel이란? Netlify와의 차이는?", "a":"Next.js 최적화 배포 플랫폼. Netlify는 정적 사이트 중심, Vercel은 SSR/ISR/Edge 런타임 지원에 강함", "hint":"Next.js 특화"},
+      {"lv":2, "q":"Vercel에서 환경변수를 설정하는 방법과 Preview/Production 구분은?", "a":"Settings → Environment Variables에서 설정. Preview(PR 미리보기), Production(main 배포), Development(로컬)별로 별도 값 지정 가능", "hint":"3개 환경 분리"},
+      {"lv":3, "q":"Vercel Edge Functions과 Serverless Functions의 차이는?", "a":"Edge: CDN 엣지에서 실행(지연 최소, 경량 런타임), Serverless: AWS Lambda 기반(풀 Node.js, 무거운 로직). Edge는 미들웨어/리다이렉트, Serverless는 API 처리", "hint":"엣지(경량) vs Lambda(풀)"}
+    ],
+    "skill_prisma": [
+      {"lv":1, "q":"Prisma란? 기존 SQL 직접 작성 대비 장점은?", "a":"Node.js/TS용 ORM. 스키마 기반 타입 안전 쿼리, 자동 마이그레이션, 직관적 API(findMany, create 등)", "hint":"타입 안전+자동 마이그레이션"},
+      {"lv":2, "q":"Prisma Schema에서 model, relation, @@index의 역할은?", "a":"model: 테이블 정의, relation: 외래키 관계(@relation), @@index: DB 인덱스 생성(쿼리 성능)", "hint":"테이블/관계/인덱스"},
+      {"lv":3, "q":"prisma migrate dev와 prisma db push의 차이는?", "a":"migrate dev: 마이그레이션 파일 생성+적용(히스토리 관리, 프로덕션용). db push: 스키마 직접 반영(마이그레이션 없음, 프로토타이핑용)", "hint":"히스토리 vs 직접 반영"}
+    ],
+    "future_docker": [
+      {"lv":1, "q":"Docker 컨테이너와 가상머신(VM)의 차이는?", "a":"VM: OS 전체 가상화(무겁다). 컨테이너: 호스트 OS 커널 공유, 앱+의존성만 격리(가볍다, 빠르다)", "hint":"OS 전체 vs 커널 공유"},
+      {"lv":2, "q":"Dockerfile에서 FROM, COPY, RUN, CMD의 역할은?", "a":"FROM: 베이스 이미지, COPY: 파일 복사, RUN: 빌드 시 명령 실행, CMD: 컨테이너 실행 시 기본 명령", "hint":"기반/복사/빌드/실행"},
+      {"lv":3, "q":"Docker Compose에서 services, volumes, networks의 역할은?", "a":"services: 컨테이너 정의, volumes: 데이터 영속화, networks: 컨테이너 간 통신 격리", "hint":"컨테이너/데이터/통신"}
+    ],
+    "skill_go": [
+      {"lv":1, "q":"Go에서 goroutine이란?", "a":"경량 스레드. go 키워드로 함수를 비동기 실행. OS 스레드보다 훨씬 가볍다(수천 개 동시 실행 가능)", "hint":"경량 스레드"},
+      {"lv":2, "q":"Go에서 channel의 역할과 기본 사용법은?", "a":"goroutine 간 데이터 통신. ch := make(chan int), ch <- 42(보내기), val := <-ch(받기). 버퍼 있는/없는 채널 구분", "hint":"goroutine 통신"},
+      {"lv":3, "q":"Go에서 interface를 사용한 다형성 예시를 들어라", "a":"type Writer interface { Write([]byte) (int, error) }. 구조체가 Write 메서드만 구현하면 자동으로 Writer 인터페이스 충족(덕 타이핑)", "hint":"메서드 구현 = 인터페이스 충족"}
+    ],
+    "skill_python": [
+      {"lv":1, "q":"Python에서 리스트 컴프리헨션의 문법은?", "a":"[expression for item in iterable if condition]. 예: [x**2 for x in range(10) if x % 2 == 0]", "hint":"[표현식 for 변수 in 반복 if 조건]"},
+      {"lv":2, "q":"FastAPI에서 path parameter, query parameter, request body의 차이는?", "a":"path: URL 경로에 포함(/users/{id}), query: ?key=value, body: Pydantic 모델로 정의한 JSON 요청 본문", "hint":"경로/쿼리/본문"},
+      {"lv":3, "q":"Python에서 async/await의 동작 원리는?", "a":"이벤트 루프가 async 함수(코루틴)를 관리. await에서 I/O 대기 시 다른 코루틴 실행. asyncio.run()으로 시작", "hint":"이벤트 루프+코루틴"}
+    ],
+    "skill_d3": [
+      {"lv":1, "q":"D3.js에서 select, data, enter, append 체이닝의 의미는?", "a":"select: DOM 선택, data: 데이터 바인딩, enter: 데이터에 대응하는 새 요소 선택, append: 요소 생성", "hint":"선택→바인딩→생성"},
+      {"lv":2, "q":"D3의 scale 함수(scaleLinear, scaleBand 등)의 역할은?", "a":"데이터 값을 시각적 값(좌표, 크기, 색상)으로 매핑. domain(데이터 범위) → range(시각 범위)", "hint":"domain→range 매핑"},
+      {"lv":3, "q":"D3 force simulation에서 forceLink, forceManyBody, forceCenter의 역할은?", "a":"forceLink: 노드 간 연결 스프링, forceManyBody: 노드 간 인력/척력, forceCenter: 중심으로 끌어당김", "hint":"스프링/척력/중심"}
+    ],
+    "skill_service_planning": [
+      {"lv":1, "q":"서비스 기획에서 '문제 정의'가 중요한 이유는?", "a":"잘못된 문제를 풀면 아무리 좋은 솔루션도 무용지물. 해결할 가치가 있는 진짜 문제를 찾아야 함", "hint":"올바른 문제 선택"},
+      {"lv":2, "q":"페르소나(Persona)를 만드는 방법과 포함 항목은?", "a":"사용자 인터뷰/데이터 기반으로 대표 사용자 프로필 생성. 포함: 이름, 나이, 직업, 목표, 고충(Pain Point), 행동 패턴, 기술 수준", "hint":"인터뷰 기반 대표 프로필"},
+      {"lv":3, "q":"사용자 여정 맵(User Journey Map)을 만드는 단계는?", "a":"1.페르소나 선정 2.단계 정의(인지→탐색→사용→재방문) 3.각 단계별 행동/감정/접점/Pain Point 기록 4.개선 기회 도출", "hint":"단계별 행동+감정+Pain"}
+    ],
+    "skill_uxui": [
+      {"lv":1, "q":"UX와 UI의 차이는?", "a":"UX: 사용자가 제품을 사용하는 전체 경험(편리함, 만족). UI: 사용자가 보고 상호작용하는 시각적 인터페이스(버튼, 레이아웃)", "hint":"경험 vs 인터페이스"},
+      {"lv":2, "q":"와이어프레임, 목업, 프로토타입의 차이는?", "a":"와이어프레임: 구조/레이아웃(흑백, 저해상도). 목업: 시각 디자인(색상, 폰트). 프로토타입: 인터랙션 포함(클릭, 전환)", "hint":"구조→시각→인터랙션"},
+      {"lv":3, "q":"사용성 테스트(Usability Test)를 진행하는 방법은?", "a":"1.과제 설계(핵심 시나리오 3~5개) 2.참가자 모집(5명이면 85% 문제 발견) 3.Think Aloud로 진행 4.관찰+녹화 5.발견사항 정리→우선순위 결정", "hint":"5명+Think Aloud+관찰"}
+    ]
+  }
+}

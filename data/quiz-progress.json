@@ -1,0 +1,12 @@
+{
+  "player": {
+    "total_xp": 0,
+    "level": 1,
+    "streak_days": 0,
+    "last_quiz_date": null,
+    "quizzes_completed": 0,
+    "correct_count": 0
+  },
+  "neurons": {},
+  "history": []
+}
