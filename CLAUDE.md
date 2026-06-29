@@ -28,6 +28,25 @@ portfolio_visual/
 | `risk` | 해결 필요 | `type: "risk"` |
 | `phase` | 로드맵 단계 | `type: "phase"` |
 
+## 진행률 모델 — "원이 채워지고 늘어난다" (★핵심)
+
+각 학습 가능 뉴런(`skill`/`project`/`future`/`risk`)은 **`progress` (0~100)** 필드를 가진다.
+시각화에서 progress는 두 가지로 표현된다:
+- **채워짐:** 노드 둘레의 링이 progress 비율만큼 12시 방향부터 차오른다.
+- **늘어남:** progress가 높을수록 노드 반지름이 커진다 (0%→0.6배, 100%→1.05배).
+
+**작업을 수행할 때마다 progress를 올리는 것이 이 앱의 핵심 루프다.**
+
+### progress 업데이트 규칙 (Claude가 graph.json을 수정)
+- `/brain log` 으로 학습 보고가 들어오면 → 관련 뉴런의 `progress`를 **+10~30** 올린다 (작업 크기에 따라).
+- `progress`가 100에 도달하면 → `status`를 `"acquired"`로 바꾸고 state가 `fired`로 전환.
+- `/brain activate [id]` → 해당 뉴런 `progress: 100` + `status: "acquired"`.
+- `/brain risk [id] resolve` → risk 뉴런 `progress: 100` + `status: "resolved"`.
+- 수정 후 브라우저를 새로고침하면 링이 더 차오르고 노드가 커진 게 보인다.
+
+> 즉, 매일 `/brain log` → progress 상승 → 원이 차오름/성장 → 100%면 점화(fired).
+> 이것이 "수행할 때마다 채워지고 늘어나는" 동작이다.
+
 ## Claude 명령어 (유저가 입력하는 프롬프트)
 
 ### `/brain log` — 학습 기록 추가

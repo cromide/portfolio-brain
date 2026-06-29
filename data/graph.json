@@ -8,7 +8,6 @@
       "description": "브랜드 디자이너 / 서비스 기획 · 웹 퍼블리싱 제너럴리스트.\n0→1 단계의 스타트업/브랜드를 시각화하고 출시까지 연결.",
       "size": 40
     },
-
     {
       "id": "design",
       "label": "디자인",
@@ -41,7 +40,6 @@
       "description": "서비스 기획, UX/UI 설계, 브랜드 가이드, 화면기획서",
       "size": 30
     },
-
     {
       "id": "skill_illustrator",
       "label": "Illustrator",
@@ -49,7 +47,8 @@
       "group": "design",
       "status": "acquired",
       "description": "Adobe Illustrator — 로고, CI, 일러스트 제작",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_indesign",
@@ -58,7 +57,8 @@
       "group": "design",
       "status": "acquired",
       "description": "Adobe InDesign — 편집/출판 디자인, 북커버 3종 제작",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_photoshop",
@@ -67,7 +67,8 @@
       "group": "design",
       "status": "acquired",
       "description": "Adobe Photoshop — 이미지 편집, 리터칭",
-      "size": 12
+      "size": 12,
+      "progress": 100
     },
     {
       "id": "skill_brand_identity",
@@ -76,7 +77,8 @@
       "group": "design",
       "status": "acquired",
       "description": "로고/CI 설계, 브랜드 가이드 작성, 일관된 비주얼 시스템 구축",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "skill_print",
@@ -85,7 +87,8 @@
       "group": "design",
       "status": "acquired",
       "description": "mm 단위 실측 기반 대형 출력물, 사이니지, 코스터, 캔 라벨 등",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_figma",
@@ -94,7 +97,8 @@
       "group": "design",
       "status": "learning",
       "description": "[학습 필요] Figma 기반 UI/디자인 시스템 구축",
-      "size": 14
+      "size": 14,
+      "progress": 30
     },
     {
       "id": "skill_design_system",
@@ -103,9 +107,9 @@
       "group": "design",
       "status": "learning",
       "description": "[학습 필요] 컴포넌트 기반 디자인 시스템, 토큰, Storybook 연동",
-      "size": 14
+      "size": 14,
+      "progress": 30
     },
-
     {
       "id": "skill_react",
       "label": "React",
@@ -113,7 +117,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "React 19 — SPA, 상태관리, 훅 기반 개발",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "skill_nextjs",
@@ -122,7 +127,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Next.js 14 — SSR/SSG, App Router, 풀스택 프레임워크",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "skill_svelte",
@@ -131,7 +137,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Svelte 5 — 컴파일러 기반 프레임워크, SvelteKit",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_node",
@@ -140,7 +147,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Node.js + Express — REST API, 미들웨어, JWT 인증",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_go",
@@ -149,7 +157,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Go — Chi 라우터, PostgreSQL, JWT, S3 연동 백엔드",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_python",
@@ -158,7 +167,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Python — FastAPI, Gradio, AI/ML 도구 개발",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_flutter",
@@ -167,7 +177,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Flutter + Riverpod — 크로스플랫폼 모바일 앱 개발",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_threejs",
@@ -176,7 +187,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Three.js — 3D 웹 렌더링, 도시 건설 시뮬레이션",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_solidity",
@@ -185,7 +197,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "Solidity — ERC721 스마트컨트랙트 (1,700+줄 프로덕션 레벨)",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_mongodb",
@@ -194,7 +207,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "MongoDB — NoSQL, 소셜 로그인 + 실시간 통신 프로젝트 활용",
-      "size": 12
+      "size": 12,
+      "progress": 100
     },
     {
       "id": "skill_postgresql",
@@ -203,7 +217,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "PostgreSQL — 관계형 DB, Go 백엔드 연동",
-      "size": 12
+      "size": 12,
+      "progress": 100
     },
     {
       "id": "skill_canvas",
@@ -212,7 +227,8 @@
       "group": "dev",
       "status": "acquired",
       "description": "HTML5 Canvas — 2D 게임 엔진, 물리/충돌/AI NPC",
-      "size": 12
+      "size": 12,
+      "progress": 100
     },
     {
       "id": "skill_testing",
@@ -221,7 +237,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] 단위/통합/E2E 테스트, Jest, Vitest, Playwright",
-      "size": 14
+      "size": 14,
+      "progress": 30
     },
     {
       "id": "skill_cicd",
@@ -230,7 +247,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] GitHub Actions, Docker, Vercel/AWS 자동 배포",
-      "size": 14
+      "size": 14,
+      "progress": 30
     },
     {
       "id": "skill_git_workflow",
@@ -239,7 +257,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] 브랜치 전략, PR 리뷰, Git Flow/Trunk-based",
-      "size": 14
+      "size": 14,
+      "progress": 30
     },
     {
       "id": "skill_typescript",
@@ -248,9 +267,9 @@
       "group": "dev",
       "status": "acquired",
       "description": "TypeScript — 정적 타입, 인터페이스 기반 개발",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
-
     {
       "id": "skill_html_css",
       "label": "HTML5/CSS3",
@@ -258,7 +277,8 @@
       "group": "publishing",
       "status": "acquired",
       "description": "시맨틱 HTML, CSS Grid/Flex, 반응형 웹",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "skill_tailwind",
@@ -267,7 +287,8 @@
       "group": "publishing",
       "status": "acquired",
       "description": "Tailwind CSS — 유틸리티 기반 스타일링",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_animation",
@@ -276,7 +297,8 @@
       "group": "publishing",
       "status": "acquired",
       "description": "GSAP, Framer Motion, ScrollTrigger, Lenis — 인터랙티브 웹",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_responsive",
@@ -285,7 +307,8 @@
       "group": "publishing",
       "status": "acquired",
       "description": "미디어쿼리, 모바일 퍼스트, 크로스 브라우저",
-      "size": 12
+      "size": 12,
+      "progress": 100
     },
     {
       "id": "skill_d3",
@@ -294,9 +317,9 @@
       "group": "publishing",
       "status": "acquired",
       "description": "D3.js, Recharts, react-simple-maps — 데이터 시각화 대시보드",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
-
     {
       "id": "skill_service_planning",
       "label": "서비스 기획",
@@ -304,7 +327,8 @@
       "group": "planning",
       "status": "acquired",
       "description": "서비스 기획, 요구사항 정의, 화면기획서 작성",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "skill_uxui",
@@ -313,7 +337,8 @@
       "group": "planning",
       "status": "acquired",
       "description": "사용자 경험 설계, 와이어프레임, 프로토타이핑",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_brand_guide",
@@ -322,7 +347,8 @@
       "group": "planning",
       "status": "acquired",
       "description": "브랜드 가이드라인 문서 작성, CI/BI 매뉴얼",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "skill_data_decision",
@@ -331,7 +357,8 @@
       "group": "planning",
       "status": "learning",
       "description": "[학습 필요] 지표 정의, A/B 테스트, 그로스 해킹, SQL 분석",
-      "size": 14
+      "size": 14,
+      "progress": 30
     },
     {
       "id": "skill_prd",
@@ -340,9 +367,9 @@
       "group": "planning",
       "status": "learning",
       "description": "[학습 필요] Product Requirements Document 표준 작성법, JIRA/Linear 연동",
-      "size": 14
+      "size": 14,
+      "progress": 30
     },
-
     {
       "id": "proj_godmaek",
       "label": "갓맥 브루어리",
@@ -351,7 +378,8 @@
       "year": "2022",
       "status": "completed",
       "description": "풀 브랜드 아이덴티티 — 로고/BI, 메뉴판, 현수막, 코스터, 캔 라벨, 굿즈.\n오프라인 매장 실제 적용. 인쇄/시공 결과물 다수.",
-      "size": 18
+      "size": 18,
+      "progress": 100
     },
     {
       "id": "proj_mintcake",
@@ -361,7 +389,8 @@
       "year": "2022",
       "status": "completed",
       "description": "NFT 플랫폼 브랜드 로고 + UX/UI 설계 전략서 + 브랜드 가이드",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "proj_bookcover",
@@ -371,7 +400,8 @@
       "year": "2022",
       "status": "completed",
       "description": "교양서 '부동산 지식 더하기' 표지 디자인 3종. InDesign 기반 편집 디자인 대표작.",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "proj_signage",
@@ -381,9 +411,9 @@
       "year": "2019",
       "status": "completed",
       "description": "아이디허브·카이코리아·하하마스크 — 외관 현판(3500mm), CI, 명함. mm 단위 실측 시공.",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
-
     {
       "id": "proj_nobizform",
       "label": "Nobizform",
@@ -392,7 +422,8 @@
       "year": "2026",
       "status": "completed",
       "description": "AI 프레젠테이션 자동 생성 풀스택.\nNext.js 14 + Redux + TailwindCSS + FastAPI.\n멀티 LLM, PPTX/PDF 내보내기, 드래그&드롭.",
-      "size": 20
+      "size": 20,
+      "progress": 100
     },
     {
       "id": "proj_newtown",
@@ -402,7 +433,8 @@
       "year": "2026",
       "status": "completed",
       "description": "3D 도시 건설 웹3 플랫폼.\nSvelte 5 + Three.js + gRPC.\n278개 소스 파일, 블록체인 월렛, 성능 최적화.",
-      "size": 20
+      "size": 20,
+      "progress": 100
     },
     {
       "id": "proj_bapsajugi",
@@ -412,7 +444,8 @@
       "year": "2026",
       "status": "completed",
       "description": "소셜로그인 + 실시간 통신 풀스택.\nReact 19 + Node + MongoDB + Socket.io.\nGoogle/Kakao OAuth.",
-      "size": 18
+      "size": 18,
+      "progress": 100
     },
     {
       "id": "proj_recorder",
@@ -422,7 +455,8 @@
       "year": "2026",
       "status": "completed",
       "description": "음성 녹음 + AI 받아쓰기 통합 서비스.\nGo 백엔드(Chi/PostgreSQL/JWT/S3) + Flutter 앱(Riverpod).",
-      "size": 18
+      "size": 18,
+      "progress": 100
     },
     {
       "id": "proj_marketing",
@@ -432,7 +466,8 @@
       "year": "2026",
       "status": "completed",
       "description": "HuggingFace 모델 SEO 분석·모델카드·SNS 포스트 자동 생성.\nPython + Gradio.",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "proj_babo",
@@ -442,7 +477,8 @@
       "year": "2026",
       "status": "completed",
       "description": "암호화폐 투자 시뮬레이션 게임. NPC AI, 뉴스 이벤트, 랭킹 시스템. Vanilla JS.",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "proj_vampire",
@@ -452,7 +488,8 @@
       "year": "2026",
       "status": "completed",
       "description": "Vampire Survivors 스타일 auto-shooter. 7스테이지, 세이브. HTML5 Canvas.",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "proj_deckila",
@@ -462,7 +499,8 @@
       "year": "2023",
       "status": "completed",
       "description": "블록체인 데이터카드 거래 플랫폼.\n기획→디자인→퍼블리싱→온체인 전 과정.\nERC721 스마트컨트랙트 1,700+줄.",
-      "size": 18
+      "size": 18,
+      "progress": 100
     },
     {
       "id": "proj_junkdb",
@@ -472,9 +510,9 @@
       "year": "2026",
       "status": "completed",
       "description": "데이터 수집/분류 플랫폼. Node + Express + SQLite. 운영 중.",
-      "size": 12
+      "size": 12,
+      "progress": 100
     },
-
     {
       "id": "proj_vwvsupport",
       "label": "지원협회 사이트",
@@ -483,7 +521,8 @@
       "year": "2026",
       "status": "completed",
       "description": "베트남전 피해자 지원협회 홈페이지.\nTailwind + 커스텀 JS. 스크롤 페이드인, 조직도, 반응형, SEO. 실제 운영급.",
-      "size": 18
+      "size": 18,
+      "progress": 100
     },
     {
       "id": "proj_step",
@@ -493,7 +532,8 @@
       "year": "2026",
       "status": "completed",
       "description": "차트·지도 기반 시각화 대시보드.\nReact 19 + Recharts + D3 + react-simple-maps. Framer Motion.",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "proj_faketown",
@@ -503,7 +543,8 @@
       "year": "2026",
       "status": "completed",
       "description": "부동산/위치 기반 정보 반응형 웹앱.\nReact 19 + TypeScript + Leaflet + Tailwind.",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "proj_fakereddit",
@@ -513,7 +554,8 @@
       "year": "2026",
       "status": "completed",
       "description": "소셜 미디어 UI + 풍부한 인터랙션 애니메이션.\nReact 19 + TypeScript + Framer Motion + Tailwind.",
-      "size": 16
+      "size": 16,
+      "progress": 100
     },
     {
       "id": "proj_idsaja",
@@ -523,9 +565,9 @@
       "year": "2024",
       "status": "completed",
       "description": "마켓/커뮤니티 웹사이트 퍼블리싱. 13개 HTML 페이지 마크업. 실무(광명).",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
-
     {
       "id": "proj_mediknocks",
       "label": "메디녹스 헬스케어앱",
@@ -534,7 +576,8 @@
       "year": "2025",
       "status": "completed",
       "description": "헬스케어 앱 기획 전 생애주기.\nAdmin Page 화면기획서, 사전 예진 기능(다중 버전), 협의안/회의록.\n버전 관리 + 팀 협업 전 과정.",
-      "size": 18
+      "size": 18,
+      "progress": 100
     },
     {
       "id": "proj_bizform",
@@ -544,7 +587,8 @@
       "year": "2025",
       "status": "completed",
       "description": "스토리보드, MVP 개선 질의, 퍼블리싱 컴포넌트 가이드, 회의자료.",
-      "size": 14
+      "size": 14,
+      "progress": 100
     },
     {
       "id": "proj_p2e",
@@ -554,9 +598,9 @@
       "year": "2022",
       "status": "completed",
       "description": "P2E 게임 비즈니스 모델, 힐링아트테크, 파라파라, 셀러버 서비스 기획.",
-      "size": 12
+      "size": 12,
+      "progress": 100
     },
-
     {
       "id": "future_docker",
       "label": "Docker/컨테이너",
@@ -564,7 +608,8 @@
       "group": "dev",
       "status": "future",
       "description": "[확장 방향] 컨테이너화, Docker Compose, Kubernetes 기초",
-      "size": 12
+      "size": 12,
+      "progress": 0
     },
     {
       "id": "future_aws",
@@ -573,7 +618,8 @@
       "group": "dev",
       "status": "future",
       "description": "[확장 방향] EC2, S3, Lambda, RDS — 클라우드 인프라 운영",
-      "size": 12
+      "size": 12,
+      "progress": 0
     },
     {
       "id": "future_ai_ml",
@@ -582,7 +628,8 @@
       "group": "dev",
       "status": "future",
       "description": "[확장 방향] LLM 파인튜닝, RAG, 프롬프트 엔지니어링 심화, LangChain",
-      "size": 14
+      "size": 14,
+      "progress": 0
     },
     {
       "id": "future_graphql",
@@ -591,7 +638,8 @@
       "group": "dev",
       "status": "future",
       "description": "[확장 방향] GraphQL API 설계, Apollo, 스키마 퍼스트",
-      "size": 10
+      "size": 10,
+      "progress": 0
     },
     {
       "id": "future_motion_design",
@@ -600,7 +648,8 @@
       "group": "design",
       "status": "future",
       "description": "[확장 방향] After Effects, Lottie, 마이크로인터랙션 디자인",
-      "size": 12
+      "size": 12,
+      "progress": 0
     },
     {
       "id": "future_product_analytics",
@@ -609,7 +658,8 @@
       "group": "planning",
       "status": "future",
       "description": "[확장 방향] Mixpanel/Amplitude, 퍼널 분석, 리텐션, 그로스 해킹",
-      "size": 12
+      "size": 12,
+      "progress": 0
     },
     {
       "id": "future_agile",
@@ -618,9 +668,9 @@
       "group": "planning",
       "status": "future",
       "description": "[확장 방향] 스프린트 관리, 백로그 우선순위, 회고 문화",
-      "size": 10
+      "size": 10,
+      "progress": 0
     },
-
     {
       "id": "risk_no_test",
       "label": "테스트 코드 0개",
@@ -629,7 +679,8 @@
       "status": "critical",
       "description": "[CRITICAL] 모든 프로젝트에 테스트 코드가 없음.\n면접관: '코드 품질 관리 의지가 없다'\n해결: Phase 1 (7월) — Vitest + pytest 도입",
       "size": 16,
-      "phase": "1"
+      "phase": "1",
+      "progress": 0
     },
     {
       "id": "risk_no_deploy",
@@ -639,7 +690,8 @@
       "status": "critical",
       "description": "[CRITICAL] 모든 프로젝트가 localhost에서만 동작.\n면접관: '만들기만 하고 운영 경험 없다'\n해결: Phase 2 (8월) — Vercel + Railway 배포",
       "size": 16,
-      "phase": "2"
+      "phase": "2",
+      "progress": 0
     },
     {
       "id": "risk_no_collab",
@@ -649,7 +701,8 @@
       "status": "critical",
       "description": "[CRITICAL] Git이 1인 작업 패턴. 브랜치 전략/PR 리뷰/커밋 컨벤션 없음.\n면접관: '협업 경험이 없다'\n해결: Phase 1 (7월) — Git 워크플로우 적용",
       "size": 16,
-      "phase": "1"
+      "phase": "1",
+      "progress": 0
     },
     {
       "id": "risk_no_readme",
@@ -659,7 +712,8 @@
       "status": "critical",
       "description": "[CRITICAL] Recorder 양쪽 README 없음, 나머지도 기본 수준.\n면접관: '문서화 습관이 없다'\n해결: Phase 1 (7월) — README 전면 재작성",
       "size": 14,
-      "phase": "1"
+      "phase": "1",
+      "progress": 0
     },
     {
       "id": "risk_no_figma",
@@ -669,7 +723,8 @@
       "status": "high",
       "description": "[HIGH] 디자인 전부 Adobe 도구. 현업 표준 Figma 경험 없음.\n면접관: '현업 UI 도구를 못 쓴다'\n해결: Phase 3 (9월) — Figma 리디자인 + 디자인 시스템",
       "size": 14,
-      "phase": "3"
+      "phase": "3",
+      "progress": 0
     },
     {
       "id": "risk_no_metrics",
@@ -679,7 +734,8 @@
       "status": "high",
       "description": "[HIGH] 경력기술서에 숫자가 없음. '구축했다' '참여했다'만 반복.\n면접관: '임팩트를 모른다'\n해결: Phase 5 (11월) — 모든 프로젝트에 성과 숫자 추가",
       "size": 14,
-      "phase": "5"
+      "phase": "5",
+      "progress": 0
     },
     {
       "id": "risk_shallow",
@@ -689,7 +745,8 @@
       "status": "high",
       "description": "[HIGH] React, Svelte, Go, Flutter, Python... 뭐 하나 깊은 게 없음.\n면접관: '제너럴리스트인데 깊이가 없다'\n해결: Phase 4 (10월) — Next.js 한 우물 깊이 파기",
       "size": 14,
-      "phase": "4"
+      "phase": "4",
+      "progress": 0
     },
     {
       "id": "risk_no_blog",
@@ -699,9 +756,9 @@
       "status": "medium",
       "description": "[MEDIUM] 학습 기록이 외부에 없음. GitHub 프로필 비어있음.\n해결: Phase 6 (12월) — 블로그 6편 + GitHub 프로필",
       "size": 12,
-      "phase": "6"
+      "phase": "6",
+      "progress": 0
     },
-
     {
       "id": "phase_1",
       "label": "P1: 기초 체력 (7월)",
@@ -762,7 +819,6 @@
       "size": 22,
       "month": "2026-12"
     },
-
     {
       "id": "skill_storybook",
       "label": "Storybook",
@@ -770,7 +826,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] 컴포넌트 문서화, 시각적 테스트, Chromatic 배포",
-      "size": 12
+      "size": 12,
+      "progress": 30
     },
     {
       "id": "skill_vercel",
@@ -779,7 +836,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] Vercel 배포, 커스텀 도메인, 환경변수, Preview 배포",
-      "size": 12
+      "size": 12,
+      "progress": 30
     },
     {
       "id": "skill_sentry",
@@ -788,7 +846,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] 에러 트래킹, 성능 모니터링, 알림 설정",
-      "size": 10
+      "size": 10,
+      "progress": 30
     },
     {
       "id": "skill_nextauth",
@@ -797,7 +856,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] NextAuth v5, OAuth 통합, 세션 관리",
-      "size": 12
+      "size": 12,
+      "progress": 30
     },
     {
       "id": "skill_prisma",
@@ -806,7 +866,8 @@
       "group": "dev",
       "status": "learning",
       "description": "[학습 필요] Prisma ORM, 스키마 설계, 마이그레이션, 관계 쿼리",
-      "size": 12
+      "size": 12,
+      "progress": 30
     },
     {
       "id": "skill_blog",
@@ -815,151 +876,645 @@
       "group": "core",
       "status": "learning",
       "description": "[학습 필요] 기술 블로그 운영, 지식 공유, 개인 브랜딩",
-      "size": 12
+      "size": 12,
+      "progress": 30
     }
   ],
-
   "edges": [
-    { "source": "core", "target": "design", "type": "domain" },
-    { "source": "core", "target": "dev", "type": "domain" },
-    { "source": "core", "target": "publishing", "type": "domain" },
-    { "source": "core", "target": "planning", "type": "domain" },
-
-    { "source": "design", "target": "skill_illustrator", "type": "has_skill" },
-    { "source": "design", "target": "skill_indesign", "type": "has_skill" },
-    { "source": "design", "target": "skill_photoshop", "type": "has_skill" },
-    { "source": "design", "target": "skill_brand_identity", "type": "has_skill" },
-    { "source": "design", "target": "skill_print", "type": "has_skill" },
-    { "source": "design", "target": "skill_figma", "type": "has_skill" },
-    { "source": "design", "target": "skill_design_system", "type": "has_skill" },
-
-    { "source": "dev", "target": "skill_react", "type": "has_skill" },
-    { "source": "dev", "target": "skill_nextjs", "type": "has_skill" },
-    { "source": "dev", "target": "skill_svelte", "type": "has_skill" },
-    { "source": "dev", "target": "skill_node", "type": "has_skill" },
-    { "source": "dev", "target": "skill_go", "type": "has_skill" },
-    { "source": "dev", "target": "skill_python", "type": "has_skill" },
-    { "source": "dev", "target": "skill_flutter", "type": "has_skill" },
-    { "source": "dev", "target": "skill_threejs", "type": "has_skill" },
-    { "source": "dev", "target": "skill_solidity", "type": "has_skill" },
-    { "source": "dev", "target": "skill_mongodb", "type": "has_skill" },
-    { "source": "dev", "target": "skill_postgresql", "type": "has_skill" },
-    { "source": "dev", "target": "skill_canvas", "type": "has_skill" },
-    { "source": "dev", "target": "skill_typescript", "type": "has_skill" },
-    { "source": "dev", "target": "skill_testing", "type": "has_skill" },
-    { "source": "dev", "target": "skill_cicd", "type": "has_skill" },
-    { "source": "dev", "target": "skill_git_workflow", "type": "has_skill" },
-
-    { "source": "publishing", "target": "skill_html_css", "type": "has_skill" },
-    { "source": "publishing", "target": "skill_tailwind", "type": "has_skill" },
-    { "source": "publishing", "target": "skill_animation", "type": "has_skill" },
-    { "source": "publishing", "target": "skill_responsive", "type": "has_skill" },
-    { "source": "publishing", "target": "skill_d3", "type": "has_skill" },
-
-    { "source": "planning", "target": "skill_service_planning", "type": "has_skill" },
-    { "source": "planning", "target": "skill_uxui", "type": "has_skill" },
-    { "source": "planning", "target": "skill_brand_guide", "type": "has_skill" },
-    { "source": "planning", "target": "skill_data_decision", "type": "has_skill" },
-    { "source": "planning", "target": "skill_prd", "type": "has_skill" },
-
-    { "source": "skill_brand_identity", "target": "proj_godmaek", "type": "used_in" },
-    { "source": "skill_illustrator", "target": "proj_godmaek", "type": "used_in" },
-    { "source": "skill_print", "target": "proj_godmaek", "type": "used_in" },
-    { "source": "skill_brand_identity", "target": "proj_mintcake", "type": "used_in" },
-    { "source": "skill_indesign", "target": "proj_bookcover", "type": "used_in" },
-    { "source": "skill_print", "target": "proj_signage", "type": "used_in" },
-
-    { "source": "skill_nextjs", "target": "proj_nobizform", "type": "used_in" },
-    { "source": "skill_python", "target": "proj_nobizform", "type": "used_in" },
-    { "source": "skill_react", "target": "proj_nobizform", "type": "used_in" },
-    { "source": "skill_svelte", "target": "proj_newtown", "type": "used_in" },
-    { "source": "skill_threejs", "target": "proj_newtown", "type": "used_in" },
-    { "source": "skill_typescript", "target": "proj_newtown", "type": "used_in" },
-    { "source": "skill_react", "target": "proj_bapsajugi", "type": "used_in" },
-    { "source": "skill_node", "target": "proj_bapsajugi", "type": "used_in" },
-    { "source": "skill_mongodb", "target": "proj_bapsajugi", "type": "used_in" },
-    { "source": "skill_go", "target": "proj_recorder", "type": "used_in" },
-    { "source": "skill_flutter", "target": "proj_recorder", "type": "used_in" },
-    { "source": "skill_postgresql", "target": "proj_recorder", "type": "used_in" },
-    { "source": "skill_python", "target": "proj_marketing", "type": "used_in" },
-    { "source": "skill_canvas", "target": "proj_babo", "type": "used_in" },
-    { "source": "skill_canvas", "target": "proj_vampire", "type": "used_in" },
-    { "source": "skill_solidity", "target": "proj_deckila", "type": "used_in" },
-    { "source": "skill_node", "target": "proj_junkdb", "type": "used_in" },
-
-    { "source": "skill_tailwind", "target": "proj_vwvsupport", "type": "used_in" },
-    { "source": "skill_animation", "target": "proj_vwvsupport", "type": "used_in" },
-    { "source": "skill_responsive", "target": "proj_vwvsupport", "type": "used_in" },
-    { "source": "skill_react", "target": "proj_step", "type": "used_in" },
-    { "source": "skill_d3", "target": "proj_step", "type": "used_in" },
-    { "source": "skill_react", "target": "proj_faketown", "type": "used_in" },
-    { "source": "skill_typescript", "target": "proj_faketown", "type": "used_in" },
-    { "source": "skill_react", "target": "proj_fakereddit", "type": "used_in" },
-    { "source": "skill_animation", "target": "proj_fakereddit", "type": "used_in" },
-    { "source": "skill_html_css", "target": "proj_idsaja", "type": "used_in" },
-
-    { "source": "skill_service_planning", "target": "proj_mediknocks", "type": "used_in" },
-    { "source": "skill_uxui", "target": "proj_mediknocks", "type": "used_in" },
-    { "source": "skill_service_planning", "target": "proj_bizform", "type": "used_in" },
-    { "source": "skill_brand_guide", "target": "proj_mintcake", "type": "used_in" },
-    { "source": "skill_uxui", "target": "proj_mintcake", "type": "used_in" },
-    { "source": "skill_brand_guide", "target": "proj_godmaek", "type": "used_in" },
-    { "source": "skill_service_planning", "target": "proj_p2e", "type": "used_in" },
-
-    { "source": "proj_deckila", "target": "planning", "type": "cross_domain" },
-    { "source": "proj_deckila", "target": "design", "type": "cross_domain" },
-    { "source": "proj_deckila", "target": "publishing", "type": "cross_domain" },
-    { "source": "proj_mintcake", "target": "planning", "type": "cross_domain" },
-    { "source": "proj_nobizform", "target": "publishing", "type": "cross_domain" },
-
-    { "source": "skill_cicd", "target": "future_docker", "type": "leads_to" },
-    { "source": "future_docker", "target": "future_aws", "type": "leads_to" },
-    { "source": "skill_python", "target": "future_ai_ml", "type": "leads_to" },
-    { "source": "skill_node", "target": "future_graphql", "type": "leads_to" },
-    { "source": "skill_figma", "target": "skill_design_system", "type": "leads_to" },
-    { "source": "skill_animation", "target": "future_motion_design", "type": "leads_to" },
-    { "source": "skill_data_decision", "target": "future_product_analytics", "type": "leads_to" },
-    { "source": "skill_prd", "target": "future_agile", "type": "leads_to" },
-    { "source": "skill_testing", "target": "skill_cicd", "type": "leads_to" },
-    { "source": "skill_git_workflow", "target": "skill_cicd", "type": "leads_to" },
-
-    { "source": "risk_no_test", "target": "skill_testing", "type": "resolves" },
-    { "source": "risk_no_test", "target": "proj_nobizform", "type": "resolves" },
-    { "source": "risk_no_deploy", "target": "skill_cicd", "type": "resolves" },
-    { "source": "risk_no_deploy", "target": "skill_vercel", "type": "resolves" },
-    { "source": "risk_no_collab", "target": "skill_git_workflow", "type": "resolves" },
-    { "source": "risk_no_readme", "target": "proj_recorder", "type": "resolves" },
-    { "source": "risk_no_figma", "target": "skill_figma", "type": "resolves" },
-    { "source": "risk_no_metrics", "target": "skill_data_decision", "type": "resolves" },
-    { "source": "risk_shallow", "target": "skill_nextjs", "type": "resolves" },
-    { "source": "risk_no_blog", "target": "skill_blog", "type": "resolves" },
-
-    { "source": "phase_1", "target": "risk_no_test", "type": "solves" },
-    { "source": "phase_1", "target": "risk_no_collab", "type": "solves" },
-    { "source": "phase_1", "target": "risk_no_readme", "type": "solves" },
-    { "source": "phase_2", "target": "risk_no_deploy", "type": "solves" },
-    { "source": "phase_3", "target": "risk_no_figma", "type": "solves" },
-    { "source": "phase_4", "target": "risk_shallow", "type": "solves" },
-    { "source": "phase_5", "target": "risk_no_metrics", "type": "solves" },
-    { "source": "phase_6", "target": "risk_no_blog", "type": "solves" },
-
-    { "source": "phase_1", "target": "phase_2", "type": "sequence" },
-    { "source": "phase_2", "target": "phase_3", "type": "sequence" },
-    { "source": "phase_3", "target": "phase_4", "type": "sequence" },
-    { "source": "phase_4", "target": "phase_5", "type": "sequence" },
-    { "source": "phase_5", "target": "phase_6", "type": "sequence" },
-
-    { "source": "skill_figma", "target": "skill_storybook", "type": "leads_to" },
-    { "source": "skill_design_system", "target": "skill_storybook", "type": "leads_to" },
-    { "source": "skill_cicd", "target": "skill_vercel", "type": "leads_to" },
-    { "source": "skill_vercel", "target": "skill_sentry", "type": "leads_to" },
-    { "source": "skill_nextjs", "target": "skill_nextauth", "type": "leads_to" },
-    { "source": "skill_nextjs", "target": "skill_prisma", "type": "leads_to" },
-    { "source": "dev", "target": "skill_storybook", "type": "has_skill" },
-    { "source": "dev", "target": "skill_vercel", "type": "has_skill" },
-    { "source": "dev", "target": "skill_sentry", "type": "has_skill" },
-    { "source": "dev", "target": "skill_nextauth", "type": "has_skill" },
-    { "source": "dev", "target": "skill_prisma", "type": "has_skill" },
-    { "source": "core", "target": "skill_blog", "type": "has_skill" }
+    {
+      "source": "core",
+      "target": "design",
+      "type": "domain"
+    },
+    {
+      "source": "core",
+      "target": "dev",
+      "type": "domain"
+    },
+    {
+      "source": "core",
+      "target": "publishing",
+      "type": "domain"
+    },
+    {
+      "source": "core",
+      "target": "planning",
+      "type": "domain"
+    },
+    {
+      "source": "design",
+      "target": "skill_illustrator",
+      "type": "has_skill"
+    },
+    {
+      "source": "design",
+      "target": "skill_indesign",
+      "type": "has_skill"
+    },
+    {
+      "source": "design",
+      "target": "skill_photoshop",
+      "type": "has_skill"
+    },
+    {
+      "source": "design",
+      "target": "skill_brand_identity",
+      "type": "has_skill"
+    },
+    {
+      "source": "design",
+      "target": "skill_print",
+      "type": "has_skill"
+    },
+    {
+      "source": "design",
+      "target": "skill_figma",
+      "type": "has_skill"
+    },
+    {
+      "source": "design",
+      "target": "skill_design_system",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_react",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_nextjs",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_svelte",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_node",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_go",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_python",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_flutter",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_threejs",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_solidity",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_mongodb",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_postgresql",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_canvas",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_typescript",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_testing",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_cicd",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_git_workflow",
+      "type": "has_skill"
+    },
+    {
+      "source": "publishing",
+      "target": "skill_html_css",
+      "type": "has_skill"
+    },
+    {
+      "source": "publishing",
+      "target": "skill_tailwind",
+      "type": "has_skill"
+    },
+    {
+      "source": "publishing",
+      "target": "skill_animation",
+      "type": "has_skill"
+    },
+    {
+      "source": "publishing",
+      "target": "skill_responsive",
+      "type": "has_skill"
+    },
+    {
+      "source": "publishing",
+      "target": "skill_d3",
+      "type": "has_skill"
+    },
+    {
+      "source": "planning",
+      "target": "skill_service_planning",
+      "type": "has_skill"
+    },
+    {
+      "source": "planning",
+      "target": "skill_uxui",
+      "type": "has_skill"
+    },
+    {
+      "source": "planning",
+      "target": "skill_brand_guide",
+      "type": "has_skill"
+    },
+    {
+      "source": "planning",
+      "target": "skill_data_decision",
+      "type": "has_skill"
+    },
+    {
+      "source": "planning",
+      "target": "skill_prd",
+      "type": "has_skill"
+    },
+    {
+      "source": "skill_brand_identity",
+      "target": "proj_godmaek",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_illustrator",
+      "target": "proj_godmaek",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_print",
+      "target": "proj_godmaek",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_brand_identity",
+      "target": "proj_mintcake",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_indesign",
+      "target": "proj_bookcover",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_print",
+      "target": "proj_signage",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_nextjs",
+      "target": "proj_nobizform",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_python",
+      "target": "proj_nobizform",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_react",
+      "target": "proj_nobizform",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_svelte",
+      "target": "proj_newtown",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_threejs",
+      "target": "proj_newtown",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_typescript",
+      "target": "proj_newtown",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_react",
+      "target": "proj_bapsajugi",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_node",
+      "target": "proj_bapsajugi",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_mongodb",
+      "target": "proj_bapsajugi",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_go",
+      "target": "proj_recorder",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_flutter",
+      "target": "proj_recorder",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_postgresql",
+      "target": "proj_recorder",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_python",
+      "target": "proj_marketing",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_canvas",
+      "target": "proj_babo",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_canvas",
+      "target": "proj_vampire",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_solidity",
+      "target": "proj_deckila",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_node",
+      "target": "proj_junkdb",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_tailwind",
+      "target": "proj_vwvsupport",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_animation",
+      "target": "proj_vwvsupport",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_responsive",
+      "target": "proj_vwvsupport",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_react",
+      "target": "proj_step",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_d3",
+      "target": "proj_step",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_react",
+      "target": "proj_faketown",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_typescript",
+      "target": "proj_faketown",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_react",
+      "target": "proj_fakereddit",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_animation",
+      "target": "proj_fakereddit",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_html_css",
+      "target": "proj_idsaja",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_service_planning",
+      "target": "proj_mediknocks",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_uxui",
+      "target": "proj_mediknocks",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_service_planning",
+      "target": "proj_bizform",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_brand_guide",
+      "target": "proj_mintcake",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_uxui",
+      "target": "proj_mintcake",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_brand_guide",
+      "target": "proj_godmaek",
+      "type": "used_in"
+    },
+    {
+      "source": "skill_service_planning",
+      "target": "proj_p2e",
+      "type": "used_in"
+    },
+    {
+      "source": "proj_deckila",
+      "target": "planning",
+      "type": "cross_domain"
+    },
+    {
+      "source": "proj_deckila",
+      "target": "design",
+      "type": "cross_domain"
+    },
+    {
+      "source": "proj_deckila",
+      "target": "publishing",
+      "type": "cross_domain"
+    },
+    {
+      "source": "proj_mintcake",
+      "target": "planning",
+      "type": "cross_domain"
+    },
+    {
+      "source": "proj_nobizform",
+      "target": "publishing",
+      "type": "cross_domain"
+    },
+    {
+      "source": "skill_cicd",
+      "target": "future_docker",
+      "type": "leads_to"
+    },
+    {
+      "source": "future_docker",
+      "target": "future_aws",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_python",
+      "target": "future_ai_ml",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_node",
+      "target": "future_graphql",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_figma",
+      "target": "skill_design_system",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_animation",
+      "target": "future_motion_design",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_data_decision",
+      "target": "future_product_analytics",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_prd",
+      "target": "future_agile",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_testing",
+      "target": "skill_cicd",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_git_workflow",
+      "target": "skill_cicd",
+      "type": "leads_to"
+    },
+    {
+      "source": "risk_no_test",
+      "target": "skill_testing",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_test",
+      "target": "proj_nobizform",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_deploy",
+      "target": "skill_cicd",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_deploy",
+      "target": "skill_vercel",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_collab",
+      "target": "skill_git_workflow",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_readme",
+      "target": "proj_recorder",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_figma",
+      "target": "skill_figma",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_metrics",
+      "target": "skill_data_decision",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_shallow",
+      "target": "skill_nextjs",
+      "type": "resolves"
+    },
+    {
+      "source": "risk_no_blog",
+      "target": "skill_blog",
+      "type": "resolves"
+    },
+    {
+      "source": "phase_1",
+      "target": "risk_no_test",
+      "type": "solves"
+    },
+    {
+      "source": "phase_1",
+      "target": "risk_no_collab",
+      "type": "solves"
+    },
+    {
+      "source": "phase_1",
+      "target": "risk_no_readme",
+      "type": "solves"
+    },
+    {
+      "source": "phase_2",
+      "target": "risk_no_deploy",
+      "type": "solves"
+    },
+    {
+      "source": "phase_3",
+      "target": "risk_no_figma",
+      "type": "solves"
+    },
+    {
+      "source": "phase_4",
+      "target": "risk_shallow",
+      "type": "solves"
+    },
+    {
+      "source": "phase_5",
+      "target": "risk_no_metrics",
+      "type": "solves"
+    },
+    {
+      "source": "phase_6",
+      "target": "risk_no_blog",
+      "type": "solves"
+    },
+    {
+      "source": "phase_1",
+      "target": "phase_2",
+      "type": "sequence"
+    },
+    {
+      "source": "phase_2",
+      "target": "phase_3",
+      "type": "sequence"
+    },
+    {
+      "source": "phase_3",
+      "target": "phase_4",
+      "type": "sequence"
+    },
+    {
+      "source": "phase_4",
+      "target": "phase_5",
+      "type": "sequence"
+    },
+    {
+      "source": "phase_5",
+      "target": "phase_6",
+      "type": "sequence"
+    },
+    {
+      "source": "skill_figma",
+      "target": "skill_storybook",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_design_system",
+      "target": "skill_storybook",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_cicd",
+      "target": "skill_vercel",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_vercel",
+      "target": "skill_sentry",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_nextjs",
+      "target": "skill_nextauth",
+      "type": "leads_to"
+    },
+    {
+      "source": "skill_nextjs",
+      "target": "skill_prisma",
+      "type": "leads_to"
+    },
+    {
+      "source": "dev",
+      "target": "skill_storybook",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_vercel",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_sentry",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_nextauth",
+      "type": "has_skill"
+    },
+    {
+      "source": "dev",
+      "target": "skill_prisma",
+      "type": "has_skill"
+    },
+    {
+      "source": "core",
+      "target": "skill_blog",
+      "type": "has_skill"
+    }
   ]
 }

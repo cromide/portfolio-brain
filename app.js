@@ -161,8 +161,26 @@
     });
   svg.call(zoom);
 
+  // ===== Progress Model — 원이 "채워지고(progress)" "늘어난다(size)" =====
+  // progress: 0~100. 작업을 수행할수록 올라가고, 링이 차오르고 노드가 커진다.
+  function deriveProgress(d, state) {
+    if (typeof d.progress === 'number') return Math.max(0, Math.min(100, d.progress));
+    if (state === 'fired') return 100;     // 습득/완료된 뉴런
+    if (state === 'sparking') return 35;   // 학습 중 기본값
+    return 0;                              // blank(미습득) / risk(미해결)
+  }
+  // 진행률에 따라 반지름 성장: 0% → 0.6배, 100% → 1.05배
+  function displayRadius(base, progress) {
+    return base * (0.6 + 0.45 * progress / 100);
+  }
+
   // ===== Force Simulation =====
-  const nodes = data.nodes.map(d => ({ ...d, state: neuronState(d) }));
+  const nodes = data.nodes.map(d => {
+    const state = neuronState(d);
+    const progress = deriveProgress(d, state);
+    const baseSize = d.size;
+    return { ...d, state, progress, baseSize, size: displayRadius(baseSize, progress) };
+  });
   const edges = data.edges.map(d => ({ ...d }));
 
   const simulation = d3.forceSimulation(nodes)
@@ -374,19 +392,52 @@
     .attr('stroke', '#0a0a0f')
     .attr('stroke-width', 2);
 
-  // === Progress ring for sparking neurons ===
-  node.filter(d => d.state === 'sparking')
+  // === Progress ring — 실제로 "차오르는" 원 ===
+  // 진행률을 가진 뉴런(스킬/프로젝트/미래/리스크)에 progress 비율만큼 채워지는 호.
+  const hasProgress = d => ['skill', 'project', 'future', 'risk'].includes(d.type);
+  const ARC_R = d => d.size + 5;
+  const ARC_CIRC = d => 2 * Math.PI * ARC_R(d);
+
+  // 배경 트랙(옅은 전체 원) — 아직 안 찬 부분
+  node.filter(hasProgress)
     .append('circle')
-    .attr('r', d => d.size + 3)
+    .attr('class', 'progress-track')
+    .attr('r', ARC_R)
     .attr('fill', 'none')
-    .attr('stroke', '#f59e0b')
-    .attr('stroke-width', 2)
+    .attr('stroke', d => nodeColor(d))
+    .attr('stroke-width', 3)
+    .attr('stroke-opacity', 0.12);
+
+  // 채워지는 호 — 12시 방향부터 시계방향으로 progress%만큼. 로드 시 0→목표치 애니메이션.
+  node.filter(hasProgress)
+    .append('circle')
+    .attr('class', 'progress-arc')
+    .attr('r', ARC_R)
+    .attr('fill', 'none')
+    .attr('stroke', d => nodeColor(d))
+    .attr('stroke-width', 3)
+    .attr('stroke-linecap', 'round')
+    .attr('transform', 'rotate(-90)')        // 시작점을 위(12시)로
+    .style('filter', d => d.progress >= 100 ? 'url(#glow)' : 'none')
+    .attr('stroke-opacity', d => d.progress >= 100 ? 0.95 : 0.7)
+    .attr('stroke-dasharray', d => `0 ${ARC_CIRC(d)}`)   // 빈 상태에서 시작
+    .transition().duration(1100).delay((d, i) => 200 + i * 12)
     .attr('stroke-dasharray', d => {
-      const circ = 2 * Math.PI * (d.size + 3);
-      return `${circ * 0.3} ${circ * 0.7}`;
-    })
-    .attr('stroke-opacity', 0.4)
-    .style('animation', 'spin 6s linear infinite');
+      const c = ARC_CIRC(d), f = c * d.progress / 100;
+      return `${f} ${c - f}`;
+    });
+
+  // 진행률 % 텍스트 (학습 중 0<p<100 일 때만, 노드 위에)
+  node.filter(d => hasProgress(d) && d.progress > 0 && d.progress < 100)
+    .append('text')
+    .attr('class', 'progress-label')
+    .attr('text-anchor', 'middle')
+    .attr('dy', d => -d.size - 10)
+    .attr('fill', d => nodeColor(d))
+    .attr('font-size', '9px')
+    .attr('font-weight', '700')
+    .attr('opacity', 0.9)
+    .text(d => d.progress + '%');
 
   // === Labels ===
   node.append('text')
@@ -422,6 +473,8 @@
       .html(`
         <div class="tt-label">${d.label}</div>
         <div class="tt-type">${stateEmoji[d.state] || ''} ${stateLabel[d.state] || d.state} · ${groupLabel(d.group)}</div>
+        ${['skill','project','future','risk'].includes(d.type)
+          ? `<div class="tt-progress"><span class="tt-bar"><span class="tt-bar-fill" style="width:${d.progress}%;background:${nodeColor(d)}"></span></span><span class="tt-pct">${d.progress}%</span></div>` : ''}
         ${d.state === 'blank' ? '<div class="tt-blank">채워야 할 뉴런</div>' : ''}
         ${d.state === 'sparking' ? '<div class="tt-spark">현재 학습 중</div>' : ''}
       `);
@@ -512,6 +565,19 @@
     if (d.status) addMeta(meta, statusLabel(d.status));
     if (d.month) addMeta(meta, d.month);
     if (d.phase) addMeta(meta, `Phase ${d.phase}`);
+
+    // Progress bar (진행률을 가진 뉴런)
+    const oldProg = document.getElementById('panel-progress');
+    if (oldProg) oldProg.remove();
+    if (['skill','project','future','risk'].includes(d.type)) {
+      const pb = document.createElement('div');
+      pb.id = 'panel-progress';
+      pb.className = 'panel-progress';
+      pb.innerHTML = `
+        <div class="pp-row"><span class="pp-label">PROGRESS</span><span class="pp-pct" style="color:${nodeColor(d)}">${d.progress}%</span></div>
+        <div class="pp-track"><div class="pp-fill" style="width:${d.progress}%;background:${nodeColor(d)}"></div></div>`;
+      panel.insertBefore(pb, document.getElementById('panel-connections'));
+    }
 
     // Growth hint for blank neurons
     const growthHint = document.getElementById('panel-growth');
