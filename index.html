@@ -107,6 +107,37 @@
     </div>
   </div>
 
+  <!-- Remind Panel (top-right) -->
+  <div id="remind-panel" class="remind-collapsed">
+    <button id="remind-toggle">Remind Report</button>
+    <div id="remind-content">
+      <div id="remind-loading">Loading report...</div>
+      <div id="remind-body" style="display:none">
+        <div class="remind-section">
+          <h4>Knowledge Gaps</h4>
+          <div id="remind-gaps"></div>
+        </div>
+        <div class="remind-section">
+          <h4>Risk Progress</h4>
+          <div id="remind-risks"></div>
+        </div>
+        <div class="remind-section">
+          <h4>Focus</h4>
+          <div id="remind-focus"></div>
+        </div>
+        <div class="remind-section">
+          <h4>This Week</h4>
+          <div id="remind-recs"></div>
+        </div>
+        <div class="remind-links">
+          <a href="https://github.com/cromide/remind" target="_blank">Full Report</a>
+          <a href="https://github.com/cromide/prompt-history" target="_blank">Prompt History</a>
+          <a href="https://github.com/cromide/claude-log" target="_blank">Claude Log</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Claude Commands (bottom-center) -->
   <div id="claude-commands">
     <div class="cmd-title">Claude Commands</div>

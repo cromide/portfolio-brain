@@ -1,0 +1,361 @@
+{
+  "generated": "2026-06-29 14:52",
+  "total_prompts": 2173,
+  "activation": {
+    "top_neurons": [
+      {
+        "id": "skill_uxui",
+        "label": "UX/UI 설계",
+        "group": "planning",
+        "prompts": 201,
+        "days": 47
+      },
+      {
+        "id": "skill_node",
+        "label": "Node/Express",
+        "group": "dev",
+        "prompts": 175,
+        "days": 45
+      },
+      {
+        "id": "skill_nextauth",
+        "label": "NextAuth.js",
+        "group": "dev",
+        "prompts": 93,
+        "days": 30
+      },
+      {
+        "id": "future_ai_ml",
+        "label": "AI/ML 심화",
+        "group": "dev",
+        "prompts": 93,
+        "days": 37
+      },
+      {
+        "id": "skill_testing",
+        "label": "테스트 코드",
+        "group": "dev",
+        "prompts": 56,
+        "days": 22
+      },
+      {
+        "id": "skill_svelte",
+        "label": "Svelte",
+        "group": "dev",
+        "prompts": 41,
+        "days": 15
+      },
+      {
+        "id": "skill_canvas",
+        "label": "HTML5 Canvas",
+        "group": "dev",
+        "prompts": 36,
+        "days": 17
+      },
+      {
+        "id": "skill_brand_identity",
+        "label": "브랜드 아이덴티티",
+        "group": "design",
+        "prompts": 34,
+        "days": 14
+      },
+      {
+        "id": "skill_responsive",
+        "label": "반응형 디자인",
+        "group": "publishing",
+        "prompts": 32,
+        "days": 16
+      },
+      {
+        "id": "skill_git_workflow",
+        "label": "Git 협업",
+        "group": "dev",
+        "prompts": 29,
+        "days": 11
+      }
+    ],
+    "recent_7d": [
+      {
+        "id": "skill_git_workflow",
+        "label": "Git 협업",
+        "prompts": 16,
+        "status": "learning"
+      },
+      {
+        "id": "skill_d3",
+        "label": "D3.js / 데이터 시각화",
+        "prompts": 8,
+        "status": "acquired"
+      },
+      {
+        "id": "skill_nextauth",
+        "label": "NextAuth.js",
+        "prompts": 7,
+        "status": "learning"
+      },
+      {
+        "id": "future_ai_ml",
+        "label": "AI/ML 심화",
+        "prompts": 5,
+        "status": "future"
+      },
+      {
+        "id": "skill_node",
+        "label": "Node/Express",
+        "prompts": 3,
+        "status": "acquired"
+      },
+      {
+        "id": "skill_figma",
+        "label": "Figma",
+        "prompts": 3,
+        "status": "learning"
+      },
+      {
+        "id": "future_aws",
+        "label": "AWS/클라우드",
+        "prompts": 2,
+        "status": "future"
+      },
+      {
+        "id": "skill_uxui",
+        "label": "UX/UI 설계",
+        "prompts": 2,
+        "status": "acquired"
+      }
+    ]
+  },
+  "gaps": [
+    {
+      "id": "skill_storybook",
+      "label": "Storybook",
+      "group": "dev",
+      "prompts": 0,
+      "severity": "critical",
+      "career": "high",
+      "action": "start"
+    },
+    {
+      "id": "skill_prd",
+      "label": "표준 PRD",
+      "group": "planning",
+      "prompts": 0,
+      "severity": "critical",
+      "career": "",
+      "action": "start"
+    },
+    {
+      "id": "future_graphql",
+      "label": "GraphQL",
+      "group": "dev",
+      "prompts": 0,
+      "severity": "critical",
+      "career": "",
+      "action": "start"
+    },
+    {
+      "id": "future_motion_design",
+      "label": "모션 디자인",
+      "group": "design",
+      "prompts": 0,
+      "severity": "critical",
+      "career": "",
+      "action": "start"
+    },
+    {
+      "id": "future_product_analytics",
+      "label": "제품 분석/그로스",
+      "group": "planning",
+      "prompts": 0,
+      "severity": "critical",
+      "career": "",
+      "action": "start"
+    },
+    {
+      "id": "skill_sentry",
+      "label": "Sentry 모니터링",
+      "group": "dev",
+      "prompts": 0,
+      "severity": "critical",
+      "career": "",
+      "action": "start"
+    },
+    {
+      "id": "skill_blog",
+      "label": "기술 블로그",
+      "group": "core",
+      "prompts": 0,
+      "severity": "critical",
+      "career": "",
+      "action": "start"
+    },
+    {
+      "id": "skill_cicd",
+      "label": "CI/CD 배포",
+      "group": "dev",
+      "prompts": 2,
+      "severity": "warning",
+      "career": "high",
+      "action": "deepen"
+    },
+    {
+      "id": "future_aws",
+      "label": "AWS/클라우드",
+      "group": "dev",
+      "prompts": 4,
+      "severity": "warning",
+      "career": "",
+      "action": "deepen"
+    },
+    {
+      "id": "skill_vercel",
+      "label": "Vercel 배포",
+      "group": "dev",
+      "prompts": 2,
+      "severity": "warning",
+      "career": "",
+      "action": "deepen"
+    },
+    {
+      "id": "future_docker",
+      "label": "Docker/컨테이너",
+      "group": "dev",
+      "prompts": 1,
+      "severity": "warning",
+      "career": "",
+      "action": "deepen"
+    },
+    {
+      "id": "future_agile",
+      "label": "애자일/스크럼",
+      "group": "planning",
+      "prompts": 1,
+      "severity": "warning",
+      "career": "",
+      "action": "deepen"
+    },
+    {
+      "id": "skill_testing",
+      "label": "테스트 코드",
+      "group": "dev",
+      "prompts": 56,
+      "severity": "ok",
+      "career": "critical",
+      "action": "maintain"
+    },
+    {
+      "id": "skill_design_system",
+      "label": "디자인 시스템",
+      "group": "design",
+      "prompts": 19,
+      "severity": "ok",
+      "career": "critical",
+      "action": "maintain"
+    },
+    {
+      "id": "skill_figma",
+      "label": "Figma",
+      "group": "design",
+      "prompts": 16,
+      "severity": "ok",
+      "career": "critical",
+      "action": "maintain"
+    },
+    {
+      "id": "skill_nextauth",
+      "label": "NextAuth.js",
+      "group": "dev",
+      "prompts": 93,
+      "severity": "ok",
+      "career": "medium",
+      "action": "maintain"
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk_no_test",
+      "label": "테스트 코드 0개",
+      "progress": 100,
+      "resolved": true
+    },
+    {
+      "id": "risk_no_deploy",
+      "label": "배포 경험 0개",
+      "progress": 26,
+      "resolved": false
+    },
+    {
+      "id": "risk_no_collab",
+      "label": "팀 협업 이력 없음",
+      "progress": 100,
+      "resolved": true
+    },
+    {
+      "id": "risk_no_readme",
+      "label": "README 부실",
+      "progress": 100,
+      "resolved": true
+    },
+    {
+      "id": "risk_no_figma",
+      "label": "Figma 작업물 없음",
+      "progress": 80,
+      "resolved": false
+    },
+    {
+      "id": "risk_no_metrics",
+      "label": "성과 지표 없음",
+      "progress": 100,
+      "resolved": true
+    },
+    {
+      "id": "risk_shallow",
+      "label": "넓지만 얕은 스택",
+      "progress": 100,
+      "resolved": true
+    },
+    {
+      "id": "risk_no_blog",
+      "label": "기술 블로그 없음",
+      "progress": 0,
+      "resolved": false
+    }
+  ],
+  "focus": {
+    "recent_groups": {
+      "dev": 37,
+      "publishing": 10,
+      "planning": 4,
+      "design": 6
+    },
+    "dominant": [
+      "dev",
+      37
+    ],
+    "spread": 2,
+    "is_scattered": false,
+    "recommendation": "집중도 좋습니다. dev에 집중하고 있습니다."
+  },
+  "recommendations": {
+    "must_do": [
+      {
+        "label": "Storybook",
+        "desc": "[학습 필요] 컴포넌트 문서화, 시각적 테스트, Chromatic 배포"
+      },
+      {
+        "label": "표준 PRD",
+        "desc": "[학습 필요] Product Requirements Document 표준 작성법, JIRA/Linear 연동"
+      },
+      {
+        "label": "GraphQL",
+        "desc": "[확장 방향] GraphQL API 설계, Apollo, 스키마 퍼스트"
+      }
+    ],
+    "suggested_prompts": [
+      "Storybook의 기초를 알려줘",
+      "표준 PRD의 기초를 알려줘",
+      "GraphQL의 기초를 알려줘",
+      "모션 디자인의 기초를 알려줘"
+    ]
+  }
+}

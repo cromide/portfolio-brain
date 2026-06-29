@@ -491,3 +491,119 @@ html, body {
   border-color: var(--color-phase);
   background: rgba(34, 211, 238, 0.06);
 }
+
+/* ===== Remind Panel ===== */
+#remind-panel {
+  position: fixed; top: 96px; right: 16px;
+  width: 300px;
+  z-index: 91;
+}
+
+#remind-panel.remind-collapsed #remind-content { max-height: 0; opacity: 0; overflow: hidden; }
+#remind-panel #remind-content { max-height: 70vh; opacity: 1; overflow-y: auto; transition: all 0.3s ease; }
+
+#remind-toggle {
+  width: 100%;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(11, 11, 18, 0.92);
+  backdrop-filter: blur(12px);
+  color: var(--color-phase);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  letter-spacing: 0.5px;
+  transition: all 0.2s;
+}
+#remind-toggle:hover { border-color: var(--color-phase); }
+
+#remind-loading, #remind-body {
+  margin-top: 6px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(11, 11, 18, 0.92);
+  backdrop-filter: blur(12px);
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.remind-section { margin-bottom: 12px; }
+.remind-section h4 {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.remind-gap-item {
+  display: flex; align-items: center; gap: 6px;
+  padding: 3px 0;
+  font-size: 11px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.remind-gap-item:hover { color: var(--text); }
+.remind-gap-label { flex: 1; }
+.remind-gap-count { color: var(--text-dim); font-size: 10px; min-width: 20px; text-align: right; }
+.remind-gap-action {
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+}
+
+.remind-risk-item {
+  display: flex; align-items: center; gap: 6px;
+  padding: 2px 0;
+  font-size: 10px;
+}
+.remind-risk-label { flex: 1; font-size: 10px; }
+.remind-risk-bar { font-family: monospace; font-size: 9px; letter-spacing: -1px; color: var(--color-phase); }
+.remind-risk-pct { font-size: 10px; min-width: 28px; text-align: right; font-weight: 600; }
+
+.remind-focus-text { font-size: 11px; line-height: 1.5; color: var(--text-dim); }
+
+.remind-rec-item {
+  padding: 3px 8px;
+  margin-bottom: 3px;
+  border-radius: 4px;
+  background: rgba(34, 211, 238, 0.06);
+  border: 1px solid rgba(34, 211, 238, 0.15);
+  font-size: 11px;
+  color: var(--color-phase);
+}
+
+.remind-prompts {
+  display: flex; flex-wrap: wrap; gap: 4px;
+  margin-top: 6px;
+}
+.remind-prompts code {
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: monospace;
+}
+
+.remind-links {
+  display: flex; gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  margin-top: 10px;
+}
+.remind-links a {
+  font-size: 10px;
+  color: var(--color-dev);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.remind-links a:hover { color: var(--text); }

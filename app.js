@@ -858,6 +858,78 @@
     });
   }).catch(() => {});
 
+  // ===== Remind Panel =====
+  const remindPanel = document.getElementById('remind-panel');
+  const remindToggle = document.getElementById('remind-toggle');
+
+  remindToggle.addEventListener('click', () => {
+    remindPanel.classList.toggle('remind-collapsed');
+  });
+
+  fetch('./data/remind-report.json').then(r => r.json()).then(report => {
+    document.getElementById('remind-loading').style.display = 'none';
+    document.getElementById('remind-body').style.display = 'block';
+
+    // Gaps
+    const gapsEl = document.getElementById('remind-gaps');
+    report.gaps.slice(0, 8).forEach(g => {
+      const div = document.createElement('div');
+      div.className = 'remind-gap-item';
+      const icon = g.severity === 'critical' ? '🔴' : g.severity === 'warning' ? '🟡' : '🟢';
+      const actionMap = { start: 'Start', deepen: 'Deepen', apply: 'Apply', maintain: 'OK' };
+      div.innerHTML = `<span>${icon}</span><span class="remind-gap-label">${g.label}</span><span class="remind-gap-count">${g.prompts}</span><span class="remind-gap-action">${actionMap[g.action] || g.action}</span>`;
+      div.style.cursor = 'pointer';
+      div.addEventListener('click', () => {
+        const n = nodes.find(nd => nd.id === g.id);
+        if (n) { showPanel(n); zoomToNode(n); }
+      });
+      gapsEl.appendChild(div);
+    });
+
+    // Risks
+    const risksEl = document.getElementById('remind-risks');
+    report.risks.forEach(r => {
+      const div = document.createElement('div');
+      div.className = 'remind-risk-item';
+      const barLen = Math.round(r.progress / 10);
+      const bar = '█'.repeat(barLen) + '░'.repeat(10 - barLen);
+      div.innerHTML = `<span class="remind-risk-label">${r.label}</span><span class="remind-risk-bar">${bar}</span><span class="remind-risk-pct">${r.resolved ? '✓' : r.progress + '%'}</span>`;
+      risksEl.appendChild(div);
+    });
+
+    // Focus
+    const focusEl = document.getElementById('remind-focus');
+    if (report.focus) {
+      focusEl.innerHTML = `<p class="remind-focus-text">${report.focus.recommendation}</p>`;
+    }
+
+    // Recommendations
+    const recsEl = document.getElementById('remind-recs');
+    if (report.recommendations.must_do.length) {
+      report.recommendations.must_do.forEach(r => {
+        const div = document.createElement('div');
+        div.className = 'remind-rec-item';
+        div.textContent = r.label;
+        recsEl.appendChild(div);
+      });
+    }
+    if (report.recommendations.suggested_prompts.length) {
+      const promptsDiv = document.createElement('div');
+      promptsDiv.className = 'remind-prompts';
+      report.recommendations.suggested_prompts.forEach(p => {
+        const code = document.createElement('code');
+        code.textContent = p;
+        promptsDiv.appendChild(code);
+      });
+      recsEl.appendChild(promptsDiv);
+    }
+
+    // Update toggle with timestamp
+    remindToggle.textContent = `Remind (${report.generated})`;
+  }).catch(() => {
+    document.getElementById('remind-loading').textContent = 'Report not available';
+  });
+
   // ===== Initial zoom =====
   setTimeout(() => {
     svg.transition().duration(1200)
