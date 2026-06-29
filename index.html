@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Brain — 유동화</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="header-left">
+      <h1 class="logo">Portfolio Brain</h1>
+      <span class="subtitle">유동화 — Neural Knowledge Map</span>
+    </div>
+    <div class="header-right">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search" placeholder="Search neurons..." autocomplete="off">
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter Bar -->
+  <nav id="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <div class="filter-sep"></div>
+    <button class="filter-btn" data-filter="design"><span class="dot design"></span>Design</button>
+    <button class="filter-btn" data-filter="dev"><span class="dot dev"></span>Dev</button>
+    <button class="filter-btn" data-filter="publishing"><span class="dot publishing"></span>Publishing</button>
+    <button class="filter-btn" data-filter="planning"><span class="dot planning"></span>Planning</button>
+    <div class="filter-sep"></div>
+    <button class="filter-btn" data-filter="fired"><span class="dot fired"></span>Active</button>
+    <button class="filter-btn" data-filter="sparking"><span class="dot sparking"></span>Learning</button>
+    <button class="filter-btn" data-filter="blank"><span class="dot blank"></span>Blank</button>
+    <div class="filter-sep"></div>
+    <button class="filter-btn" data-filter="risk"><span class="dot risk"></span>Risk</button>
+    <button class="filter-btn" data-filter="phase"><span class="dot phase"></span>Roadmap</button>
+  </nav>
+
+  <!-- Legend -->
+  <div id="legend">
+    <div class="legend-title">NEURON STATE</div>
+    <div class="legend-item"><span class="legend-neuron fired"></span>Active</div>
+    <div class="legend-item"><span class="legend-neuron sparking"></span>Learning</div>
+    <div class="legend-item"><span class="legend-neuron blank-n"></span>Blank</div>
+    <div class="legend-item"><span class="legend-neuron risk-n"></span>Risk</div>
+    <div class="legend-item"><span class="legend-neuron phase-n"></span>Roadmap</div>
+    <div class="legend-sep"></div>
+    <div class="legend-title">SYNAPSE</div>
+    <div class="legend-item"><span class="legend-line solid"></span>Domain</div>
+    <div class="legend-item"><span class="legend-line dashed"></span>Skill Use</div>
+    <div class="legend-item"><span class="legend-line path"></span>Growth Path</div>
+    <div class="legend-item"><span class="legend-line sequence-l"></span>Roadmap</div>
+  </div>
+
+  <!-- Graph Canvas -->
+  <div id="graph-container">
+    <svg id="graph"></svg>
+  </div>
+
+  <!-- Detail Panel -->
+  <aside id="detail-panel" class="hidden">
+    <button id="panel-close">&times;</button>
+    <div id="panel-badge"></div>
+    <h2 id="panel-title"></h2>
+    <p id="panel-description"></p>
+    <div id="panel-meta"></div>
+    <div id="panel-connections">
+      <h3>Connected Neurons</h3>
+      <ul id="panel-links"></ul>
+    </div>
+  </aside>
+
+  <!-- Career Panel (top-left) -->
+  <div id="career-panel" class="career-collapsed">
+    <button id="career-toggle">Career Path</button>
+    <div id="career-content">
+      <div class="career-card active" data-path="path_A">
+        <div class="career-header">
+          <span class="career-badge">RECOMMENDED</span>
+          <span class="career-score">85%</span>
+        </div>
+        <h3>Frontend Dev (Design-to-Code)</h3>
+        <p>디자인 출신 프론트엔드 — Figma에서 코드까지</p>
+        <div class="career-skills" id="career-skills-A"></div>
+      </div>
+      <div class="career-card" data-path="path_B">
+        <div class="career-header">
+          <span class="career-badge secondary">ALTERNATIVE</span>
+          <span class="career-score">80%</span>
+        </div>
+        <h3>Product Designer (Technical)</h3>
+        <p>코딩 가능한 프로덕트 디자이너</p>
+        <div class="career-skills" id="career-skills-B"></div>
+      </div>
+      <div class="career-card" data-path="path_C">
+        <div class="career-header">
+          <span class="career-badge tertiary">BACKUP</span>
+          <span class="career-score">65%</span>
+        </div>
+        <h3>Full-Stack Dev (Junior)</h3>
+        <p>풀스택 제너럴리스트 — 테스트/배포 보강 필수</p>
+        <div class="career-skills" id="career-skills-C"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Claude Commands (bottom-center) -->
+  <div id="claude-commands">
+    <div class="cmd-title">Claude Commands</div>
+    <div class="cmd-list">
+      <code>/brain log</code>
+      <code>/brain status</code>
+      <code>/brain activate</code>
+      <code>/brain plan</code>
+      <code>/brain career</code>
+    </div>
+  </div>
+
+  <!-- Minimap -->
+  <div id="minimap">
+    <canvas id="minimap-canvas" width="180" height="130"></canvas>
+  </div>
+
+  <!-- Stats -->
+  <div id="stats"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

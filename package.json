@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-visual",
+  "version": "1.0.0",
+  "description": "Neuron-style portfolio graph visualization",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  }
+}
