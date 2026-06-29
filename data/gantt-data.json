@@ -1,0 +1,819 @@
+{
+  "generated": "2026-06-29 16:29",
+  "dateRange": {
+    "start": "2026-02-09",
+    "end": "2026-06-29"
+  },
+  "totalProjects": 26,
+  "totalPrompts": 2190,
+  "projects": [
+    {
+      "name": "newtown Race",
+      "group": "dev",
+      "startDate": "2026-02-09",
+      "endDate": "2026-04-29",
+      "activeDays": 38,
+      "totalPrompts": 1286,
+      "activity": [
+        {
+          "date": "2026-02-09",
+          "count": 69
+        },
+        {
+          "date": "2026-02-10",
+          "count": 37
+        },
+        {
+          "date": "2026-02-11",
+          "count": 65
+        },
+        {
+          "date": "2026-02-12",
+          "count": 39
+        },
+        {
+          "date": "2026-02-13",
+          "count": 28
+        },
+        {
+          "date": "2026-02-16",
+          "count": 27
+        },
+        {
+          "date": "2026-02-17",
+          "count": 39
+        },
+        {
+          "date": "2026-02-19",
+          "count": 46
+        },
+        {
+          "date": "2026-02-20",
+          "count": 82
+        },
+        {
+          "date": "2026-02-23",
+          "count": 52
+        },
+        {
+          "date": "2026-02-24",
+          "count": 81
+        },
+        {
+          "date": "2026-02-25",
+          "count": 31
+        },
+        {
+          "date": "2026-03-03",
+          "count": 39
+        },
+        {
+          "date": "2026-03-04",
+          "count": 60
+        },
+        {
+          "date": "2026-03-05",
+          "count": 70
+        },
+        {
+          "date": "2026-03-06",
+          "count": 11
+        },
+        {
+          "date": "2026-03-09",
+          "count": 106
+        },
+        {
+          "date": "2026-03-10",
+          "count": 101
+        },
+        {
+          "date": "2026-03-11",
+          "count": 80
+        },
+        {
+          "date": "2026-03-12",
+          "count": 44
+        },
+        {
+          "date": "2026-03-13",
+          "count": 32
+        },
+        {
+          "date": "2026-03-16",
+          "count": 53
+        },
+        {
+          "date": "2026-03-17",
+          "count": 3
+        },
+        {
+          "date": "2026-03-18",
+          "count": 34
+        },
+        {
+          "date": "2026-03-19",
+          "count": 3
+        },
+        {
+          "date": "2026-03-22",
+          "count": 1
+        },
+        {
+          "date": "2026-03-23",
+          "count": 28
+        },
+        {
+          "date": "2026-04-08",
+          "count": 2
+        },
+        {
+          "date": "2026-04-13",
+          "count": 2
+        },
+        {
+          "date": "2026-04-14",
+          "count": 3
+        },
+        {
+          "date": "2026-04-15",
+          "count": 3
+        },
+        {
+          "date": "2026-04-16",
+          "count": 1
+        },
+        {
+          "date": "2026-04-20",
+          "count": 4
+        },
+        {
+          "date": "2026-04-21",
+          "count": 6
+        },
+        {
+          "date": "2026-04-23",
+          "count": 1
+        },
+        {
+          "date": "2026-04-27",
+          "count": 1
+        },
+        {
+          "date": "2026-04-28",
+          "count": 1
+        },
+        {
+          "date": "2026-04-29",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "town-go-backend",
+      "group": "dev",
+      "startDate": "2026-02-09",
+      "endDate": "2026-02-17",
+      "activeDays": 3,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2026-02-09",
+          "count": 1
+        },
+        {
+          "date": "2026-02-13",
+          "count": 3
+        },
+        {
+          "date": "2026-02-17",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "oauth_login",
+      "group": "dev",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-13",
+      "activeDays": 1,
+      "totalPrompts": 1,
+      "activity": [
+        {
+          "date": "2026-02-13",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Town-BlockChain",
+      "group": "dev",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-17",
+      "activeDays": 3,
+      "totalPrompts": 7,
+      "activity": [
+        {
+          "date": "2026-02-13",
+          "count": 1
+        },
+        {
+          "date": "2026-02-16",
+          "count": 2
+        },
+        {
+          "date": "2026-02-17",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "idex_nft",
+      "group": "dev",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-13",
+      "activeDays": 1,
+      "totalPrompts": 1,
+      "activity": [
+        {
+          "date": "2026-02-13",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "workspace2",
+      "group": "core",
+      "startDate": "2026-02-25",
+      "endDate": "2026-02-25",
+      "activeDays": 1,
+      "totalPrompts": 12,
+      "activity": [
+        {
+          "date": "2026-02-25",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "workspace",
+      "group": "core",
+      "startDate": "2026-03-03",
+      "endDate": "2026-03-22",
+      "activeDays": 2,
+      "totalPrompts": 5,
+      "activity": [
+        {
+          "date": "2026-03-03",
+          "count": 3
+        },
+        {
+          "date": "2026-03-22",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "test_UI",
+      "group": "publishing",
+      "startDate": "2026-03-03",
+      "endDate": "2026-03-03",
+      "activeDays": 1,
+      "totalPrompts": 5,
+      "activity": [
+        {
+          "date": "2026-03-03",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "bizform",
+      "group": "dev",
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-23",
+      "activeDays": 2,
+      "totalPrompts": 5,
+      "activity": [
+        {
+          "date": "2026-03-13",
+          "count": 3
+        },
+        {
+          "date": "2026-03-23",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "bizform_demo",
+      "group": "dev",
+      "startDate": "2026-03-17",
+      "endDate": "2026-03-17",
+      "activeDays": 1,
+      "totalPrompts": 2,
+      "activity": [
+        {
+          "date": "2026-03-17",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Nobizform",
+      "group": "dev",
+      "startDate": "2026-03-24",
+      "endDate": "2026-05-27",
+      "activeDays": 21,
+      "totalPrompts": 297,
+      "activity": [
+        {
+          "date": "2026-03-24",
+          "count": 41
+        },
+        {
+          "date": "2026-03-25",
+          "count": 19
+        },
+        {
+          "date": "2026-03-26",
+          "count": 5
+        },
+        {
+          "date": "2026-03-27",
+          "count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "count": 27
+        },
+        {
+          "date": "2026-03-31",
+          "count": 13
+        },
+        {
+          "date": "2026-04-01",
+          "count": 37
+        },
+        {
+          "date": "2026-04-02",
+          "count": 15
+        },
+        {
+          "date": "2026-04-03",
+          "count": 18
+        },
+        {
+          "date": "2026-04-06",
+          "count": 26
+        },
+        {
+          "date": "2026-04-07",
+          "count": 2
+        },
+        {
+          "date": "2026-04-08",
+          "count": 1
+        },
+        {
+          "date": "2026-04-09",
+          "count": 1
+        },
+        {
+          "date": "2026-04-10",
+          "count": 1
+        },
+        {
+          "date": "2026-05-13",
+          "count": 2
+        },
+        {
+          "date": "2026-05-18",
+          "count": 57
+        },
+        {
+          "date": "2026-05-19",
+          "count": 6
+        },
+        {
+          "date": "2026-05-20",
+          "count": 7
+        },
+        {
+          "date": "2026-05-21",
+          "count": 1
+        },
+        {
+          "date": "2026-05-26",
+          "count": 7
+        },
+        {
+          "date": "2026-05-27",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "name": "Sample_game",
+      "group": "dev",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-14",
+      "activeDays": 5,
+      "totalPrompts": 33,
+      "activity": [
+        {
+          "date": "2026-04-07",
+          "count": 16
+        },
+        {
+          "date": "2026-04-08",
+          "count": 6
+        },
+        {
+          "date": "2026-04-09",
+          "count": 4
+        },
+        {
+          "date": "2026-04-10",
+          "count": 4
+        },
+        {
+          "date": "2026-04-14",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "town",
+      "group": "core",
+      "startDate": "2026-04-07",
+      "endDate": "2026-06-29",
+      "activeDays": 8,
+      "totalPrompts": 111,
+      "activity": [
+        {
+          "date": "2026-04-07",
+          "count": 1
+        },
+        {
+          "date": "2026-06-08",
+          "count": 10
+        },
+        {
+          "date": "2026-06-09",
+          "count": 4
+        },
+        {
+          "date": "2026-06-11",
+          "count": 5
+        },
+        {
+          "date": "2026-06-16",
+          "count": 45
+        },
+        {
+          "date": "2026-06-17",
+          "count": 3
+        },
+        {
+          "date": "2026-06-23",
+          "count": 1
+        },
+        {
+          "date": "2026-06-29",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "name": "cat-mario",
+      "group": "dev",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-07",
+      "activeDays": 1,
+      "totalPrompts": 2,
+      "activity": [
+        {
+          "date": "2026-04-07",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "bangtalchul",
+      "group": "dev",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-08",
+      "activeDays": 2,
+      "totalPrompts": 4,
+      "activity": [
+        {
+          "date": "2026-04-07",
+          "count": 3
+        },
+        {
+          "date": "2026-04-08",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "vampire",
+      "group": "dev",
+      "startDate": "2026-04-07",
+      "endDate": "2026-05-15",
+      "activeDays": 5,
+      "totalPrompts": 15,
+      "activity": [
+        {
+          "date": "2026-04-07",
+          "count": 2
+        },
+        {
+          "date": "2026-05-01",
+          "count": 4
+        },
+        {
+          "date": "2026-05-11",
+          "count": 1
+        },
+        {
+          "date": "2026-05-14",
+          "count": 7
+        },
+        {
+          "date": "2026-05-15",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Downloads",
+      "group": "core",
+      "startDate": "2026-04-20",
+      "endDate": "2026-06-16",
+      "activeDays": 2,
+      "totalPrompts": 4,
+      "activity": [
+        {
+          "date": "2026-04-20",
+          "count": 3
+        },
+        {
+          "date": "2026-06-16",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Sample_game2",
+      "group": "dev",
+      "startDate": "2026-04-20",
+      "endDate": "2026-04-20",
+      "activeDays": 1,
+      "totalPrompts": 1,
+      "activity": [
+        {
+          "date": "2026-04-20",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Recorder_flutter",
+      "group": "dev",
+      "startDate": "2026-04-20",
+      "endDate": "2026-04-20",
+      "activeDays": 1,
+      "totalPrompts": 3,
+      "activity": [
+        {
+          "date": "2026-04-20",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "marketing_tool",
+      "group": "dev",
+      "startDate": "2026-04-20",
+      "endDate": "2026-05-15",
+      "activeDays": 10,
+      "totalPrompts": 61,
+      "activity": [
+        {
+          "date": "2026-04-20",
+          "count": 2
+        },
+        {
+          "date": "2026-04-23",
+          "count": 17
+        },
+        {
+          "date": "2026-04-27",
+          "count": 2
+        },
+        {
+          "date": "2026-04-29",
+          "count": 19
+        },
+        {
+          "date": "2026-05-01",
+          "count": 4
+        },
+        {
+          "date": "2026-05-11",
+          "count": 8
+        },
+        {
+          "date": "2026-05-12",
+          "count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "count": 1
+        },
+        {
+          "date": "2026-05-14",
+          "count": 1
+        },
+        {
+          "date": "2026-05-15",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "email",
+      "group": "dev",
+      "startDate": "2026-05-21",
+      "endDate": "2026-06-29",
+      "activeDays": 18,
+      "totalPrompts": 215,
+      "activity": [
+        {
+          "date": "2026-05-21",
+          "count": 20
+        },
+        {
+          "date": "2026-05-26",
+          "count": 25
+        },
+        {
+          "date": "2026-05-27",
+          "count": 1
+        },
+        {
+          "date": "2026-05-28",
+          "count": 65
+        },
+        {
+          "date": "2026-05-29",
+          "count": 24
+        },
+        {
+          "date": "2026-05-30",
+          "count": 2
+        },
+        {
+          "date": "2026-06-01",
+          "count": 7
+        },
+        {
+          "date": "2026-06-02",
+          "count": 1
+        },
+        {
+          "date": "2026-06-04",
+          "count": 2
+        },
+        {
+          "date": "2026-06-05",
+          "count": 5
+        },
+        {
+          "date": "2026-06-08",
+          "count": 14
+        },
+        {
+          "date": "2026-06-09",
+          "count": 6
+        },
+        {
+          "date": "2026-06-10",
+          "count": 4
+        },
+        {
+          "date": "2026-06-11",
+          "count": 11
+        },
+        {
+          "date": "2026-06-23",
+          "count": 10
+        },
+        {
+          "date": "2026-06-25",
+          "count": 5
+        },
+        {
+          "date": "2026-06-26",
+          "count": 10
+        },
+        {
+          "date": "2026-06-29",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "워크스페이스_20260529",
+      "group": "dev",
+      "startDate": "2026-05-29",
+      "endDate": "2026-05-29",
+      "activeDays": 1,
+      "totalPrompts": 2,
+      "activity": [
+        {
+          "date": "2026-05-29",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "bapsajugi",
+      "group": "dev",
+      "startDate": "2026-06-09",
+      "endDate": "2026-06-18",
+      "activeDays": 5,
+      "totalPrompts": 34,
+      "activity": [
+        {
+          "date": "2026-06-09",
+          "count": 4
+        },
+        {
+          "date": "2026-06-10",
+          "count": 12
+        },
+        {
+          "date": "2026-06-11",
+          "count": 2
+        },
+        {
+          "date": "2026-06-15",
+          "count": 15
+        },
+        {
+          "date": "2026-06-18",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "junkdb",
+      "group": "dev",
+      "startDate": "2026-06-22",
+      "endDate": "2026-06-22",
+      "activeDays": 1,
+      "totalPrompts": 25,
+      "activity": [
+        {
+          "date": "2026-06-22",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "name": "timeline",
+      "group": "dev",
+      "startDate": "2026-06-24",
+      "endDate": "2026-06-25",
+      "activeDays": 2,
+      "totalPrompts": 30,
+      "activity": [
+        {
+          "date": "2026-06-24",
+          "count": 19
+        },
+        {
+          "date": "2026-06-25",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "name": "portfolio_visual",
+      "group": "core",
+      "startDate": "2026-06-29",
+      "endDate": "2026-06-29",
+      "activeDays": 1,
+      "totalPrompts": 23,
+      "activity": [
+        {
+          "date": "2026-06-29",
+          "count": 23
+        }
+      ]
+    }
+  ]
+}
