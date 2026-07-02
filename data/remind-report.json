@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-29 15:01",
-  "total_prompts": 2176,
+  "generated": "2026-07-02 11:43",
+  "total_prompts": 2216,
   "activation": {
     "top_neurons": [
       {
@@ -11,24 +11,24 @@
         "prompts": 201,
         "depth": 512,
         "days": 47,
-        "retention": 1.0
+        "retention": 0.97
       },
       {
         "id": "skill_node",
         "label": "Node/Express",
         "group": "dev",
-        "prompts": 175,
-        "depth": 384,
+        "prompts": 180,
+        "depth": 394,
         "days": 45,
-        "retention": 1.0
+        "retention": 0.97
       },
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 94,
-        "depth": 251,
-        "days": 37,
+        "prompts": 95,
+        "depth": 253,
+        "days": 38,
         "retention": 1.0
       },
       {
@@ -38,7 +38,7 @@
         "prompts": 93,
         "depth": 169,
         "days": 30,
-        "retention": 1.0
+        "retention": 0.95
       },
       {
         "id": "skill_testing",
@@ -47,7 +47,7 @@
         "prompts": 56,
         "depth": 92,
         "days": 22,
-        "retention": 0.25
+        "retention": 0.23
       },
       {
         "id": "skill_svelte",
@@ -56,16 +56,25 @@
         "prompts": 41,
         "depth": 129,
         "days": 15,
-        "retention": 0.5
+        "retention": 0.45
       },
       {
         "id": "skill_canvas",
         "label": "HTML5 Canvas",
         "group": "dev",
-        "prompts": 36,
-        "depth": 109,
-        "days": 17,
-        "retention": 0.68
+        "prompts": 38,
+        "depth": 113,
+        "days": 18,
+        "retention": 0.95
+      },
+      {
+        "id": "skill_git_workflow",
+        "label": "Git 협업",
+        "group": "dev",
+        "prompts": 34,
+        "depth": 82,
+        "days": 12,
+        "retention": 1.0
       },
       {
         "id": "skill_brand_identity",
@@ -74,7 +83,7 @@
         "prompts": 34,
         "depth": 74,
         "days": 14,
-        "retention": 0.9
+        "retention": 0.81
       },
       {
         "id": "skill_responsive",
@@ -83,74 +92,65 @@
         "prompts": 32,
         "depth": 72,
         "days": 16,
-        "retention": 0.38
-      },
-      {
-        "id": "skill_git_workflow",
-        "label": "Git 협업",
-        "group": "dev",
-        "prompts": 29,
-        "depth": 71,
-        "days": 11,
-        "retention": 1.0
+        "retention": 0.35
       }
     ],
     "recent_7d": [
       {
         "id": "skill_git_workflow",
         "label": "Git 협업",
-        "prompts": 16,
-        "momentum": "accelerating",
+        "prompts": 21,
+        "momentum": "new",
         "status": "learning"
       },
       {
-        "id": "skill_d3",
-        "label": "D3.js / 데이터 시각화",
-        "prompts": 8,
+        "id": "future_ai_ml",
+        "label": "AI/ML 심화",
+        "prompts": 7,
+        "momentum": "new",
+        "status": "future"
+      },
+      {
+        "id": "skill_node",
+        "label": "Node/Express",
+        "prompts": 7,
         "momentum": "accelerating",
         "status": "acquired"
       },
       {
         "id": "skill_nextauth",
         "label": "NextAuth.js",
-        "prompts": 7,
+        "prompts": 5,
         "momentum": "accelerating",
         "status": "learning"
       },
       {
-        "id": "future_ai_ml",
-        "label": "AI/ML 심화",
-        "prompts": 6,
-        "momentum": "accelerating",
-        "status": "future"
+        "id": "proj_newtown",
+        "label": "newtown Race",
+        "prompts": 5,
+        "momentum": "new",
+        "status": "completed"
       },
       {
-        "id": "skill_node",
-        "label": "Node/Express",
-        "prompts": 3,
-        "momentum": "accelerating",
+        "id": "skill_d3",
+        "label": "D3.js / 데이터 시각화",
+        "prompts": 4,
+        "momentum": "decelerating",
         "status": "acquired"
       },
       {
         "id": "skill_figma",
         "label": "Figma",
-        "prompts": 3,
+        "prompts": 4,
         "momentum": "new",
         "status": "learning"
       },
       {
-        "id": "future_aws",
-        "label": "AWS/클라우드",
-        "prompts": 2,
-        "momentum": "accelerating",
-        "status": "future"
-      },
-      {
-        "id": "skill_uxui",
-        "label": "UX/UI 설계",
-        "prompts": 2,
+        "id": "skill_prisma",
+        "label": "Prisma ORM",
+        "prompts": 3,
         "momentum": "new",
-        "status": "acquired"
+        "status": "learning"
       }
     ]
   },
@@ -251,7 +251,7 @@
       "depth": 8,
       "severity": "warning",
       "career": "",
-      "eta": "2026-10-05",
+      "eta": "2026-10-08",
       "action": "deepen"
     },
     {
@@ -313,11 +313,11 @@
       "id": "skill_figma",
       "label": "Figma",
       "group": "design",
-      "prompts": 16,
-      "depth": 45,
+      "prompts": 17,
+      "depth": 47,
       "severity": "ok",
       "career": "critical",
-      "eta": "stalled",
+      "eta": "2026-07-03",
       "action": "maintain"
     },
     {
@@ -360,7 +360,7 @@
     {
       "id": "risk_no_figma",
       "label": "Figma 작업물 없음",
-      "progress": 80,
+      "progress": 85,
       "resolved": false
     },
     {
@@ -384,124 +384,124 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 38,
-      "publishing": 10,
-      "planning": 4,
-      "design": 6
+      "dev": 54,
+      "design": 7,
+      "publishing": 6,
+      "planning": 4
     },
     "dominant": [
       "dev",
-      38
+      54
     ],
-    "spread": 2,
+    "spread": 1,
     "is_scattered": false,
     "recommendation": "집중도 좋음. dev에 집중 중."
   },
   "momentum": {
     "skill_git_workflow": {
-      "this_week": 16,
-      "last_week": 1,
-      "momentum": "accelerating",
-      "change": 15
-    },
-    "skill_d3": {
-      "this_week": 8,
-      "last_week": 1,
-      "momentum": "accelerating",
-      "change": 7
-    },
-    "skill_threejs": {
-      "this_week": 0,
-      "last_week": 5,
-      "momentum": "stalled",
-      "change": -5
-    },
-    "skill_nextauth": {
-      "this_week": 7,
-      "last_week": 3,
-      "momentum": "accelerating",
-      "change": 4
-    },
-    "skill_canvas": {
-      "this_week": 0,
-      "last_week": 3,
-      "momentum": "stalled",
-      "change": -3
+      "this_week": 21,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 21
     },
     "future_ai_ml": {
-      "this_week": 6,
-      "last_week": 3,
+      "this_week": 7,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 7
+    },
+    "skill_node": {
+      "this_week": 7,
+      "last_week": 1,
       "momentum": "accelerating",
-      "change": 3
+      "change": 6
+    },
+    "proj_newtown": {
+      "this_week": 5,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 5
     },
     "skill_figma": {
+      "this_week": 4,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 4
+    },
+    "skill_service_planning": {
       "this_week": 3,
       "last_week": 0,
       "momentum": "new",
       "change": 3
     },
-    "skill_illustrator": {
-      "this_week": 2,
+    "skill_prisma": {
+      "this_week": 3,
       "last_week": 0,
       "momentum": "new",
-      "change": 2
+      "change": 3
+    },
+    "skill_nextauth": {
+      "this_week": 5,
+      "last_week": 2,
+      "momentum": "accelerating",
+      "change": 3
     }
   },
   "decay_alerts": [
     {
       "id": "skill_testing",
       "label": "테스트 코드",
-      "days_since": 61,
-      "retention": 0.25,
+      "days_since": 64,
+      "retention": 0.23,
       "status": "fading"
     },
     {
       "id": "skill_svelte",
       "label": "Svelte",
-      "days_since": 21,
-      "retention": 0.5,
+      "days_since": 24,
+      "retention": 0.45,
       "status": "weakening"
     },
     {
       "id": "skill_design_system",
       "label": "디자인 시스템",
-      "days_since": 42,
-      "retention": 0.2,
+      "days_since": 45,
+      "retention": 0.18,
       "status": "fading"
+    },
+    {
+      "id": "skill_solidity",
+      "label": "Solidity",
+      "days_since": 8,
+      "retention": 0.51,
+      "status": "weakening"
     },
     {
       "id": "skill_go",
       "label": "Go",
-      "days_since": 70,
-      "retention": 0.01,
-      "status": "fading"
-    },
-    {
-      "id": "proj_newtown",
-      "label": "newtown Race",
-      "days_since": 109,
+      "days_since": 73,
       "retention": 0.01,
       "status": "fading"
     },
     {
       "id": "skill_typescript",
       "label": "TypeScript",
-      "days_since": 13,
-      "retention": 0.58,
+      "days_since": 16,
+      "retention": 0.51,
       "status": "weakening"
     },
     {
       "id": "skill_html_css",
       "label": "HTML5/CSS3",
-      "days_since": 13,
-      "retention": 0.44,
+      "days_since": 16,
+      "retention": 0.37,
       "status": "weakening"
     },
     {
       "id": "skill_threejs",
       "label": "Three.js",
-      "days_since": 13,
-      "retention": 0.4,
+      "days_since": 16,
+      "retention": 0.32,
       "status": "weakening"
     }
   ],
@@ -527,9 +527,9 @@
   ],
   "time_patterns": {
     "peak_hour": 14,
-    "peak_hour_count": 338,
+    "peak_hour_count": 339,
     "peak_day": "Mon",
-    "peak_day_count": 602,
+    "peak_day_count": 624,
     "deepest_hour": 20,
     "deepest_hour_avg_depth": 2.38,
     "distribution": {
@@ -544,14 +544,14 @@
     {
       "path_id": "path_A",
       "title": "프론트엔드 개발자 (디자인 출신)",
-      "readiness": 71,
+      "readiness": 72,
       "skills": [
         {
           "id": "skill_figma",
           "label": "Figma",
           "priority": "critical",
-          "depth_score": 45,
-          "readiness_pct": 90
+          "depth_score": 47,
+          "readiness_pct": 94
         },
         {
           "id": "skill_design_system",
@@ -593,14 +593,14 @@
     {
       "path_id": "path_B",
       "title": "프로덕트 디자이너 (코딩 가능)",
-      "readiness": 71,
+      "readiness": 72,
       "skills": [
         {
           "id": "skill_figma",
           "label": "Figma",
           "priority": "critical",
-          "depth_score": 45,
-          "readiness_pct": 90
+          "depth_score": 47,
+          "readiness_pct": 94
         },
         {
           "id": "skill_uxui",
@@ -642,7 +642,7 @@
     {
       "path_id": "path_C",
       "title": "풀스택 개발자 (주니어)",
-      "readiness": 64,
+      "readiness": 65,
       "skills": [
         {
           "id": "skill_testing",
@@ -662,7 +662,7 @@
           "id": "skill_git_workflow",
           "label": "Git 협업",
           "priority": "critical",
-          "depth_score": 71,
+          "depth_score": 82,
           "readiness_pct": 100
         },
         {
@@ -676,8 +676,8 @@
           "id": "skill_prisma",
           "label": "Prisma ORM",
           "priority": "high",
-          "depth_score": 27,
-          "readiness_pct": 54
+          "depth_score": 31,
+          "readiness_pct": 62
         },
         {
           "id": "future_docker",

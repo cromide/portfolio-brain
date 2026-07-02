@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-29 16:35",
+  "generated": "2026-07-02 11:43",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-06-29"
+    "end": "2026-07-02"
   },
-  "totalProjects": 43,
-  "totalPrompts": 2368,
+  "totalProjects": 44,
+  "totalPrompts": 2393,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -914,9 +914,9 @@
       "name": "town",
       "group": "core",
       "startDate": "2026-04-07",
-      "endDate": "2026-06-29",
-      "activeDays": 8,
-      "totalPrompts": 111,
+      "endDate": "2026-07-02",
+      "activeDays": 11,
+      "totalPrompts": 135,
       "activity": [
         {
           "date": "2026-04-07",
@@ -948,7 +948,19 @@
         },
         {
           "date": "2026-06-29",
-          "count": 42
+          "count": 49
+        },
+        {
+          "date": "2026-06-30",
+          "count": 7
+        },
+        {
+          "date": "2026-07-01",
+          "count": 4
+        },
+        {
+          "date": "2026-07-02",
+          "count": 6
         }
       ],
       "source": "claude"
@@ -1292,6 +1304,21 @@
         {
           "date": "2026-06-29",
           "count": 24
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "Website-downloader-master",
+      "group": "dev",
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-02",
+      "activeDays": 1,
+      "totalPrompts": 1,
+      "activity": [
+        {
+          "date": "2026-07-02",
+          "count": 1
         }
       ],
       "source": "claude"
