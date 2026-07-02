@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-02 11:43",
-  "total_prompts": 2216,
+  "generated": "2026-07-02 17:04",
+  "total_prompts": 2243,
   "activation": {
     "top_neurons": [
       {
@@ -17,17 +17,17 @@
         "id": "skill_node",
         "label": "Node/Express",
         "group": "dev",
-        "prompts": 180,
-        "depth": 394,
-        "days": 45,
-        "retention": 0.97
+        "prompts": 182,
+        "depth": 401,
+        "days": 46,
+        "retention": 1.0
       },
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 95,
-        "depth": 253,
+        "prompts": 99,
+        "depth": 260,
         "days": 38,
         "retention": 1.0
       },
@@ -62,10 +62,19 @@
         "id": "skill_canvas",
         "label": "HTML5 Canvas",
         "group": "dev",
-        "prompts": 38,
-        "depth": 113,
-        "days": 18,
-        "retention": 0.95
+        "prompts": 41,
+        "depth": 121,
+        "days": 19,
+        "retention": 1.0
+      },
+      {
+        "id": "skill_brand_identity",
+        "label": "브랜드 아이덴티티",
+        "group": "design",
+        "prompts": 35,
+        "depth": 76,
+        "days": 15,
+        "retention": 1.0
       },
       {
         "id": "skill_git_workflow",
@@ -75,15 +84,6 @@
         "depth": 82,
         "days": 12,
         "retention": 1.0
-      },
-      {
-        "id": "skill_brand_identity",
-        "label": "브랜드 아이덴티티",
-        "group": "design",
-        "prompts": 34,
-        "depth": 74,
-        "days": 14,
-        "retention": 0.81
       },
       {
         "id": "skill_responsive",
@@ -106,15 +106,22 @@
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
-        "prompts": 7,
+        "prompts": 11,
         "momentum": "new",
         "status": "future"
       },
       {
         "id": "skill_node",
         "label": "Node/Express",
-        "prompts": 7,
+        "prompts": 9,
         "momentum": "accelerating",
+        "status": "acquired"
+      },
+      {
+        "id": "skill_d3",
+        "label": "D3.js / 데이터 시각화",
+        "prompts": 5,
+        "momentum": "steady",
         "status": "acquired"
       },
       {
@@ -132,23 +139,16 @@
         "status": "completed"
       },
       {
-        "id": "skill_d3",
-        "label": "D3.js / 데이터 시각화",
-        "prompts": 4,
-        "momentum": "decelerating",
+        "id": "skill_canvas",
+        "label": "HTML5 Canvas",
+        "prompts": 5,
+        "momentum": "new",
         "status": "acquired"
       },
       {
         "id": "skill_figma",
         "label": "Figma",
         "prompts": 4,
-        "momentum": "new",
-        "status": "learning"
-      },
-      {
-        "id": "skill_prisma",
-        "label": "Prisma ORM",
-        "prompts": 3,
         "momentum": "new",
         "status": "learning"
       }
@@ -384,14 +384,14 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 54,
-      "design": 7,
-      "publishing": 6,
+      "dev": 63,
+      "design": 8,
+      "publishing": 7,
       "planning": 4
     },
     "dominant": [
       "dev",
-      54
+      63
     ],
     "spread": 1,
     "is_scattered": false,
@@ -405,16 +405,22 @@
       "change": 21
     },
     "future_ai_ml": {
-      "this_week": 7,
+      "this_week": 11,
       "last_week": 0,
       "momentum": "new",
-      "change": 7
+      "change": 11
     },
     "skill_node": {
-      "this_week": 7,
+      "this_week": 9,
       "last_week": 1,
       "momentum": "accelerating",
-      "change": 6
+      "change": 8
+    },
+    "skill_canvas": {
+      "this_week": 5,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 5
     },
     "proj_newtown": {
       "this_week": 5,
@@ -429,12 +435,6 @@
       "change": 4
     },
     "skill_service_planning": {
-      "this_week": 3,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 3
-    },
-    "skill_prisma": {
       "this_week": 3,
       "last_week": 0,
       "momentum": "new",
@@ -527,7 +527,7 @@
   ],
   "time_patterns": {
     "peak_hour": 14,
-    "peak_hour_count": 339,
+    "peak_hour_count": 344,
     "peak_day": "Mon",
     "peak_day_count": 624,
     "deepest_hour": 20,
