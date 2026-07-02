@@ -628,3 +628,11 @@ html, body {
 
 /* 노드 위 진행률 % 라벨 */
 .progress-label { paint-order: stroke; stroke:#0a0a0f; stroke-width:3px; stroke-linejoin:round; }
+
+/* ===== Nav link to Network→Server page ===== */
+.nav-link {
+  font-size: 12px; font-weight: 600; color: var(--text-dim);
+  text-decoration: none; padding: 6px 12px; margin-right: 12px;
+  border: 1px solid var(--border); border-radius: 8px; transition: all 0.2s;
+}
+.nav-link:hover { color: var(--text); border-color: var(--color-dev); background: rgba(96,165,250,0.08); }
