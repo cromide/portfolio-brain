@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-02 17:04",
-  "total_prompts": 2243,
+  "generated": "2026-07-02 20:29",
+  "total_prompts": 2252,
   "activation": {
     "top_neurons": [
       {
@@ -68,21 +68,21 @@
         "retention": 1.0
       },
       {
+        "id": "skill_git_workflow",
+        "label": "Git 협업",
+        "group": "dev",
+        "prompts": 35,
+        "depth": 83,
+        "days": 12,
+        "retention": 1.0
+      },
+      {
         "id": "skill_brand_identity",
         "label": "브랜드 아이덴티티",
         "group": "design",
         "prompts": 35,
         "depth": 76,
         "days": 15,
-        "retention": 1.0
-      },
-      {
-        "id": "skill_git_workflow",
-        "label": "Git 협업",
-        "group": "dev",
-        "prompts": 34,
-        "depth": 82,
-        "days": 12,
         "retention": 1.0
       },
       {
@@ -99,7 +99,7 @@
       {
         "id": "skill_git_workflow",
         "label": "Git 협업",
-        "prompts": 21,
+        "prompts": 22,
         "momentum": "new",
         "status": "learning"
       },
@@ -384,14 +384,14 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 63,
       "design": 8,
+      "dev": 64,
       "publishing": 7,
       "planning": 4
     },
     "dominant": [
       "dev",
-      63
+      64
     ],
     "spread": 1,
     "is_scattered": false,
@@ -399,10 +399,10 @@
   },
   "momentum": {
     "skill_git_workflow": {
-      "this_week": 21,
+      "this_week": 22,
       "last_week": 0,
       "momentum": "new",
-      "change": 21
+      "change": 22
     },
     "future_ai_ml": {
       "this_week": 11,
@@ -434,7 +434,7 @@
       "momentum": "new",
       "change": 4
     },
-    "skill_service_planning": {
+    "skill_prisma": {
       "this_week": 3,
       "last_week": 0,
       "momentum": "new",
@@ -662,7 +662,7 @@
           "id": "skill_git_workflow",
           "label": "Git 협업",
           "priority": "critical",
-          "depth_score": 82,
+          "depth_score": 83,
           "readiness_pct": 100
         },
         {
