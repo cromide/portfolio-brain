@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-05 08:24",
-  "total_prompts": 2252,
+  "generated": "2026-07-05 20:17",
+  "total_prompts": 2264,
   "activation": {
     "top_neurons": [
       {
@@ -35,10 +35,10 @@
         "id": "skill_nextauth",
         "label": "NextAuth.js",
         "group": "dev",
-        "prompts": 93,
-        "depth": 169,
-        "days": 30,
-        "retention": 0.9
+        "prompts": 94,
+        "depth": 170,
+        "days": 31,
+        "retention": 1.0
       },
       {
         "id": "skill_testing",
@@ -50,6 +50,15 @@
         "retention": 0.22
       },
       {
+        "id": "skill_canvas",
+        "label": "HTML5 Canvas",
+        "group": "dev",
+        "prompts": 44,
+        "depth": 126,
+        "days": 20,
+        "retention": 1.0
+      },
+      {
         "id": "skill_svelte",
         "label": "Svelte",
         "group": "dev",
@@ -57,15 +66,6 @@
         "depth": 129,
         "days": 15,
         "retention": 0.41
-      },
-      {
-        "id": "skill_canvas",
-        "label": "HTML5 Canvas",
-        "group": "dev",
-        "prompts": 41,
-        "depth": 121,
-        "days": 19,
-        "retention": 0.92
       },
       {
         "id": "skill_git_workflow",
@@ -118,9 +118,16 @@
         "status": "future"
       },
       {
+        "id": "skill_canvas",
+        "label": "HTML5 Canvas",
+        "prompts": 8,
+        "momentum": "new",
+        "status": "acquired"
+      },
+      {
         "id": "skill_nextauth",
         "label": "NextAuth.js",
-        "prompts": 5,
+        "prompts": 6,
         "momentum": "accelerating",
         "status": "learning"
       },
@@ -130,13 +137,6 @@
         "prompts": 5,
         "momentum": "new",
         "status": "completed"
-      },
-      {
-        "id": "skill_canvas",
-        "label": "HTML5 Canvas",
-        "prompts": 5,
-        "momentum": "new",
-        "status": "acquired"
       },
       {
         "id": "skill_figma",
@@ -258,11 +258,11 @@
       "id": "future_docker",
       "label": "Docker/컨테이너",
       "group": "dev",
-      "prompts": 1,
-      "depth": 5,
+      "prompts": 2,
+      "depth": 7,
       "severity": "warning",
       "career": "",
-      "eta": "unknown",
+      "eta": "stalled",
       "action": "deepen"
     },
     {
@@ -324,8 +324,8 @@
       "id": "skill_nextauth",
       "label": "NextAuth.js",
       "group": "dev",
-      "prompts": 93,
-      "depth": 169,
+      "prompts": 94,
+      "depth": 170,
       "severity": "ok",
       "career": "medium",
       "eta": "ready",
@@ -384,14 +384,14 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 61,
+      "dev": 67,
       "publishing": 3,
       "planning": 4,
       "design": 5
     },
     "dominant": [
       "dev",
-      61
+      67
     ],
     "spread": 1,
     "is_scattered": false,
@@ -403,6 +403,12 @@
       "last_week": 0,
       "momentum": "new",
       "change": 22
+    },
+    "skill_canvas": {
+      "this_week": 8,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 8
     },
     "skill_node": {
       "this_week": 9,
@@ -416,17 +422,17 @@
       "momentum": "accelerating",
       "change": 7
     },
-    "skill_canvas": {
-      "this_week": 5,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 5
-    },
     "proj_newtown": {
       "this_week": 5,
       "last_week": 0,
       "momentum": "new",
       "change": 5
+    },
+    "skill_nextauth": {
+      "this_week": 6,
+      "last_week": 2,
+      "momentum": "accelerating",
+      "change": 4
     },
     "skill_figma": {
       "this_week": 4,
@@ -439,12 +445,6 @@
       "last_week": 7,
       "momentum": "decelerating",
       "change": -4
-    },
-    "skill_nextauth": {
-      "this_week": 5,
-      "last_week": 2,
-      "momentum": "accelerating",
-      "change": 3
     }
   },
   "decay_alerts": [
@@ -484,13 +484,6 @@
       "status": "fading"
     },
     {
-      "id": "skill_typescript",
-      "label": "TypeScript",
-      "days_since": 19,
-      "retention": 0.45,
-      "status": "weakening"
-    },
-    {
       "id": "skill_html_css",
       "label": "HTML5/CSS3",
       "days_since": 19,
@@ -503,6 +496,13 @@
       "days_since": 19,
       "retention": 0.26,
       "status": "fading"
+    },
+    {
+      "id": "skill_responsive",
+      "label": "반응형 디자인",
+      "days_since": 37,
+      "retention": 0.31,
+      "status": "weakening"
     }
   ],
   "dependency_violations": [
@@ -585,7 +585,7 @@
           "id": "skill_nextauth",
           "label": "NextAuth.js",
           "priority": "medium",
-          "depth_score": 169,
+          "depth_score": 170,
           "readiness_pct": 100
         }
       ]
@@ -669,7 +669,7 @@
           "id": "skill_nextauth",
           "label": "NextAuth.js",
           "priority": "high",
-          "depth_score": 169,
+          "depth_score": 170,
           "readiness_pct": 100
         },
         {
@@ -683,8 +683,8 @@
           "id": "future_docker",
           "label": "Docker/컨테이너",
           "priority": "high",
-          "depth_score": 5,
-          "readiness_pct": 10
+          "depth_score": 7,
+          "readiness_pct": 14
         }
       ]
     }
