@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-06 08:17",
+  "generated": "2026-07-07 08:17",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-07-05"
+    "end": "2026-07-06"
   },
   "totalProjects": 45,
-  "totalPrompts": 2441,
+  "totalPrompts": 2465,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -914,9 +914,9 @@
       "name": "town",
       "group": "core",
       "startDate": "2026-04-07",
-      "endDate": "2026-07-05",
-      "activeDays": 12,
-      "totalPrompts": 177,
+      "endDate": "2026-07-06",
+      "activeDays": 13,
+      "totalPrompts": 201,
       "activity": [
         {
           "date": "2026-04-07",
@@ -965,6 +965,10 @@
         {
           "date": "2026-07-05",
           "count": 12
+        },
+        {
+          "date": "2026-07-06",
+          "count": 24
         }
       ],
       "source": "claude"
