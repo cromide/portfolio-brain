@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-07-07 08:17",
+  "generated": "2026-07-07 20:17",
   "total_prompts": 2288,
   "activation": {
     "top_neurons": [
@@ -422,9 +422,9 @@
       "momentum": "new",
       "change": 5
     },
-    "skill_node": {
-      "this_week": 3,
-      "last_week": 8,
+    "skill_nextauth": {
+      "this_week": 1,
+      "last_week": 6,
       "momentum": "decelerating",
       "change": -5
     },
@@ -434,9 +434,9 @@
       "momentum": "stalled",
       "change": -5
     },
-    "skill_nextauth": {
-      "this_week": 1,
-      "last_week": 6,
+    "skill_node": {
+      "this_week": 3,
+      "last_week": 8,
       "momentum": "decelerating",
       "change": -5
     },
