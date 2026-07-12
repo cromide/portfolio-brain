@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-07-11 20:17",
+  "generated": "2026-07-12 20:22",
   "total_prompts": 2291,
   "activation": {
     "top_neurons": [
@@ -11,7 +11,7 @@
         "prompts": 201,
         "depth": 512,
         "days": 47,
-        "retention": 0.88
+        "retention": 0.87
       },
       {
         "id": "skill_node",
@@ -20,7 +20,7 @@
         "prompts": 183,
         "depth": 405,
         "days": 47,
-        "retention": 0.95
+        "retention": 0.94
       },
       {
         "id": "future_ai_ml",
@@ -29,7 +29,7 @@
         "prompts": 100,
         "depth": 264,
         "days": 39,
-        "retention": 0.94
+        "retention": 0.93
       },
       {
         "id": "skill_nextauth",
@@ -38,7 +38,7 @@
         "prompts": 94,
         "depth": 170,
         "days": 31,
-        "retention": 0.91
+        "retention": 0.89
       },
       {
         "id": "skill_testing",
@@ -47,7 +47,7 @@
         "prompts": 61,
         "depth": 105,
         "days": 23,
-        "retention": 0.9
+        "retention": 0.88
       },
       {
         "id": "skill_canvas",
@@ -56,7 +56,7 @@
         "prompts": 44,
         "depth": 126,
         "days": 20,
-        "retention": 0.86
+        "retention": 0.84
       },
       {
         "id": "skill_svelte",
@@ -65,7 +65,7 @@
         "prompts": 41,
         "depth": 129,
         "days": 15,
-        "retention": 0.33
+        "retention": 0.32
       },
       {
         "id": "skill_git_workflow",
@@ -74,7 +74,7 @@
         "prompts": 36,
         "depth": 87,
         "days": 13,
-        "retention": 0.83
+        "retention": 0.79
       },
       {
         "id": "skill_brand_identity",
@@ -83,7 +83,7 @@
         "prompts": 35,
         "depth": 76,
         "days": 15,
-        "retention": 0.74
+        "retention": 0.72
       },
       {
         "id": "skill_responsive",
@@ -92,7 +92,7 @@
         "prompts": 32,
         "depth": 72,
         "days": 16,
-        "retention": 0.26
+        "retention": 0.25
       }
     ],
     "recent_7d": [
@@ -146,10 +146,10 @@
         "status": "future"
       },
       {
-        "id": "skill_node",
-        "label": "Node/Express",
+        "id": "skill_html_css",
+        "label": "HTML5/CSS3",
         "prompts": 1,
-        "momentum": "decelerating",
+        "momentum": "new",
         "status": "acquired"
       }
     ]
@@ -251,7 +251,7 @@
       "depth": 8,
       "severity": "warning",
       "career": "",
-      "eta": "2026-10-17",
+      "eta": "2026-10-18",
       "action": "deepen"
     },
     {
@@ -317,7 +317,7 @@
       "depth": 47,
       "severity": "ok",
       "career": "critical",
-      "eta": "2026-07-12",
+      "eta": "2026-07-13",
       "action": "maintain"
     },
     {
@@ -450,57 +450,57 @@
     {
       "id": "skill_data_decision",
       "label": "데이터 기반 의사결정",
-      "days_since": 17,
-      "retention": 0.54,
+      "days_since": 18,
+      "retention": 0.53,
       "status": "weakening"
     },
     {
       "id": "skill_svelte",
       "label": "Svelte",
-      "days_since": 33,
-      "retention": 0.33,
+      "days_since": 34,
+      "retention": 0.32,
       "status": "weakening"
     },
     {
       "id": "skill_design_system",
       "label": "디자인 시스템",
-      "days_since": 54,
-      "retention": 0.13,
+      "days_since": 55,
+      "retention": 0.12,
       "status": "fading"
     },
     {
       "id": "skill_solidity",
       "label": "Solidity",
-      "days_since": 17,
-      "retention": 0.24,
+      "days_since": 18,
+      "retention": 0.22,
       "status": "fading"
+    },
+    {
+      "id": "proj_newtown",
+      "label": "newtown Race",
+      "days_since": 13,
+      "retention": 0.58,
+      "status": "weakening"
     },
     {
       "id": "skill_threejs",
       "label": "Three.js",
-      "days_since": 25,
-      "retention": 0.17,
+      "days_since": 26,
+      "retention": 0.16,
       "status": "fading"
     },
     {
       "id": "skill_responsive",
       "label": "반응형 디자인",
-      "days_since": 43,
-      "retention": 0.26,
+      "days_since": 44,
+      "retention": 0.25,
       "status": "fading"
     },
     {
       "id": "future_docker",
       "label": "Docker/컨테이너",
-      "days_since": 6,
-      "retention": 0.22,
-      "status": "fading"
-    },
-    {
-      "id": "skill_nextjs",
-      "label": "Next.js",
-      "days_since": 107,
-      "retention": 0.0,
+      "days_since": 7,
+      "retention": 0.17,
       "status": "fading"
     }
   ],
