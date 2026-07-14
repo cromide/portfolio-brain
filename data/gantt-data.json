@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-14 08:17",
+  "generated": "2026-07-14 20:18",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-07-13"
+    "end": "2026-07-14"
   },
-  "totalProjects": 45,
-  "totalPrompts": 2471,
+  "totalProjects": 47,
+  "totalPrompts": 2474,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -1354,6 +1354,36 @@
         {
           "date": "2026-07-02",
           "count": 2
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "survive",
+      "group": "dev",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-14",
+      "activeDays": 1,
+      "totalPrompts": 2,
+      "activity": [
+        {
+          "date": "2026-07-14",
+          "count": 2
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "rate-limit-pty-cwd",
+      "group": "dev",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-14",
+      "activeDays": 1,
+      "totalPrompts": 1,
+      "activity": [
+        {
+          "date": "2026-07-14",
+          "count": 1
         }
       ],
       "source": "claude"
