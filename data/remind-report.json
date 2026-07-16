@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-07-16 08:19",
+  "generated": "2026-07-16 20:20",
   "total_prompts": 2297,
   "activation": {
     "top_neurons": [
@@ -111,17 +111,17 @@
         "status": "acquired"
       },
       {
-        "id": "skill_prisma",
-        "label": "Prisma ORM",
-        "prompts": 1,
-        "momentum": "decelerating",
-        "status": "learning"
-      },
-      {
         "id": "skill_data_decision",
         "label": "데이터 기반 의사결정",
         "prompts": 1,
         "momentum": "new",
+        "status": "learning"
+      },
+      {
+        "id": "skill_prisma",
+        "label": "Prisma ORM",
+        "prompts": 1,
+        "momentum": "decelerating",
         "status": "learning"
       },
       {
@@ -130,13 +130,6 @@
         "prompts": 1,
         "momentum": "steady",
         "status": "learning"
-      },
-      {
-        "id": "proj_nobizform",
-        "label": "Nobizform",
-        "prompts": 1,
-        "momentum": "new",
-        "status": "completed"
       },
       {
         "id": "skill_uxui",
@@ -151,6 +144,13 @@
         "prompts": 1,
         "momentum": "steady",
         "status": "acquired"
+      },
+      {
+        "id": "proj_nobizform",
+        "label": "Nobizform",
+        "prompts": 1,
+        "momentum": "new",
+        "status": "completed"
       }
     ]
   },
@@ -427,19 +427,19 @@
       "momentum": "stalled",
       "change": -3
     },
-    "skill_prisma": {
-      "this_week": 1,
-      "last_week": 3,
-      "momentum": "decelerating",
-      "change": -2
-    },
     "skill_service_planning": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
       "change": -2
     },
-    "skill_brand_identity": {
+    "skill_prisma": {
+      "this_week": 1,
+      "last_week": 3,
+      "momentum": "decelerating",
+      "change": -2
+    },
+    "skill_typescript": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
@@ -490,18 +490,18 @@
       "status": "fading"
     },
     {
-      "id": "future_docker",
-      "label": "Docker/컨테이너",
-      "days_since": 11,
-      "retention": 0.06,
-      "status": "fading"
-    },
-    {
       "id": "skill_figma",
       "label": "Figma",
       "days_since": 16,
       "retention": 0.48,
       "status": "weakening"
+    },
+    {
+      "id": "future_docker",
+      "label": "Docker/컨테이너",
+      "days_since": 11,
+      "retention": 0.06,
+      "status": "fading"
     }
   ],
   "dependency_violations": [
