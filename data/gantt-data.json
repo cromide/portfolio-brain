@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-20 08:17",
+  "generated": "2026-07-21 08:17",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-07-14"
+    "end": "2026-07-20"
   },
-  "totalProjects": 47,
-  "totalPrompts": 2474,
+  "totalProjects": 48,
+  "totalPrompts": 2479,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -1384,6 +1384,21 @@
         {
           "date": "2026-07-14",
           "count": 1
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "비즈폼AI_html_20260716",
+      "group": "dev",
+      "startDate": "2026-07-20",
+      "endDate": "2026-07-20",
+      "activeDays": 1,
+      "totalPrompts": 5,
+      "activity": [
+        {
+          "date": "2026-07-20",
+          "count": 5
         }
       ],
       "source": "claude"
