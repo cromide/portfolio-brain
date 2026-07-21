@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-21 08:17",
-  "total_prompts": 2302,
+  "generated": "2026-07-21 20:17",
+  "total_prompts": 2320,
   "activation": {
     "top_neurons": [
       {
@@ -26,10 +26,10 @@
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 104,
-        "depth": 271,
-        "days": 42,
-        "retention": 0.99
+        "prompts": 106,
+        "depth": 275,
+        "days": 43,
+        "retention": 1.0
       },
       {
         "id": "skill_nextauth",
@@ -99,21 +99,21 @@
       {
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
-        "prompts": 3,
+        "prompts": 5,
         "momentum": "new",
         "status": "acquired"
       },
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
-        "prompts": 3,
+        "prompts": 5,
         "momentum": "accelerating",
         "status": "future"
       },
       {
         "id": "proj_nobizform",
         "label": "Nobizform",
-        "prompts": 2,
+        "prompts": 3,
         "momentum": "new",
         "status": "completed"
       },
@@ -127,6 +127,13 @@
       {
         "id": "skill_illustrator",
         "label": "Illustrator",
+        "prompts": 1,
+        "momentum": "new",
+        "status": "acquired"
+      },
+      {
+        "id": "skill_react",
+        "label": "React",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
@@ -363,14 +370,14 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 5,
-      "publishing": 3,
+      "dev": 9,
+      "publishing": 5,
       "planning": 1,
       "design": 1
     },
     "dominant": [
       "dev",
-      5
+      9
     ],
     "spread": 2,
     "is_scattered": false,
@@ -378,28 +385,22 @@
   },
   "momentum": {
     "skill_html_css": {
+      "this_week": 5,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 5
+    },
+    "future_ai_ml": {
+      "this_week": 5,
+      "last_week": 1,
+      "momentum": "accelerating",
+      "change": 4
+    },
+    "proj_nobizform": {
       "this_week": 3,
       "last_week": 0,
       "momentum": "new",
       "change": 3
-    },
-    "proj_nobizform": {
-      "this_week": 2,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 2
-    },
-    "future_ai_ml": {
-      "this_week": 3,
-      "last_week": 1,
-      "momentum": "accelerating",
-      "change": 2
-    },
-    "skill_nextauth": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
     },
     "skill_illustrator": {
       "this_week": 1,
@@ -407,23 +408,29 @@
       "momentum": "new",
       "change": 1
     },
+    "skill_react": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_nextauth": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_prisma": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
     "skill_data_decision": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
       "change": -1
-    },
-    "skill_go": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
-    "skill_uxui": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
     }
   },
   "decay_alerts": [
@@ -506,7 +513,7 @@
   ],
   "time_patterns": {
     "peak_hour": 14,
-    "peak_hour_count": 347,
+    "peak_hour_count": 349,
     "peak_day": "Mon",
     "peak_day_count": 656,
     "deepest_hour": 20,

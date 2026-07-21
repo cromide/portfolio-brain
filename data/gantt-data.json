@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-21 08:17",
+  "generated": "2026-07-21 20:17",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-07-20"
+    "end": "2026-07-21"
   },
   "totalProjects": 48,
-  "totalPrompts": 2479,
+  "totalPrompts": 2497,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -914,9 +914,9 @@
       "name": "town",
       "group": "core",
       "startDate": "2026-04-07",
-      "endDate": "2026-07-13",
-      "activeDays": 15,
-      "totalPrompts": 207,
+      "endDate": "2026-07-21",
+      "activeDays": 16,
+      "totalPrompts": 212,
       "activity": [
         {
           "date": "2026-04-07",
@@ -977,6 +977,10 @@
         {
           "date": "2026-07-13",
           "count": 3
+        },
+        {
+          "date": "2026-07-21",
+          "count": 5
         }
       ],
       "source": "claude"
@@ -1050,9 +1054,9 @@
       "name": "Downloads",
       "group": "core",
       "startDate": "2026-04-20",
-      "endDate": "2026-06-16",
-      "activeDays": 2,
-      "totalPrompts": 4,
+      "endDate": "2026-07-21",
+      "activeDays": 3,
+      "totalPrompts": 12,
       "activity": [
         {
           "date": "2026-04-20",
@@ -1061,6 +1065,10 @@
         {
           "date": "2026-06-16",
           "count": 1
+        },
+        {
+          "date": "2026-07-21",
+          "count": 8
         }
       ],
       "source": "claude"
@@ -1392,12 +1400,16 @@
       "name": "비즈폼AI_html_20260716",
       "group": "dev",
       "startDate": "2026-07-20",
-      "endDate": "2026-07-20",
-      "activeDays": 1,
-      "totalPrompts": 5,
+      "endDate": "2026-07-21",
+      "activeDays": 2,
+      "totalPrompts": 10,
       "activity": [
         {
           "date": "2026-07-20",
+          "count": 5
+        },
+        {
+          "date": "2026-07-21",
           "count": 5
         }
       ],
