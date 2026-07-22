@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-22 08:20",
-  "total_prompts": 2320,
+  "generated": "2026-07-22 20:17",
+  "total_prompts": 2326,
   "activation": {
     "top_neurons": [
       {
@@ -17,19 +17,19 @@
         "id": "skill_node",
         "label": "Node/Express",
         "group": "dev",
-        "prompts": 183,
-        "depth": 405,
-        "days": 47,
-        "retention": 0.84
+        "prompts": 186,
+        "depth": 414,
+        "days": 48,
+        "retention": 1.0
       },
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 106,
-        "depth": 275,
-        "days": 43,
-        "retention": 0.99
+        "prompts": 108,
+        "depth": 281,
+        "days": 44,
+        "retention": 1.0
       },
       {
         "id": "skill_nextauth",
@@ -97,6 +97,13 @@
     ],
     "recent_7d": [
       {
+        "id": "future_ai_ml",
+        "label": "AI/ML 심화",
+        "prompts": 6,
+        "momentum": "accelerating",
+        "status": "future"
+      },
+      {
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
         "prompts": 4,
@@ -104,11 +111,18 @@
         "status": "acquired"
       },
       {
-        "id": "future_ai_ml",
-        "label": "AI/ML 심화",
-        "prompts": 4,
-        "momentum": "accelerating",
-        "status": "future"
+        "id": "skill_illustrator",
+        "label": "Illustrator",
+        "prompts": 3,
+        "momentum": "new",
+        "status": "acquired"
+      },
+      {
+        "id": "skill_node",
+        "label": "Node/Express",
+        "prompts": 3,
+        "momentum": "new",
+        "status": "acquired"
       },
       {
         "id": "proj_nobizform",
@@ -118,15 +132,15 @@
         "status": "completed"
       },
       {
-        "id": "skill_illustrator",
-        "label": "Illustrator",
+        "id": "skill_react",
+        "label": "React",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
       },
       {
-        "id": "skill_react",
-        "label": "React",
+        "id": "skill_d3",
+        "label": "D3.js / 데이터 시각화",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
@@ -363,60 +377,60 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 7,
-      "publishing": 4,
-      "design": 1
+      "dev": 12,
+      "publishing": 5,
+      "design": 3
     },
     "dominant": [
       "dev",
-      7
+      12
     ],
     "spread": 2,
     "is_scattered": false,
     "recommendation": "집중도 좋음. dev에 집중 중."
   },
   "momentum": {
+    "future_ai_ml": {
+      "this_week": 6,
+      "last_week": 2,
+      "momentum": "accelerating",
+      "change": 4
+    },
     "skill_html_css": {
       "this_week": 4,
       "last_week": 1,
       "momentum": "accelerating",
       "change": 3
     },
-    "future_ai_ml": {
-      "this_week": 4,
-      "last_week": 2,
-      "momentum": "accelerating",
-      "change": 2
-    },
-    "skill_go": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+    "skill_node": {
+      "this_week": 3,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 3
     },
     "skill_illustrator": {
+      "this_week": 3,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 3
+    },
+    "skill_d3": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_nextauth": {
-      "this_week": 0,
+    "proj_nobizform": {
+      "this_week": 2,
       "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+      "momentum": "accelerating",
+      "change": 1
     },
-    "skill_data_decision": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
-    "skill_prisma": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+    "skill_react": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
     },
     "skill_uxui": {
       "this_week": 0,

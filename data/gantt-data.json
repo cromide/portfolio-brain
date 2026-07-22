@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-22 08:20",
+  "generated": "2026-07-22 20:17",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-07-21"
+    "end": "2026-07-22"
   },
-  "totalProjects": 48,
-  "totalPrompts": 2497,
+  "totalProjects": 49,
+  "totalPrompts": 2503,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -1411,6 +1411,21 @@
         {
           "date": "2026-07-21",
           "count": 5
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "bizforms-ai-editor",
+      "group": "dev",
+      "startDate": "2026-07-22",
+      "endDate": "2026-07-22",
+      "activeDays": 1,
+      "totalPrompts": 6,
+      "activity": [
+        {
+          "date": "2026-07-22",
+          "count": 6
         }
       ],
       "source": "claude"
