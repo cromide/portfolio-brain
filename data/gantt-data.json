@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-23 08:17",
+  "generated": "2026-07-23 20:17",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-07-22"
+    "end": "2026-07-23"
   },
-  "totalProjects": 49,
-  "totalPrompts": 2503,
+  "totalProjects": 52,
+  "totalPrompts": 2543,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -731,9 +731,9 @@
       "name": "bizform",
       "group": "dev",
       "startDate": "2026-03-13",
-      "endDate": "2026-03-23",
-      "activeDays": 2,
-      "totalPrompts": 5,
+      "endDate": "2026-07-23",
+      "activeDays": 3,
+      "totalPrompts": 6,
       "activity": [
         {
           "date": "2026-03-13",
@@ -742,6 +742,10 @@
         {
           "date": "2026-03-23",
           "count": 2
+        },
+        {
+          "date": "2026-07-23",
+          "count": 1
         }
       ],
       "source": "claude"
@@ -1426,6 +1430,51 @@
         {
           "date": "2026-07-22",
           "count": 6
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "app_bizform_ai_yeop",
+      "group": "dev",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-23",
+      "activeDays": 1,
+      "totalPrompts": 22,
+      "activity": [
+        {
+          "date": "2026-07-23",
+          "count": 22
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "llm-front-nextjs",
+      "group": "dev",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-23",
+      "activeDays": 1,
+      "totalPrompts": 2,
+      "activity": [
+        {
+          "date": "2026-07-23",
+          "count": 2
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "implant",
+      "group": "dev",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-23",
+      "activeDays": 1,
+      "totalPrompts": 15,
+      "activity": [
+        {
+          "date": "2026-07-23",
+          "count": 15
         }
       ],
       "source": "claude"
