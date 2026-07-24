@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-24 08:17",
-  "total_prompts": 2366,
+  "generated": "2026-07-24 20:25",
+  "total_prompts": 2370,
   "activation": {
     "top_neurons": [
       {
@@ -26,10 +26,10 @@
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 114,
-        "depth": 297,
-        "days": 45,
-        "retention": 0.99
+        "prompts": 116,
+        "depth": 301,
+        "days": 46,
+        "retention": 1.0
       },
       {
         "id": "skill_nextauth",
@@ -99,22 +99,22 @@
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
-        "prompts": 12,
+        "prompts": 14,
         "momentum": "accelerating",
         "status": "future"
-      },
-      {
-        "id": "skill_html_css",
-        "label": "HTML5/CSS3",
-        "prompts": 5,
-        "momentum": "accelerating",
-        "status": "acquired"
       },
       {
         "id": "skill_illustrator",
         "label": "Illustrator",
         "prompts": 5,
         "momentum": "new",
+        "status": "acquired"
+      },
+      {
+        "id": "skill_html_css",
+        "label": "HTML5/CSS3",
+        "prompts": 5,
+        "momentum": "accelerating",
         "status": "acquired"
       },
       {
@@ -384,14 +384,14 @@
   ],
   "focus": {
     "recent_groups": {
-      "publishing": 7,
-      "dev": 25,
+      "dev": 27,
       "design": 5,
+      "publishing": 7,
       "planning": 6
     },
     "dominant": [
       "dev",
-      25
+      27
     ],
     "spread": 2,
     "is_scattered": false,
@@ -399,10 +399,10 @@
   },
   "momentum": {
     "future_ai_ml": {
-      "this_week": 12,
+      "this_week": 14,
       "last_week": 2,
       "momentum": "accelerating",
-      "change": 10
+      "change": 12
     },
     "skill_illustrator": {
       "this_week": 5,
@@ -422,25 +422,25 @@
       "momentum": "accelerating",
       "change": 4
     },
-    "skill_node": {
-      "this_week": 3,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 3
-    },
     "skill_git_workflow": {
       "this_week": 3,
       "last_week": 0,
       "momentum": "new",
       "change": 3
     },
-    "skill_solidity": {
+    "skill_node": {
+      "this_week": 3,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 3
+    },
+    "skill_d3": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
       "change": 2
     },
-    "skill_d3": {
+    "skill_solidity": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
