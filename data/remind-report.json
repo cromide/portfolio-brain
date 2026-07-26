@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-07-26 08:17",
+  "generated": "2026-07-26 20:17",
   "total_prompts": 2370,
   "activation": {
     "top_neurons": [
@@ -104,17 +104,17 @@
         "status": "future"
       },
       {
-        "id": "skill_illustrator",
-        "label": "Illustrator",
-        "prompts": 5,
-        "momentum": "new",
-        "status": "acquired"
-      },
-      {
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
         "prompts": 5,
         "momentum": "accelerating",
+        "status": "acquired"
+      },
+      {
+        "id": "skill_illustrator",
+        "label": "Illustrator",
+        "prompts": 5,
+        "momentum": "new",
         "status": "acquired"
       },
       {
@@ -384,9 +384,9 @@
   ],
   "focus": {
     "recent_groups": {
-      "design": 5,
       "publishing": 7,
       "dev": 27,
+      "design": 5,
       "planning": 6
     },
     "dominant": [
@@ -410,13 +410,13 @@
       "momentum": "new",
       "change": 5
     },
-    "skill_html_css": {
+    "skill_uxui": {
       "this_week": 5,
       "last_week": 1,
       "momentum": "accelerating",
       "change": 4
     },
-    "skill_uxui": {
+    "skill_html_css": {
       "this_week": 5,
       "last_week": 1,
       "momentum": "accelerating",
@@ -434,13 +434,13 @@
       "momentum": "new",
       "change": 3
     },
-    "skill_solidity": {
+    "skill_d3": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
       "change": 2
     },
-    "skill_d3": {
+    "skill_solidity": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
