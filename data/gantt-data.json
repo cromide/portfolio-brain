@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-27 08:17",
+  "generated": "2026-07-27 20:19",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-07-24"
+    "end": "2026-07-27"
   },
   "totalProjects": 52,
-  "totalPrompts": 2547,
+  "totalPrompts": 2553,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -1446,13 +1446,17 @@
       "name": "app_bizform_ai_yeop",
       "group": "dev",
       "startDate": "2026-07-23",
-      "endDate": "2026-07-23",
-      "activeDays": 1,
-      "totalPrompts": 22,
+      "endDate": "2026-07-27",
+      "activeDays": 2,
+      "totalPrompts": 24,
       "activity": [
         {
           "date": "2026-07-23",
           "count": 22
+        },
+        {
+          "date": "2026-07-27",
+          "count": 2
         }
       ],
       "source": "claude"
@@ -1461,13 +1465,17 @@
       "name": "llm-front-nextjs",
       "group": "dev",
       "startDate": "2026-07-23",
-      "endDate": "2026-07-23",
-      "activeDays": 1,
-      "totalPrompts": 2,
+      "endDate": "2026-07-27",
+      "activeDays": 2,
+      "totalPrompts": 6,
       "activity": [
         {
           "date": "2026-07-23",
           "count": 2
+        },
+        {
+          "date": "2026-07-27",
+          "count": 4
         }
       ],
       "source": "claude"
