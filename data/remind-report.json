@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-07-28 08:17",
+  "generated": "2026-07-28 20:17",
   "total_prompts": 2376,
   "activation": {
     "top_neurons": [
@@ -111,17 +111,17 @@
         "status": "acquired"
       },
       {
-        "id": "skill_node",
-        "label": "Node/Express",
-        "prompts": 4,
-        "momentum": "new",
-        "status": "acquired"
-      },
-      {
         "id": "skill_illustrator",
         "label": "Illustrator",
         "prompts": 4,
         "momentum": "accelerating",
+        "status": "acquired"
+      },
+      {
+        "id": "skill_node",
+        "label": "Node/Express",
+        "prompts": 4,
+        "momentum": "new",
         "status": "acquired"
       },
       {
@@ -139,15 +139,15 @@
         "status": "learning"
       },
       {
-        "id": "skill_nextauth",
-        "label": "NextAuth.js",
+        "id": "skill_git_workflow",
+        "label": "Git 협업",
         "prompts": 3,
         "momentum": "new",
         "status": "learning"
       },
       {
-        "id": "skill_git_workflow",
-        "label": "Git 협업",
+        "id": "skill_nextauth",
+        "label": "NextAuth.js",
         "prompts": 3,
         "momentum": "new",
         "status": "learning"
@@ -428,19 +428,19 @@
       "momentum": "new",
       "change": 3
     },
-    "skill_nextauth": {
-      "this_week": 3,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 3
-    },
     "skill_illustrator": {
       "this_week": 4,
       "last_week": 1,
       "momentum": "accelerating",
       "change": 3
     },
-    "skill_solidity": {
+    "skill_nextauth": {
+      "this_week": 3,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 3
+    },
+    "skill_d3": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
