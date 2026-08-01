@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-01 08:17",
+  "generated": "2026-08-01 20:17",
   "total_prompts": 2376,
   "activation": {
     "top_neurons": [
@@ -391,12 +391,6 @@
       "momentum": "stalled",
       "change": -3
     },
-    "skill_solidity": {
-      "this_week": 0,
-      "last_week": 2,
-      "momentum": "stalled",
-      "change": -2
-    },
     "skill_node": {
       "this_week": 1,
       "last_week": 3,
@@ -404,6 +398,12 @@
       "change": -2
     },
     "proj_nobizform": {
+      "this_week": 0,
+      "last_week": 2,
+      "momentum": "stalled",
+      "change": -2
+    },
+    "skill_d3": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
