@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-03 08:17",
+  "generated": "2026-08-03 20:18",
   "total_prompts": 2383,
   "activation": {
     "top_neurons": [
@@ -374,6 +374,12 @@
       "momentum": "stalled",
       "change": -14
     },
+    "skill_html_css": {
+      "this_week": 0,
+      "last_week": 5,
+      "momentum": "stalled",
+      "change": -5
+    },
     "skill_illustrator": {
       "this_week": 0,
       "last_week": 5,
@@ -381,12 +387,6 @@
       "change": -5
     },
     "skill_uxui": {
-      "this_week": 0,
-      "last_week": 5,
-      "momentum": "stalled",
-      "change": -5
-    },
-    "skill_html_css": {
       "this_week": 0,
       "last_week": 5,
       "momentum": "stalled",
