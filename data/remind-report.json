@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-05 08:17",
+  "generated": "2026-08-05 20:17",
   "total_prompts": 2385,
   "activation": {
     "top_neurons": [
@@ -370,7 +370,7 @@
       "momentum": "stalled",
       "change": -4
     },
-    "skill_git_workflow": {
+    "skill_nextauth": {
       "this_week": 0,
       "last_week": 3,
       "momentum": "stalled",
@@ -382,13 +382,13 @@
       "momentum": "stalled",
       "change": -3
     },
-    "skill_nextauth": {
+    "skill_git_workflow": {
       "this_week": 0,
       "last_week": 3,
       "momentum": "stalled",
       "change": -3
     },
-    "skill_solidity": {
+    "skill_d3": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
