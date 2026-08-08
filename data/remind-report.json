@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-08 08:19",
+  "generated": "2026-08-08 20:28",
   "total_prompts": 2562,
   "activation": {
     "top_neurons": [
@@ -146,11 +146,11 @@
         "status": "acquired"
       },
       {
-        "id": "skill_postgresql",
-        "label": "PostgreSQL",
+        "id": "skill_testing",
+        "label": "테스트 코드",
         "prompts": 1,
         "momentum": "new",
-        "status": "acquired"
+        "status": "learning"
       }
     ]
   },
@@ -428,23 +428,23 @@
       "momentum": "new",
       "change": 2
     },
-    "skill_canvas": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
-    "skill_design_system": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
     "skill_nextauth": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
       "change": -1
+    },
+    "skill_testing": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_postgresql": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
     }
   },
   "decay_alerts": [
@@ -491,17 +491,17 @@
       "status": "fading"
     },
     {
-      "id": "skill_figma",
-      "label": "Figma",
-      "days_since": 39,
-      "retention": 0.17,
-      "status": "fading"
-    },
-    {
       "id": "future_docker",
       "label": "Docker/컨테이너",
       "days_since": 34,
       "retention": 0.0,
+      "status": "fading"
+    },
+    {
+      "id": "skill_figma",
+      "label": "Figma",
+      "days_since": 39,
+      "retention": 0.17,
       "status": "fading"
     }
   ],
