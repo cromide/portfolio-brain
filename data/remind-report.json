@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-10 08:31",
-  "total_prompts": 2562,
+  "generated": "2026-08-10 20:18",
+  "total_prompts": 2570,
   "activation": {
     "top_neurons": [
       {
@@ -26,10 +26,10 @@
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 126,
-        "depth": 322,
-        "days": 48,
-        "retention": 0.97
+        "prompts": 127,
+        "depth": 323,
+        "days": 49,
+        "retention": 1.0
       },
       {
         "id": "skill_nextauth",
@@ -89,24 +89,24 @@
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
         "group": "publishing",
-        "prompts": 34,
-        "depth": 77,
-        "days": 15,
-        "retention": 0.9
+        "prompts": 35,
+        "depth": 78,
+        "days": 16,
+        "retention": 1.0
       }
     ],
     "recent_7d": [
       {
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
-        "prompts": 13,
+        "prompts": 14,
         "momentum": "new",
         "status": "acquired"
       },
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
-        "prompts": 10,
+        "prompts": 11,
         "momentum": "new",
         "status": "future"
       },
@@ -384,14 +384,14 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 24,
-      "publishing": 13,
+      "dev": 25,
+      "publishing": 14,
       "planning": 2,
       "design": 3
     },
     "dominant": [
       "dev",
-      24
+      25
     ],
     "spread": 2,
     "is_scattered": false,
@@ -399,16 +399,16 @@
   },
   "momentum": {
     "skill_html_css": {
-      "this_week": 13,
+      "this_week": 14,
       "last_week": 0,
       "momentum": "new",
-      "change": 13
+      "change": 14
     },
     "future_ai_ml": {
-      "this_week": 10,
+      "this_week": 11,
       "last_week": 0,
       "momentum": "new",
-      "change": 10
+      "change": 11
     },
     "skill_git_workflow": {
       "this_week": 7,
@@ -428,17 +428,17 @@
       "momentum": "new",
       "change": 2
     },
-    "skill_postgresql": {
+    "skill_design_system": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_testing": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
+    "skill_nextauth": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
     },
     "skill_go": {
       "this_week": 1,
@@ -477,18 +477,18 @@
       "status": "fading"
     },
     {
-      "id": "skill_threejs",
-      "label": "Three.js",
-      "days_since": 55,
-      "retention": 0.02,
-      "status": "fading"
-    },
-    {
       "id": "skill_d3",
       "label": "D3.js / 데이터 시각화",
       "days_since": 18,
       "retention": 0.57,
       "status": "weakening"
+    },
+    {
+      "id": "skill_threejs",
+      "label": "Three.js",
+      "days_since": 55,
+      "retention": 0.02,
+      "status": "fading"
     },
     {
       "id": "skill_responsive",
@@ -529,7 +529,7 @@
     "peak_hour": 14,
     "peak_hour_count": 378,
     "peak_day": "Mon",
-    "peak_day_count": 667,
+    "peak_day_count": 675,
     "deepest_hour": 20,
     "deepest_hour_avg_depth": 2.38,
     "distribution": {
