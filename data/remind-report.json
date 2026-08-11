@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-11 20:21",
+  "generated": "2026-08-12 08:17",
   "total_prompts": 2570,
   "activation": {
     "top_neurons": [
@@ -20,7 +20,7 @@
         "prompts": 188,
         "depth": 418,
         "days": 50,
-        "retention": 0.95
+        "retention": 0.94
       },
       {
         "id": "future_ai_ml",
@@ -29,7 +29,7 @@
         "prompts": 127,
         "depth": 323,
         "days": 49,
-        "retention": 0.99
+        "retention": 0.98
       },
       {
         "id": "skill_nextauth",
@@ -38,7 +38,7 @@
         "prompts": 98,
         "depth": 176,
         "days": 34,
-        "retention": 0.8
+        "retention": 0.79
       },
       {
         "id": "skill_testing",
@@ -47,7 +47,7 @@
         "prompts": 62,
         "depth": 108,
         "days": 24,
-        "retention": 0.9
+        "retention": 0.88
       },
       {
         "id": "skill_git_workflow",
@@ -56,7 +56,7 @@
         "prompts": 46,
         "depth": 107,
         "days": 16,
-        "retention": 0.88
+        "retention": 0.86
       },
       {
         "id": "skill_canvas",
@@ -65,7 +65,7 @@
         "prompts": 45,
         "depth": 128,
         "days": 21,
-        "retention": 0.81
+        "retention": 0.79
       },
       {
         "id": "skill_svelte",
@@ -74,7 +74,7 @@
         "prompts": 41,
         "depth": 129,
         "days": 15,
-        "retention": 0.12
+        "retention": 0.11
       },
       {
         "id": "skill_brand_identity",
@@ -83,7 +83,7 @@
         "prompts": 37,
         "depth": 80,
         "days": 17,
-        "retention": 0.89
+        "retention": 0.86
       },
       {
         "id": "skill_html_css",
@@ -92,7 +92,7 @@
         "prompts": 35,
         "depth": 78,
         "days": 16,
-        "retention": 0.97
+        "retention": 0.94
       }
     ],
     "recent_7d": [
@@ -139,15 +139,15 @@
         "status": "acquired"
       },
       {
-        "id": "skill_testing",
-        "label": "테스트 코드",
-        "prompts": 1,
-        "momentum": "new",
-        "status": "learning"
-      },
-      {
         "id": "skill_postgresql",
         "label": "PostgreSQL",
+        "prompts": 1,
+        "momentum": "new",
+        "status": "acquired"
+      },
+      {
+        "id": "skill_node",
+        "label": "Node/Express",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
@@ -422,25 +422,25 @@
       "momentum": "new",
       "change": 2
     },
-    "skill_brand_identity": {
-      "this_week": 2,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 2
-    },
     "skill_data_decision": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
       "change": 2
     },
-    "future_graphql": {
+    "skill_brand_identity": {
+      "this_week": 2,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 2
+    },
+    "skill_testing": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_testing": {
+    "future_graphql": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
@@ -451,57 +451,57 @@
     {
       "id": "skill_svelte",
       "label": "Svelte",
-      "days_since": 64,
-      "retention": 0.12,
+      "days_since": 65,
+      "retention": 0.11,
       "status": "fading"
     },
     {
       "id": "skill_solidity",
       "label": "Solidity",
-      "days_since": 19,
-      "retention": 0.26,
+      "days_since": 20,
+      "retention": 0.24,
       "status": "fading"
     },
     {
       "id": "proj_newtown",
       "label": "newtown Race",
-      "days_since": 43,
-      "retention": 0.17,
+      "days_since": 44,
+      "retention": 0.16,
       "status": "fading"
     },
     {
       "id": "skill_typescript",
       "label": "TypeScript",
-      "days_since": 37,
-      "retention": 0.24,
+      "days_since": 38,
+      "retention": 0.23,
       "status": "fading"
     },
     {
       "id": "skill_threejs",
       "label": "Three.js",
-      "days_since": 56,
+      "days_since": 57,
       "retention": 0.02,
       "status": "fading"
     },
     {
       "id": "skill_d3",
       "label": "D3.js / 데이터 시각화",
-      "days_since": 19,
-      "retention": 0.55,
+      "days_since": 20,
+      "retention": 0.54,
       "status": "weakening"
     },
     {
       "id": "skill_responsive",
       "label": "반응형 디자인",
-      "days_since": 74,
+      "days_since": 75,
       "retention": 0.1,
       "status": "fading"
     },
     {
-      "id": "skill_figma",
-      "label": "Figma",
-      "days_since": 42,
-      "retention": 0.15,
+      "id": "future_docker",
+      "label": "Docker/컨테이너",
+      "days_since": 38,
+      "retention": 0.0,
       "status": "fading"
     }
   ],
