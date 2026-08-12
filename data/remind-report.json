@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-12 08:17",
-  "total_prompts": 2570,
+  "generated": "2026-08-13 08:26",
+  "total_prompts": 2574,
   "activation": {
     "top_neurons": [
       {
@@ -11,7 +11,7 @@
         "prompts": 207,
         "depth": 525,
         "days": 49,
-        "retention": 0.82
+        "retention": 0.81
       },
       {
         "id": "skill_node",
@@ -20,7 +20,7 @@
         "prompts": 188,
         "depth": 418,
         "days": 50,
-        "retention": 0.94
+        "retention": 0.93
       },
       {
         "id": "future_ai_ml",
@@ -29,7 +29,7 @@
         "prompts": 127,
         "depth": 323,
         "days": 49,
-        "retention": 0.98
+        "retention": 0.97
       },
       {
         "id": "skill_nextauth",
@@ -38,7 +38,7 @@
         "prompts": 98,
         "depth": 176,
         "days": 34,
-        "retention": 0.79
+        "retention": 0.78
       },
       {
         "id": "skill_testing",
@@ -47,16 +47,16 @@
         "prompts": 62,
         "depth": 108,
         "days": 24,
-        "retention": 0.88
+        "retention": 0.86
       },
       {
         "id": "skill_git_workflow",
         "label": "Git 협업",
         "group": "dev",
-        "prompts": 46,
-        "depth": 107,
-        "days": 16,
-        "retention": 0.86
+        "prompts": 48,
+        "depth": 111,
+        "days": 17,
+        "retention": 0.97
       },
       {
         "id": "skill_canvas",
@@ -65,7 +65,7 @@
         "prompts": 45,
         "depth": 128,
         "days": 21,
-        "retention": 0.79
+        "retention": 0.77
       },
       {
         "id": "skill_svelte",
@@ -83,7 +83,7 @@
         "prompts": 37,
         "depth": 80,
         "days": 17,
-        "retention": 0.86
+        "retention": 0.84
       },
       {
         "id": "skill_html_css",
@@ -92,7 +92,7 @@
         "prompts": 35,
         "depth": 78,
         "days": 16,
-        "retention": 0.94
+        "retention": 0.91
       }
     ],
     "recent_7d": [
@@ -113,7 +113,7 @@
       {
         "id": "skill_git_workflow",
         "label": "Git 협업",
-        "prompts": 7,
+        "prompts": 9,
         "momentum": "new",
         "status": "learning"
       },
@@ -139,11 +139,11 @@
         "status": "acquired"
       },
       {
-        "id": "skill_postgresql",
-        "label": "PostgreSQL",
+        "id": "skill_testing",
+        "label": "테스트 코드",
         "prompts": 1,
         "momentum": "new",
-        "status": "acquired"
+        "status": "learning"
       },
       {
         "id": "skill_node",
@@ -384,14 +384,14 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 25,
+      "dev": 27,
       "publishing": 14,
       "planning": 2,
       "design": 3
     },
     "dominant": [
       "dev",
-      25
+      27
     ],
     "spread": 2,
     "is_scattered": false,
@@ -411,10 +411,10 @@
       "change": 11
     },
     "skill_git_workflow": {
-      "this_week": 7,
+      "this_week": 9,
       "last_week": 0,
       "momentum": "new",
-      "change": 7
+      "change": 9
     },
     "skill_react": {
       "this_week": 2,
@@ -434,13 +434,13 @@
       "momentum": "new",
       "change": 2
     },
-    "skill_testing": {
+    "skill_go": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "future_graphql": {
+    "skill_postgresql": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
@@ -451,57 +451,57 @@
     {
       "id": "skill_svelte",
       "label": "Svelte",
-      "days_since": 65,
+      "days_since": 66,
       "retention": 0.11,
       "status": "fading"
     },
     {
       "id": "skill_solidity",
       "label": "Solidity",
-      "days_since": 20,
-      "retention": 0.24,
+      "days_since": 21,
+      "retention": 0.22,
       "status": "fading"
     },
     {
       "id": "proj_newtown",
       "label": "newtown Race",
-      "days_since": 44,
-      "retention": 0.16,
+      "days_since": 45,
+      "retention": 0.15,
       "status": "fading"
     },
     {
       "id": "skill_typescript",
       "label": "TypeScript",
-      "days_since": 38,
-      "retention": 0.23,
+      "days_since": 39,
+      "retention": 0.22,
       "status": "fading"
     },
     {
       "id": "skill_threejs",
       "label": "Three.js",
-      "days_since": 57,
+      "days_since": 58,
       "retention": 0.02,
       "status": "fading"
     },
     {
       "id": "skill_d3",
       "label": "D3.js / 데이터 시각화",
-      "days_since": 20,
-      "retention": 0.54,
+      "days_since": 21,
+      "retention": 0.52,
       "status": "weakening"
     },
     {
       "id": "skill_responsive",
       "label": "반응형 디자인",
-      "days_since": 75,
-      "retention": 0.1,
+      "days_since": 76,
+      "retention": 0.09,
       "status": "fading"
     },
     {
-      "id": "future_docker",
-      "label": "Docker/컨테이너",
-      "days_since": 38,
-      "retention": 0.0,
+      "id": "skill_figma",
+      "label": "Figma",
+      "days_since": 44,
+      "retention": 0.14,
       "status": "fading"
     }
   ],
@@ -662,7 +662,7 @@
           "id": "skill_git_workflow",
           "label": "Git 협업",
           "priority": "critical",
-          "depth_score": 107,
+          "depth_score": 111,
           "readiness_pct": 100
         },
         {
