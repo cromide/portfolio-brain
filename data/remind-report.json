@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-15 08:17",
+  "generated": "2026-08-15 20:24",
   "total_prompts": 2576,
   "activation": {
     "top_neurons": [
@@ -104,18 +104,18 @@
         "status": "learning"
       },
       {
-        "id": "future_ai_ml",
-        "label": "AI/ML 심화",
-        "prompts": 1,
-        "momentum": "decelerating",
-        "status": "future"
-      },
-      {
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
         "prompts": 1,
         "momentum": "decelerating",
         "status": "acquired"
+      },
+      {
+        "id": "future_ai_ml",
+        "label": "AI/ML 심화",
+        "prompts": 1,
+        "momentum": "decelerating",
+        "status": "future"
       }
     ]
   },
@@ -349,8 +349,8 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 3,
-      "publishing": 1
+      "publishing": 1,
+      "dev": 3
     },
     "dominant": [
       "dev",
@@ -379,13 +379,13 @@
       "momentum": "decelerating",
       "change": -5
     },
-    "skill_react": {
+    "skill_brand_identity": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
       "change": -2
     },
-    "skill_brand_identity": {
+    "skill_react": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
@@ -397,13 +397,13 @@
       "momentum": "stalled",
       "change": -2
     },
-    "skill_node": {
+    "skill_canvas": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
       "change": -1
     },
-    "skill_postgresql": {
+    "skill_node": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
@@ -440,18 +440,18 @@
       "status": "fading"
     },
     {
-      "id": "skill_d3",
-      "label": "D3.js / 데이터 시각화",
-      "days_since": 23,
-      "retention": 0.49,
-      "status": "weakening"
-    },
-    {
       "id": "skill_threejs",
       "label": "Three.js",
       "days_since": 60,
       "retention": 0.01,
       "status": "fading"
+    },
+    {
+      "id": "skill_d3",
+      "label": "D3.js / 데이터 시각화",
+      "days_since": 23,
+      "retention": 0.49,
+      "status": "weakening"
     },
     {
       "id": "skill_responsive",
