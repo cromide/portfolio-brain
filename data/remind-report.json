@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-18 08:21",
-  "total_prompts": 2580,
+  "generated": "2026-08-18 20:20",
+  "total_prompts": 2586,
   "activation": {
     "top_neurons": [
       {
@@ -379,23 +379,17 @@
       "momentum": "decelerating",
       "change": -5
     },
-    "skill_data_decision": {
-      "this_week": 0,
-      "last_week": 2,
-      "momentum": "stalled",
-      "change": -2
-    },
     "skill_brand_identity": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
       "change": -2
     },
-    "skill_go": {
+    "skill_data_decision": {
       "this_week": 0,
-      "last_week": 1,
+      "last_week": 2,
       "momentum": "stalled",
-      "change": -1
+      "change": -2
     },
     "skill_uxui": {
       "this_week": 1,
@@ -403,7 +397,13 @@
       "momentum": "new",
       "change": 1
     },
-    "skill_postgresql": {
+    "skill_node": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_design_system": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
@@ -490,7 +490,7 @@
   ],
   "time_patterns": {
     "peak_hour": 14,
-    "peak_hour_count": 378,
+    "peak_hour_count": 380,
     "peak_day": "Mon",
     "peak_day_count": 679,
     "deepest_hour": 20,
