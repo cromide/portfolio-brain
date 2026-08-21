@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-21 08:20",
-  "total_prompts": 2607,
+  "generated": "2026-08-21 20:19",
+  "total_prompts": 2610,
   "activation": {
     "top_neurons": [
       {
@@ -146,11 +146,11 @@
         "status": "learning"
       },
       {
-        "id": "skill_design_system",
-        "label": "디자인 시스템",
+        "id": "skill_typescript",
+        "label": "TypeScript",
         "prompts": 1,
         "momentum": "new",
-        "status": "learning"
+        "status": "acquired"
       }
     ]
   },
@@ -404,17 +404,17 @@
       "momentum": "new",
       "change": 3
     },
-    "skill_git_workflow": {
-      "this_week": 2,
-      "last_week": 4,
-      "momentum": "decelerating",
-      "change": -2
-    },
     "future_ai_ml": {
       "this_week": 6,
       "last_week": 4,
       "momentum": "accelerating",
       "change": 2
+    },
+    "skill_git_workflow": {
+      "this_week": 2,
+      "last_week": 4,
+      "momentum": "decelerating",
+      "change": -2
     },
     "skill_html_css": {
       "this_week": 3,
@@ -422,25 +422,25 @@
       "momentum": "decelerating",
       "change": -2
     },
-    "skill_design_system": {
+    "skill_typescript": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_brand_identity": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
-    "skill_nextauth": {
+    "skill_prd": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_testing": {
+    "skill_data_decision": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_node": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
@@ -498,10 +498,10 @@
       "status": "fading"
     },
     {
-      "id": "skill_figma",
-      "label": "Figma",
-      "days_since": 52,
-      "retention": 0.09,
+      "id": "future_docker",
+      "label": "Docker/컨테이너",
+      "days_since": 47,
+      "retention": 0.0,
       "status": "fading"
     }
   ],
@@ -527,7 +527,7 @@
   ],
   "time_patterns": {
     "peak_hour": 14,
-    "peak_hour_count": 380,
+    "peak_hour_count": 382,
     "peak_day": "Mon",
     "peak_day_count": 679,
     "deepest_hour": 20,
