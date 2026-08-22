@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-22 20:17",
+  "generated": "2026-08-23 08:19",
   "total_prompts": 2614,
   "activation": {
     "top_neurons": [
@@ -11,7 +11,7 @@
         "prompts": 208,
         "depth": 527,
         "days": 50,
-        "retention": 0.95
+        "retention": 0.94
       },
       {
         "id": "skill_node",
@@ -20,7 +20,7 @@
         "prompts": 189,
         "depth": 420,
         "days": 51,
-        "retention": 0.97
+        "retention": 0.96
       },
       {
         "id": "future_ai_ml",
@@ -29,7 +29,7 @@
         "prompts": 133,
         "depth": 335,
         "days": 51,
-        "retention": 0.98
+        "retention": 0.97
       },
       {
         "id": "skill_nextauth",
@@ -38,7 +38,7 @@
         "prompts": 99,
         "depth": 178,
         "days": 35,
-        "retention": 0.96
+        "retention": 0.94
       },
       {
         "id": "skill_testing",
@@ -47,7 +47,7 @@
         "prompts": 63,
         "depth": 110,
         "days": 25,
-        "retention": 0.94
+        "retention": 0.92
       },
       {
         "id": "skill_git_workflow",
@@ -56,7 +56,7 @@
         "prompts": 50,
         "depth": 116,
         "days": 18,
-        "retention": 0.92
+        "retention": 0.89
       },
       {
         "id": "skill_canvas",
@@ -65,7 +65,7 @@
         "prompts": 45,
         "depth": 128,
         "days": 21,
-        "retention": 0.62
+        "retention": 0.61
       },
       {
         "id": "skill_svelte",
@@ -83,7 +83,7 @@
         "prompts": 38,
         "depth": 84,
         "days": 18,
-        "retention": 0.95
+        "retention": 0.92
       },
       {
         "id": "skill_brand_identity",
@@ -92,7 +92,7 @@
         "prompts": 37,
         "depth": 80,
         "days": 17,
-        "retention": 0.64
+        "retention": 0.62
       }
     ],
     "recent_7d": [
@@ -125,15 +125,15 @@
         "status": "learning"
       },
       {
-        "id": "skill_uxui",
-        "label": "UX/UI 설계",
+        "id": "skill_react",
+        "label": "React",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
       },
       {
-        "id": "skill_react",
-        "label": "React",
+        "id": "skill_uxui",
+        "label": "UX/UI 설계",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
@@ -146,8 +146,8 @@
         "status": "learning"
       },
       {
-        "id": "skill_typescript",
-        "label": "TypeScript",
+        "id": "skill_node",
+        "label": "Node/Express",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
@@ -251,7 +251,7 @@
       "depth": 5,
       "severity": "warning",
       "career": "",
-      "eta": "2026-12-17",
+      "eta": "2026-12-18",
       "action": "deepen"
     },
     {
@@ -384,8 +384,8 @@
   ],
   "focus": {
     "recent_groups": {
-      "planning": 3,
       "dev": 17,
+      "planning": 3,
       "publishing": 3,
       "design": 1
     },
@@ -416,7 +416,13 @@
       "momentum": "accelerating",
       "change": 2
     },
-    "skill_nextauth": {
+    "skill_react": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_prd": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
@@ -428,19 +434,13 @@
       "momentum": "new",
       "change": 1
     },
-    "future_graphql": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
-    "skill_testing": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
     "skill_design_system": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_nextauth": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
@@ -451,56 +451,56 @@
     {
       "id": "skill_svelte",
       "label": "Svelte",
-      "days_since": 75,
+      "days_since": 76,
       "retention": 0.08,
       "status": "fading"
     },
     {
       "id": "skill_solidity",
       "label": "Solidity",
-      "days_since": 30,
-      "retention": 0.12,
+      "days_since": 31,
+      "retention": 0.11,
       "status": "fading"
     },
     {
       "id": "skill_go",
       "label": "Go",
-      "days_since": 15,
-      "retention": 0.47,
+      "days_since": 16,
+      "retention": 0.45,
       "status": "weakening"
     },
     {
       "id": "proj_newtown",
       "label": "newtown Race",
-      "days_since": 54,
-      "retention": 0.11,
+      "days_since": 55,
+      "retention": 0.1,
       "status": "fading"
     },
     {
       "id": "skill_d3",
       "label": "D3.js / 데이터 시각화",
-      "days_since": 30,
-      "retention": 0.39,
+      "days_since": 31,
+      "retention": 0.38,
       "status": "weakening"
     },
     {
       "id": "skill_threejs",
       "label": "Three.js",
-      "days_since": 67,
+      "days_since": 68,
       "retention": 0.01,
       "status": "fading"
     },
     {
       "id": "skill_responsive",
       "label": "반응형 디자인",
-      "days_since": 85,
+      "days_since": 86,
       "retention": 0.07,
       "status": "fading"
     },
     {
       "id": "future_docker",
       "label": "Docker/컨테이너",
-      "days_since": 48,
+      "days_since": 49,
       "retention": 0.0,
       "status": "fading"
     }
