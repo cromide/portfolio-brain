@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-22 08:21",
+  "generated": "2026-08-22 20:17",
   "total_prompts": 2614,
   "activation": {
     "top_neurons": [
@@ -146,8 +146,8 @@
         "status": "learning"
       },
       {
-        "id": "skill_node",
-        "label": "Node/Express",
+        "id": "skill_typescript",
+        "label": "TypeScript",
         "prompts": 1,
         "momentum": "new",
         "status": "acquired"
@@ -416,31 +416,31 @@
       "momentum": "accelerating",
       "change": 2
     },
-    "skill_uxui": {
+    "skill_nextauth": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_node": {
+    "skill_typescript": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "future_graphql": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_testing": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
     "skill_design_system": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
-    "skill_react": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
-    "skill_data_decision": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
