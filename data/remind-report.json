@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-24 08:18",
-  "total_prompts": 2614,
+  "generated": "2026-08-24 20:26",
+  "total_prompts": 2626,
   "activation": {
     "top_neurons": [
       {
@@ -26,19 +26,19 @@
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 133,
-        "depth": 335,
-        "days": 51,
-        "retention": 0.96
+        "prompts": 134,
+        "depth": 337,
+        "days": 52,
+        "retention": 1.0
       },
       {
         "id": "skill_nextauth",
         "label": "NextAuth.js",
         "group": "dev",
-        "prompts": 99,
-        "depth": 178,
-        "days": 35,
-        "retention": 0.93
+        "prompts": 100,
+        "depth": 179,
+        "days": 36,
+        "retention": 1.0
       },
       {
         "id": "skill_testing",
@@ -80,10 +80,10 @@
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
         "group": "publishing",
-        "prompts": 38,
-        "depth": 84,
-        "days": 18,
-        "retention": 0.89
+        "prompts": 39,
+        "depth": 86,
+        "days": 19,
+        "retention": 1.0
       },
       {
         "id": "skill_brand_identity",
@@ -99,14 +99,14 @@
       {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
-        "prompts": 6,
+        "prompts": 7,
         "momentum": "accelerating",
         "status": "future"
       },
       {
         "id": "skill_html_css",
         "label": "HTML5/CSS3",
-        "prompts": 3,
+        "prompts": 4,
         "momentum": "accelerating",
         "status": "acquired"
       },
@@ -125,11 +125,11 @@
         "status": "learning"
       },
       {
-        "id": "skill_uxui",
-        "label": "UX/UI 설계",
-        "prompts": 1,
+        "id": "skill_nextauth",
+        "label": "NextAuth.js",
+        "prompts": 2,
         "momentum": "new",
-        "status": "acquired"
+        "status": "learning"
       },
       {
         "id": "skill_react",
@@ -139,15 +139,15 @@
         "status": "acquired"
       },
       {
-        "id": "skill_nextauth",
-        "label": "NextAuth.js",
+        "id": "skill_uxui",
+        "label": "UX/UI 설계",
         "prompts": 1,
         "momentum": "new",
-        "status": "learning"
+        "status": "acquired"
       },
       {
-        "id": "skill_prd",
-        "label": "표준 PRD",
+        "id": "skill_design_system",
+        "label": "디자인 시스템",
         "prompts": 1,
         "momentum": "new",
         "status": "learning"
@@ -324,8 +324,8 @@
       "id": "skill_nextauth",
       "label": "NextAuth.js",
       "group": "dev",
-      "prompts": 99,
-      "depth": 178,
+      "prompts": 100,
+      "depth": 179,
       "severity": "ok",
       "career": "medium",
       "eta": "ready",
@@ -384,14 +384,14 @@
   ],
   "focus": {
     "recent_groups": {
+      "dev": 19,
       "planning": 3,
-      "dev": 17,
-      "publishing": 3,
+      "publishing": 4,
       "design": 1
     },
     "dominant": [
       "dev",
-      17
+      19
     ],
     "spread": 1,
     "is_scattered": false,
@@ -399,10 +399,10 @@
   },
   "momentum": {
     "future_ai_ml": {
-      "this_week": 6,
+      "this_week": 7,
       "last_week": 1,
       "momentum": "accelerating",
-      "change": 5
+      "change": 6
     },
     "skill_prisma": {
       "this_week": 3,
@@ -411,36 +411,36 @@
       "change": 3
     },
     "skill_html_css": {
-      "this_week": 3,
+      "this_week": 4,
       "last_week": 1,
       "momentum": "accelerating",
-      "change": 2
-    },
-    "skill_prd": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
-    "skill_testing": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
+      "change": 3
     },
     "skill_nextauth": {
-      "this_week": 1,
+      "this_week": 2,
       "last_week": 0,
       "momentum": "new",
-      "change": 1
+      "change": 2
     },
-    "skill_node": {
+    "skill_data_decision": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
     "skill_design_system": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_uxui": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_typescript": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
@@ -527,9 +527,9 @@
   ],
   "time_patterns": {
     "peak_hour": 14,
-    "peak_hour_count": 382,
+    "peak_hour_count": 384,
     "peak_day": "Mon",
-    "peak_day_count": 679,
+    "peak_day_count": 691,
     "deepest_hour": 20,
     "deepest_hour_avg_depth": 2.38,
     "distribution": {
@@ -585,7 +585,7 @@
           "id": "skill_nextauth",
           "label": "NextAuth.js",
           "priority": "medium",
-          "depth_score": 178,
+          "depth_score": 179,
           "readiness_pct": 100
         }
       ]
@@ -669,7 +669,7 @@
           "id": "skill_nextauth",
           "label": "NextAuth.js",
           "priority": "high",
-          "depth_score": 178,
+          "depth_score": 179,
           "readiness_pct": 100
         },
         {
