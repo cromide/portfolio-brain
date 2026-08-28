@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-28 08:17",
-  "total_prompts": 2626,
+  "generated": "2026-08-28 20:21",
+  "total_prompts": 2627,
   "activation": {
     "top_neurons": [
       {
@@ -104,18 +104,18 @@
         "status": "learning"
       },
       {
-        "id": "skill_html_css",
-        "label": "HTML5/CSS3",
-        "prompts": 1,
-        "momentum": "decelerating",
-        "status": "acquired"
-      },
-      {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "prompts": 1,
         "momentum": "decelerating",
         "status": "future"
+      },
+      {
+        "id": "skill_html_css",
+        "label": "HTML5/CSS3",
+        "prompts": 1,
+        "momentum": "decelerating",
+        "status": "acquired"
       }
     ]
   },
@@ -385,12 +385,6 @@
       "momentum": "decelerating",
       "change": -2
     },
-    "skill_prd": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
     "skill_uxui": {
       "this_week": 0,
       "last_week": 1,
@@ -403,7 +397,13 @@
       "momentum": "stalled",
       "change": -1
     },
-    "skill_typescript": {
+    "skill_design_system": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_node": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
@@ -454,18 +454,18 @@
       "status": "weakening"
     },
     {
-      "id": "skill_threejs",
-      "label": "Three.js",
-      "days_since": 73,
-      "retention": 0.01,
-      "status": "fading"
-    },
-    {
       "id": "skill_d3",
       "label": "D3.js / 데이터 시각화",
       "days_since": 36,
       "retention": 0.32,
       "status": "weakening"
+    },
+    {
+      "id": "skill_threejs",
+      "label": "Three.js",
+      "days_since": 73,
+      "retention": 0.01,
+      "status": "fading"
     }
   ],
   "dependency_violations": [
