@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-08-30 08:17",
+  "generated": "2026-08-30 20:17",
   "total_prompts": 2633,
   "activation": {
     "top_neurons": [
@@ -374,17 +374,17 @@
       "momentum": "decelerating",
       "change": -5
     },
-    "skill_prisma": {
-      "this_week": 0,
-      "last_week": 3,
-      "momentum": "stalled",
-      "change": -3
-    },
     "skill_canvas": {
       "this_week": 3,
       "last_week": 0,
       "momentum": "new",
       "change": 3
+    },
+    "skill_prisma": {
+      "this_week": 0,
+      "last_week": 3,
+      "momentum": "stalled",
+      "change": -3
     },
     "skill_git_workflow": {
       "this_week": 0,
@@ -398,19 +398,19 @@
       "momentum": "decelerating",
       "change": -2
     },
-    "skill_react": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
-    "skill_node": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
     "skill_data_decision": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_testing": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_prd": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
