@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-09-04 08:17",
+  "generated": "2026-09-04 20:17",
   "total_prompts": 2692,
   "activation": {
     "top_neurons": [
@@ -388,23 +388,17 @@
       "momentum": "new",
       "change": 4
     },
-    "future_ai_ml": {
-      "this_week": 4,
-      "last_week": 1,
-      "momentum": "accelerating",
-      "change": 3
-    },
     "skill_html_css": {
       "this_week": 4,
       "last_week": 1,
       "momentum": "accelerating",
       "change": 3
     },
-    "skill_nextauth": {
-      "this_week": 0,
+    "future_ai_ml": {
+      "this_week": 4,
       "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+      "momentum": "accelerating",
+      "change": 3
     },
     "skill_git_workflow": {
       "this_week": 1,
@@ -412,13 +406,19 @@
       "momentum": "new",
       "change": 1
     },
-    "skill_react": {
+    "skill_nextauth": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_responsive": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_responsive": {
+    "skill_react": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
