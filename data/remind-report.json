@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-09-05 20:17",
+  "generated": "2026-09-06 08:17",
   "total_prompts": 2692,
   "activation": {
     "top_neurons": [
@@ -11,7 +11,7 @@
         "prompts": 208,
         "depth": 527,
         "days": 50,
-        "retention": 0.83
+        "retention": 0.82
       },
       {
         "id": "skill_node",
@@ -20,7 +20,7 @@
         "prompts": 189,
         "depth": 420,
         "days": 51,
-        "retention": 0.85
+        "retention": 0.84
       },
       {
         "id": "future_ai_ml",
@@ -29,7 +29,7 @@
         "prompts": 138,
         "depth": 345,
         "days": 54,
-        "retention": 0.96
+        "retention": 0.95
       },
       {
         "id": "skill_nextauth",
@@ -38,7 +38,7 @@
         "prompts": 100,
         "depth": 179,
         "days": 36,
-        "retention": 0.85
+        "retention": 0.83
       },
       {
         "id": "skill_testing",
@@ -47,7 +47,7 @@
         "prompts": 63,
         "depth": 110,
         "days": 25,
-        "retention": 0.71
+        "retention": 0.7
       },
       {
         "id": "skill_git_workflow",
@@ -56,7 +56,7 @@
         "prompts": 51,
         "depth": 118,
         "days": 19,
-        "retention": 0.88
+        "retention": 0.85
       },
       {
         "id": "skill_canvas",
@@ -65,7 +65,7 @@
         "prompts": 49,
         "depth": 136,
         "days": 23,
-        "retention": 0.88
+        "retention": 0.86
       },
       {
         "id": "skill_html_css",
@@ -74,7 +74,7 @@
         "prompts": 43,
         "depth": 94,
         "days": 21,
-        "retention": 0.91
+        "retention": 0.89
       },
       {
         "id": "skill_svelte",
@@ -92,7 +92,7 @@
         "prompts": 37,
         "depth": 80,
         "days": 17,
-        "retention": 0.43
+        "retention": 0.41
       }
     ],
     "recent_7d": [
@@ -237,7 +237,7 @@
       "depth": 5,
       "severity": "warning",
       "career": "",
-      "eta": "2026-12-31",
+      "eta": "stalled",
       "action": "deepen"
     },
     {
@@ -400,6 +400,12 @@
       "momentum": "decelerating",
       "change": -2
     },
+    "skill_git_workflow": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
     "skill_nextauth": {
       "this_week": 0,
       "last_week": 1,
@@ -407,12 +413,6 @@
       "change": -1
     },
     "skill_react": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
-    "skill_git_workflow": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
@@ -429,56 +429,56 @@
     {
       "id": "skill_svelte",
       "label": "Svelte",
-      "days_since": 89,
+      "days_since": 90,
       "retention": 0.05,
       "status": "fading"
     },
     {
       "id": "skill_design_system",
       "label": "디자인 시스템",
-      "days_since": 17,
-      "retention": 0.57,
+      "days_since": 18,
+      "retention": 0.55,
       "status": "weakening"
     },
     {
       "id": "skill_solidity",
       "label": "Solidity",
-      "days_since": 44,
+      "days_since": 45,
       "retention": 0.04,
       "status": "fading"
     },
     {
       "id": "skill_go",
       "label": "Go",
-      "days_since": 29,
-      "retention": 0.23,
+      "days_since": 30,
+      "retention": 0.22,
       "status": "fading"
     },
     {
       "id": "proj_newtown",
       "label": "newtown Race",
-      "days_since": 68,
+      "days_since": 69,
       "retention": 0.06,
       "status": "fading"
     },
     {
       "id": "skill_typescript",
       "label": "TypeScript",
-      "days_since": 17,
-      "retention": 0.54,
+      "days_since": 18,
+      "retention": 0.53,
       "status": "weakening"
     },
     {
       "id": "skill_brand_identity",
       "label": "브랜드 아이덴티티",
-      "days_since": 29,
-      "retention": 0.43,
+      "days_since": 30,
+      "retention": 0.41,
       "status": "weakening"
     },
     {
       "id": "skill_threejs",
       "label": "Three.js",
-      "days_since": 81,
+      "days_since": 82,
       "retention": 0.0,
       "status": "fading"
     }
