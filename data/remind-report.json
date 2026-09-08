@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-08 08:17",
-  "total_prompts": 2692,
+  "generated": "2026-09-08 20:33",
+  "total_prompts": 2693,
   "activation": {
     "top_neurons": [
       {
@@ -360,6 +360,12 @@
       "momentum": "stalled",
       "change": -4
     },
+    "skill_responsive": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
     "skill_react": {
       "this_week": 0,
       "last_week": 1,
@@ -372,19 +378,13 @@
       "momentum": "stalled",
       "change": -1
     },
-    "skill_responsive": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
-    "future_ai_ml": {
+    "skill_html_css": {
       "this_week": 2,
       "last_week": 2,
       "momentum": "steady",
       "change": 0
     },
-    "skill_html_css": {
+    "future_ai_ml": {
       "this_week": 2,
       "last_week": 2,
       "momentum": "steady",
@@ -477,7 +477,7 @@
     "deepest_hour": 20,
     "deepest_hour_avg_depth": 2.38,
     "distribution": {
-      "morning_6_12": 21,
+      "morning_6_12": 20,
       "afternoon_12_18": 72,
       "evening_18_24": 7,
       "night_0_6": 0
