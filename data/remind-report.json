@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-09-09 20:17",
+  "generated": "2026-09-10 08:17",
   "total_prompts": 2704,
   "activation": {
     "top_neurons": [
@@ -11,7 +11,7 @@
         "prompts": 209,
         "depth": 531,
         "days": 51,
-        "retention": 1.0
+        "retention": 0.99
       },
       {
         "id": "skill_node",
@@ -29,7 +29,7 @@
         "prompts": 139,
         "depth": 348,
         "days": 55,
-        "retention": 1.0
+        "retention": 0.99
       },
       {
         "id": "skill_nextauth",
@@ -38,7 +38,7 @@
         "prompts": 101,
         "depth": 182,
         "days": 37,
-        "retention": 1.0
+        "retention": 0.99
       },
       {
         "id": "skill_testing",
@@ -47,7 +47,7 @@
         "prompts": 63,
         "depth": 110,
         "days": 25,
-        "retention": 0.66
+        "retention": 0.64
       },
       {
         "id": "skill_git_workflow",
@@ -56,7 +56,7 @@
         "prompts": 52,
         "depth": 121,
         "days": 20,
-        "retention": 1.0
+        "retention": 0.98
       },
       {
         "id": "skill_canvas",
@@ -65,7 +65,7 @@
         "prompts": 49,
         "depth": 136,
         "days": 23,
-        "retention": 0.8
+        "retention": 0.79
       },
       {
         "id": "skill_html_css",
@@ -74,7 +74,7 @@
         "prompts": 44,
         "depth": 97,
         "days": 22,
-        "retention": 1.0
+        "retention": 0.98
       },
       {
         "id": "skill_svelte",
@@ -83,7 +83,7 @@
         "prompts": 41,
         "depth": 129,
         "days": 15,
-        "retention": 0.05
+        "retention": 0.04
       },
       {
         "id": "skill_brand_identity",
@@ -92,7 +92,7 @@
         "prompts": 37,
         "depth": 80,
         "days": 17,
-        "retention": 0.38
+        "retention": 0.37
       }
     ],
     "recent_7d": [
@@ -118,18 +118,18 @@
         "status": "learning"
       },
       {
-        "id": "skill_html_css",
-        "label": "HTML5/CSS3",
-        "prompts": 1,
-        "momentum": "decelerating",
-        "status": "acquired"
-      },
-      {
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "prompts": 1,
         "momentum": "decelerating",
         "status": "future"
+      },
+      {
+        "id": "skill_html_css",
+        "label": "HTML5/CSS3",
+        "prompts": 1,
+        "momentum": "decelerating",
+        "status": "acquired"
       },
       {
         "id": "skill_nextauth",
@@ -408,6 +408,12 @@
       "momentum": "new",
       "change": 1
     },
+    "skill_blog": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
     "skill_uxui": {
       "this_week": 1,
       "last_week": 0,
@@ -425,69 +431,63 @@
       "last_week": 1,
       "momentum": "stalled",
       "change": -1
-    },
-    "skill_blog": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
     }
   },
   "decay_alerts": [
     {
       "id": "skill_data_decision",
       "label": "데이터 기반 의사결정",
-      "days_since": 21,
-      "retention": 0.58,
+      "days_since": 22,
+      "retention": 0.56,
       "status": "weakening"
     },
     {
       "id": "skill_svelte",
       "label": "Svelte",
-      "days_since": 93,
-      "retention": 0.05,
+      "days_since": 94,
+      "retention": 0.04,
       "status": "fading"
     },
     {
       "id": "skill_design_system",
       "label": "디자인 시스템",
-      "days_since": 21,
-      "retention": 0.5,
+      "days_since": 22,
+      "retention": 0.48,
       "status": "weakening"
     },
     {
       "id": "skill_solidity",
       "label": "Solidity",
-      "days_since": 48,
+      "days_since": 49,
       "retention": 0.03,
       "status": "fading"
     },
     {
       "id": "skill_go",
       "label": "Go",
-      "days_since": 33,
-      "retention": 0.19,
+      "days_since": 34,
+      "retention": 0.18,
       "status": "fading"
     },
     {
       "id": "proj_newtown",
       "label": "newtown Race",
-      "days_since": 72,
+      "days_since": 73,
       "retention": 0.05,
       "status": "fading"
     },
     {
       "id": "skill_typescript",
       "label": "TypeScript",
-      "days_since": 21,
-      "retention": 0.47,
+      "days_since": 22,
+      "retention": 0.46,
       "status": "weakening"
     },
     {
       "id": "skill_brand_identity",
       "label": "브랜드 아이덴티티",
-      "days_since": 33,
-      "retention": 0.38,
+      "days_since": 34,
+      "retention": 0.37,
       "status": "weakening"
     }
   ],
