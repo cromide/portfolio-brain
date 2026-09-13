@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-09-13 08:17",
+  "generated": "2026-09-13 20:24",
   "total_prompts": 2744,
   "activation": {
     "top_neurons": [
@@ -386,8 +386,8 @@
     "recent_groups": {
       "planning": 1,
       "core": 2,
-      "publishing": 2,
       "dev": 21,
+      "publishing": 2,
       "design": 1
     },
     "dominant": [
@@ -411,13 +411,19 @@
       "momentum": "new",
       "change": 2
     },
+    "skill_testing": {
+      "this_week": 2,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 2
+    },
     "skill_nextauth": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
       "change": 2
     },
-    "skill_testing": {
+    "future_docker": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
@@ -435,13 +441,7 @@
       "momentum": "decelerating",
       "change": -2
     },
-    "future_docker": {
-      "this_week": 2,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 2
-    },
-    "skill_react": {
+    "skill_canvas": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
