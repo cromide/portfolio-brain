@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-14 08:17",
-  "total_prompts": 2744,
+  "generated": "2026-09-14 20:19",
+  "total_prompts": 2748,
   "activation": {
     "top_neurons": [
       {
@@ -386,8 +386,8 @@
     "recent_groups": {
       "planning": 1,
       "core": 2,
-      "publishing": 2,
       "dev": 21,
+      "publishing": 2,
       "design": 1
     },
     "dominant": [
@@ -405,25 +405,7 @@
       "momentum": "new",
       "change": 4
     },
-    "skill_testing": {
-      "this_week": 2,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 2
-    },
-    "skill_html_css": {
-      "this_week": 2,
-      "last_week": 4,
-      "momentum": "decelerating",
-      "change": -2
-    },
     "future_docker": {
-      "this_week": 2,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 2
-    },
-    "skill_nextauth": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
@@ -441,11 +423,29 @@
       "momentum": "new",
       "change": 2
     },
-    "skill_responsive": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+    "skill_testing": {
+      "this_week": 2,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 2
+    },
+    "skill_nextauth": {
+      "this_week": 2,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 2
+    },
+    "skill_html_css": {
+      "this_week": 2,
+      "last_week": 4,
+      "momentum": "decelerating",
+      "change": -2
+    },
+    "skill_uxui": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
     }
   },
   "decay_alerts": [
@@ -530,7 +530,7 @@
     "peak_hour": 14,
     "peak_hour_count": 403,
     "peak_day": "Mon",
-    "peak_day_count": 720,
+    "peak_day_count": 724,
     "deepest_hour": 20,
     "deepest_hour_avg_depth": 2.38,
     "distribution": {
