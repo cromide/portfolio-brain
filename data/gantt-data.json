@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-15 08:18",
+  "generated": "2026-09-15 20:26",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-09-14"
+    "end": "2026-09-15"
   },
   "totalProjects": 52,
-  "totalPrompts": 2925,
+  "totalPrompts": 2935,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -922,9 +922,9 @@
       "name": "town",
       "group": "core",
       "startDate": "2026-04-07",
-      "endDate": "2026-09-11",
-      "activeDays": 33,
-      "totalPrompts": 293,
+      "endDate": "2026-09-15",
+      "activeDays": 34,
+      "totalPrompts": 297,
       "activity": [
         {
           "date": "2026-04-07",
@@ -1057,6 +1057,10 @@
         {
           "date": "2026-09-11",
           "count": 19
+        },
+        {
+          "date": "2026-09-15",
+          "count": 4
         }
       ],
       "source": "claude"
@@ -1446,9 +1450,9 @@
       "name": "survive",
       "group": "dev",
       "startDate": "2026-07-14",
-      "endDate": "2026-09-14",
-      "activeDays": 18,
-      "totalPrompts": 293,
+      "endDate": "2026-09-15",
+      "activeDays": 19,
+      "totalPrompts": 299,
       "activity": [
         {
           "date": "2026-07-14",
@@ -1521,6 +1525,10 @@
         {
           "date": "2026-09-14",
           "count": 4
+        },
+        {
+          "date": "2026-09-15",
+          "count": 6
         }
       ],
       "source": "claude"
