@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-09-16 08:27",
+  "generated": "2026-09-16 20:29",
   "total_prompts": 2758,
   "activation": {
     "top_neurons": [
@@ -386,8 +386,8 @@
     "recent_groups": {
       "planning": 1,
       "core": 2,
-      "publishing": 2,
       "dev": 23,
+      "publishing": 2,
       "design": 1
     },
     "dominant": [
@@ -399,13 +399,13 @@
     "recommendation": "집중도 좋음. dev에 집중 중."
   },
   "momentum": {
-    "skill_node": {
+    "future_ai_ml": {
       "this_week": 4,
       "last_week": 0,
       "momentum": "new",
       "change": 4
     },
-    "future_ai_ml": {
+    "skill_node": {
       "this_week": 4,
       "last_week": 0,
       "momentum": "new",
@@ -417,7 +417,19 @@
       "momentum": "new",
       "change": 3
     },
-    "proj_nobizform": {
+    "future_docker": {
+      "this_week": 2,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 2
+    },
+    "skill_prisma": {
+      "this_week": 2,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 2
+    },
+    "skill_html_css": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
@@ -430,18 +442,6 @@
       "change": 2
     },
     "skill_blog": {
-      "this_week": 2,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 2
-    },
-    "skill_prisma": {
-      "this_week": 2,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 2
-    },
-    "future_docker": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
@@ -499,11 +499,11 @@
       "status": "fading"
     },
     {
-      "id": "skill_figma",
-      "label": "Figma",
-      "days_since": 78,
-      "retention": 0.03,
-      "status": "fading"
+      "id": "future_docker",
+      "label": "Docker/컨테이너",
+      "days_since": 5,
+      "retention": 0.54,
+      "status": "weakening"
     }
   ],
   "dependency_violations": [
