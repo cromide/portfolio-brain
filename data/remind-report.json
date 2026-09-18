@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-09-18 08:17",
+  "generated": "2026-09-18 20:17",
   "total_prompts": 2758,
   "activation": {
     "top_neurons": [
@@ -400,10 +400,10 @@
       "momentum": "new",
       "change": 2
     },
-    "skill_html_css": {
-      "this_week": 0,
-      "last_week": 2,
-      "momentum": "stalled",
+    "skill_node": {
+      "this_week": 1,
+      "last_week": 3,
+      "momentum": "decelerating",
       "change": -2
     },
     "skill_blog": {
@@ -412,25 +412,25 @@
       "momentum": "stalled",
       "change": -2
     },
-    "skill_node": {
-      "this_week": 1,
-      "last_week": 3,
-      "momentum": "decelerating",
+    "skill_html_css": {
+      "this_week": 0,
+      "last_week": 2,
+      "momentum": "stalled",
       "change": -2
     },
-    "skill_typescript": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
-    },
-    "skill_git_workflow": {
+    "skill_illustrator": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
       "change": -1
     },
-    "skill_threejs": {
+    "skill_solidity": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_git_workflow": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
