@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-21 08:17",
-  "total_prompts": 2758,
+  "generated": "2026-09-21 20:28",
+  "total_prompts": 2762,
   "activation": {
     "top_neurons": [
       {
@@ -35,10 +35,10 @@
         "id": "skill_nextauth",
         "label": "NextAuth.js",
         "group": "dev",
-        "prompts": 102,
-        "depth": 184,
-        "days": 38,
-        "retention": 0.88
+        "prompts": 103,
+        "depth": 185,
+        "days": 39,
+        "retention": 1.0
       },
       {
         "id": "skill_testing",
@@ -106,6 +106,13 @@
       {
         "id": "skill_testing",
         "label": "테스트 코드",
+        "prompts": 1,
+        "momentum": "decelerating",
+        "status": "learning"
+      },
+      {
+        "id": "skill_nextauth",
+        "label": "NextAuth.js",
         "prompts": 1,
         "momentum": "decelerating",
         "status": "learning"
@@ -282,8 +289,8 @@
       "id": "skill_nextauth",
       "label": "NextAuth.js",
       "group": "dev",
-      "prompts": 102,
-      "depth": 184,
+      "prompts": 103,
+      "depth": 185,
       "severity": "ok",
       "career": "medium",
       "eta": "ready",
@@ -342,42 +349,30 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 2
+      "dev": 3
     },
     "dominant": [
       "dev",
-      2
+      3
     ],
     "spread": 1,
     "is_scattered": false,
     "recommendation": "집중도 좋음. dev에 집중 중."
   },
   "momentum": {
-    "future_ai_ml": {
-      "this_week": 0,
-      "last_week": 4,
-      "momentum": "stalled",
-      "change": -4
-    },
     "skill_node": {
       "this_week": 0,
       "last_week": 4,
       "momentum": "stalled",
       "change": -4
     },
+    "future_ai_ml": {
+      "this_week": 0,
+      "last_week": 4,
+      "momentum": "stalled",
+      "change": -4
+    },
     "future_docker": {
-      "this_week": 0,
-      "last_week": 2,
-      "momentum": "stalled",
-      "change": -2
-    },
-    "skill_prisma": {
-      "this_week": 0,
-      "last_week": 2,
-      "momentum": "stalled",
-      "change": -2
-    },
-    "skill_nextauth": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
@@ -394,6 +389,18 @@
       "last_week": 2,
       "momentum": "stalled",
       "change": -2
+    },
+    "skill_prisma": {
+      "this_week": 0,
+      "last_week": 2,
+      "momentum": "stalled",
+      "change": -2
+    },
+    "skill_solidity": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
     },
     "skill_threejs": {
       "this_week": 0,
@@ -484,7 +491,7 @@
     "peak_hour": 14,
     "peak_hour_count": 403,
     "peak_day": "Mon",
-    "peak_day_count": 724,
+    "peak_day_count": 728,
     "deepest_hour": 20,
     "deepest_hour_avg_depth": 2.38,
     "distribution": {
@@ -540,7 +547,7 @@
           "id": "skill_nextauth",
           "label": "NextAuth.js",
           "priority": "medium",
-          "depth_score": 184,
+          "depth_score": 185,
           "readiness_pct": 100
         }
       ]
@@ -624,7 +631,7 @@
           "id": "skill_nextauth",
           "label": "NextAuth.js",
           "priority": "high",
-          "depth_score": 184,
+          "depth_score": 185,
           "readiness_pct": 100
         },
         {
