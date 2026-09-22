@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-22 08:31",
-  "total_prompts": 2762,
+  "generated": "2026-09-22 20:23",
+  "total_prompts": 2763,
   "activation": {
     "top_neurons": [
       {
@@ -378,13 +378,13 @@
       "momentum": "stalled",
       "change": -2
     },
-    "future_docker": {
+    "skill_html_css": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
       "change": -2
     },
-    "skill_html_css": {
+    "future_docker": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
@@ -396,13 +396,13 @@
       "momentum": "stalled",
       "change": -2
     },
-    "skill_uxui": {
+    "skill_solidity": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
       "change": -1
     },
-    "skill_git_workflow": {
+    "skill_illustrator": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
@@ -460,11 +460,11 @@
       "status": "fading"
     },
     {
-      "id": "skill_threejs",
-      "label": "Three.js",
-      "days_since": 12,
-      "retention": 0.47,
-      "status": "weakening"
+      "id": "skill_d3",
+      "label": "D3.js / 데이터 시각화",
+      "days_since": 61,
+      "retention": 0.15,
+      "status": "fading"
     }
   ],
   "dependency_violations": [
