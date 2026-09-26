@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-09-26 08:17",
+  "generated": "2026-09-26 20:17",
   "total_prompts": 2769,
   "activation": {
     "top_neurons": [
@@ -346,11 +346,11 @@
     "recommendation": "집중도 좋음. dev에 집중 중."
   },
   "momentum": {
-    "skill_nextauth": {
-      "this_week": 1,
-      "last_week": 0,
-      "momentum": "new",
-      "change": 1
+    "skill_testing": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
     },
     "proj_nobizform": {
       "this_week": 0,
@@ -358,11 +358,11 @@
       "momentum": "stalled",
       "change": -1
     },
-    "skill_testing": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+    "skill_nextauth": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
     }
   },
   "decay_alerts": [
