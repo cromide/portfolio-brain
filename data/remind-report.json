@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-28 08:17",
-  "total_prompts": 2769,
+  "generated": "2026-09-28 20:17",
+  "total_prompts": 2776,
   "activation": {
     "top_neurons": [
       {
@@ -26,10 +26,10 @@
         "id": "future_ai_ml",
         "label": "AI/ML 심화",
         "group": "dev",
-        "prompts": 142,
-        "depth": 355,
-        "days": 56,
-        "retention": 0.85
+        "prompts": 143,
+        "depth": 357,
+        "days": 57,
+        "retention": 1.0
       },
       {
         "id": "skill_nextauth",
@@ -102,6 +102,13 @@
         "prompts": 1,
         "momentum": "new",
         "status": "learning"
+      },
+      {
+        "id": "future_ai_ml",
+        "label": "AI/ML 심화",
+        "prompts": 1,
+        "momentum": "new",
+        "status": "future"
       }
     ]
   },
@@ -335,17 +342,23 @@
   ],
   "focus": {
     "recent_groups": {
-      "dev": 1
+      "dev": 2
     },
     "dominant": [
       "dev",
-      1
+      2
     ],
     "spread": 1,
     "is_scattered": false,
     "recommendation": "집중도 좋음. dev에 집중 중."
   },
   "momentum": {
+    "skill_testing": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
     "skill_nextauth": {
       "this_week": 1,
       "last_week": 0,
@@ -358,11 +371,11 @@
       "momentum": "stalled",
       "change": -1
     },
-    "skill_testing": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+    "future_ai_ml": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
     }
   },
   "decay_alerts": [
@@ -447,7 +460,7 @@
     "peak_hour": 14,
     "peak_hour_count": 403,
     "peak_day": "Mon",
-    "peak_day_count": 728,
+    "peak_day_count": 735,
     "deepest_hour": 20,
     "deepest_hour_avg_depth": 2.38,
     "distribution": {
