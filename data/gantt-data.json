@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-13 08:32",
+  "generated": "2026-10-13 20:26",
   "dateRange": {
     "start": "2019-06-01",
-    "end": "2026-10-09"
+    "end": "2026-10-13"
   },
-  "totalProjects": 52,
-  "totalPrompts": 2959,
+  "totalProjects": 53,
+  "totalPrompts": 2963,
   "projects": [
     {
       "name": "사이니지·현판 (아이디허브/카이코리아)",
@@ -1671,6 +1671,21 @@
         {
           "date": "2026-07-23",
           "count": 15
+        }
+      ],
+      "source": "claude"
+    },
+    {
+      "name": "bizform-ai-backend-unstructured-main",
+      "group": "dev",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-13",
+      "activeDays": 1,
+      "totalPrompts": 4,
+      "activity": [
+        {
+          "date": "2026-10-13",
+          "count": 4
         }
       ],
       "source": "claude"

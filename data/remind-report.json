@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-13 08:32",
-  "total_prompts": 2782,
+  "generated": "2026-10-13 20:26",
+  "total_prompts": 2786,
   "activation": {
     "top_neurons": [
       {
@@ -17,10 +17,10 @@
         "id": "skill_node",
         "label": "Node/Express",
         "group": "dev",
-        "prompts": 193,
-        "depth": 431,
-        "days": 53,
-        "retention": 0.74
+        "prompts": 194,
+        "depth": 433,
+        "days": 54,
+        "retention": 1.0
       },
       {
         "id": "future_ai_ml",
@@ -95,7 +95,22 @@
         "retention": 0.14
       }
     ],
-    "recent_7d": []
+    "recent_7d": [
+      {
+        "id": "skill_data_decision",
+        "label": "데이터 기반 의사결정",
+        "prompts": 1,
+        "momentum": "new",
+        "status": "learning"
+      },
+      {
+        "id": "skill_node",
+        "label": "Node/Express",
+        "prompts": 1,
+        "momentum": "new",
+        "status": "acquired"
+      }
+    ]
   },
   "gaps": [
     {
@@ -325,16 +340,34 @@
       "resolved": false
     }
   ],
-  "focus": null,
-  "momentum": {},
-  "decay_alerts": [
-    {
-      "id": "skill_data_decision",
-      "label": "데이터 기반 의사결정",
-      "days_since": 55,
-      "retention": 0.24,
-      "status": "fading"
+  "focus": {
+    "recent_groups": {
+      "planning": 1,
+      "dev": 1
     },
+    "dominant": [
+      "planning",
+      1
+    ],
+    "spread": 2,
+    "is_scattered": false,
+    "recommendation": "집중도 좋음. planning에 집중 중."
+  },
+  "momentum": {
+    "skill_node": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    },
+    "skill_data_decision": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
+    }
+  },
+  "decay_alerts": [
     {
       "id": "skill_testing",
       "label": "테스트 코드",
@@ -382,6 +415,13 @@
       "label": "TypeScript",
       "days_since": 32,
       "retention": 0.34,
+      "status": "weakening"
+    },
+    {
+      "id": "skill_canvas",
+      "label": "HTML5 Canvas",
+      "days_since": 44,
+      "retention": 0.38,
       "status": "weakening"
     }
   ],
@@ -493,7 +533,7 @@
           "id": "skill_data_decision",
           "label": "데이터 기반 의사결정",
           "priority": "critical",
-          "depth_score": 50,
+          "depth_score": 55,
           "readiness_pct": 100
         },
         {
