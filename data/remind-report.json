@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-10-17 08:17",
+  "generated": "2026-10-17 20:17",
   "total_prompts": 2800,
   "activation": {
     "top_neurons": [
@@ -354,13 +354,13 @@
     "recommendation": "집중도 좋음. planning에 집중 중."
   },
   "momentum": {
-    "skill_node": {
+    "skill_data_decision": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
       "change": 1
     },
-    "skill_data_decision": {
+    "skill_node": {
       "this_week": 1,
       "last_week": 0,
       "momentum": "new",
