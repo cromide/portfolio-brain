@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-10-29 08:29",
+  "generated": "2026-10-29 20:20",
   "total_prompts": 2813,
   "activation": {
     "top_neurons": [
@@ -327,12 +327,6 @@
   ],
   "focus": null,
   "momentum": {
-    "skill_threejs": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
-    },
     "skill_html_css": {
       "this_week": 0,
       "last_week": 1,
@@ -340,6 +334,12 @@
       "change": -1
     },
     "future_ai_ml": {
+      "this_week": 0,
+      "last_week": 1,
+      "momentum": "stalled",
+      "change": -1
+    },
+    "skill_threejs": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
