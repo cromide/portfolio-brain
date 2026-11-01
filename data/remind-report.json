@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-11-01 08:17",
+  "generated": "2026-11-01 20:27",
   "total_prompts": 2845,
   "activation": {
     "top_neurons": [
@@ -409,7 +409,7 @@
       "momentum": "new",
       "change": 2
     },
-    "skill_illustrator": {
+    "skill_testing": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
@@ -421,17 +421,17 @@
       "momentum": "accelerating",
       "change": 2
     },
-    "skill_testing": {
+    "skill_illustrator": {
       "this_week": 2,
       "last_week": 0,
       "momentum": "new",
       "change": 2
     },
-    "skill_responsive": {
-      "this_week": 0,
-      "last_week": 1,
-      "momentum": "stalled",
-      "change": -1
+    "future_aws": {
+      "this_week": 1,
+      "last_week": 0,
+      "momentum": "new",
+      "change": 1
     },
     "skill_html_css": {
       "this_week": 0,
