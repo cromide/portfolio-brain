@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-11-11 08:18",
+  "generated": "2026-11-11 20:17",
   "total_prompts": 2846,
   "activation": {
     "top_neurons": [
@@ -339,7 +339,7 @@
       "momentum": "stalled",
       "change": -3
     },
-    "skill_nextauth": {
+    "skill_testing": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
@@ -351,7 +351,7 @@
       "momentum": "stalled",
       "change": -2
     },
-    "skill_testing": {
+    "skill_nextauth": {
       "this_week": 0,
       "last_week": 2,
       "momentum": "stalled",
@@ -363,13 +363,13 @@
       "momentum": "stalled",
       "change": -1
     },
-    "skill_git_workflow": {
+    "future_aws": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
       "change": -1
     },
-    "skill_vercel": {
+    "skill_git_workflow": {
       "this_week": 0,
       "last_week": 1,
       "momentum": "stalled",
